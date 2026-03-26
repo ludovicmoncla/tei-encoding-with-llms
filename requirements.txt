@@ -1,4 +1,5 @@
 dotenv
 openai
+google-genai
 lxml
 rapidfuzz
