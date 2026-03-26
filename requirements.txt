@@ -1,2 +1,4 @@
 dotenv
 openai
+lxml
+rapidfuzz
