@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="505"/>
+         <entry type="fragment" subtype="continued">
+            <sense>sans aucun principe certain. Animi praeoccupatio. La prévention nous empêche de
+               bien raisonner. Le premier principe des Cartésiens est de se guérir de toutes
+               préventions, de tous préjugés. A la première vûe l'on est touché de votre mérite,
+               &amp; la raison consultée depuis, bien loin de démentir la surprise, ne fait
+               qu'approuver de si heureuses &amp; de si justes préventions. S. Évr. L'honnête homme
+               n'est point sujet aux préventions, &amp; a plus d'égard au mérite qu'à la fortune. Le
+               Ch. de M. Les préventions sont des jugemens téméraires &amp; précipités. Nic. On se
+               laisse tous les jours séduire par la prévention d'un mérite imaginaire. Bell. Le
+               coeur a ses préventions aussi-bien que l'esprit. S. Évr. La prévention fascine la
+               raison. Id. De toutes les préventions, celle qui fait le plus d'heureux, c'est celle
+               que l'on a pour soi-même.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>PRÉVÉZA</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1"> Nom propre d'une petite ville forte, située dans l'Épire, sur le bord
+               septentrional du golfe de Larta, environ à douze lieues de la ville de ce nom, vers
+               le couchant. Praevesa. Morosini Général des Vénitiens prit cette ville l'an 1684.
+               Elle a été bâtie sur les ruines de l'ancienne Nicopolis, que l'Empereur Auguste fit
+               bâtir pour conserver la mémoire de la bataille d'Actium, qu'il avoit gagnée contre
+               Marc-Antoine. Maty. </sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>PREUIL</orth>
+               </form>
+               <metamark>.</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">subst.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Nom propre d'homme, qui s'est fait de Procule. Proculus. Voyez M.
+               Chastelain, Mart. T. I. p. 27. </sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>PRÉVISION</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense><usg type="dom" ana="#theologie">Terme de Théologie.</usg> Connoissance de ce qui
+               arrivera. Praevisio. La Prévision des mérites est, selon quelques-uns, le fondement
+               de la prédestination.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>PRÉVOIR</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="verbe" norm="VERB">v.</gram>
+                  <gram type="subc" expand="active" norm="actif">act.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth>Je prévoi</orth>, 
+                  <orth>je prévoyois</orth>, 
+                  <orth>je prévis</orth>,
+                  <orth>j'ai prévu</orth>, 
+                  <orth>je prévoirai</orth>.
+               </form> 
+            </form>
+            <sense n="1">Conjecturer par avance ce qui peut arriver. Prospicere, providere,
+               praevidere. Un homme sage se garantit de plusieurs maux, parce qu'il les a prévu de
+               bonne heure. A ne prévoir rien, on est surpris ; &amp; à prévoir trop, on est
+               misérable. S. Évr. Les choses n'arrivent point, parce que Dieu les a prévues ; mais
+               Dieu les a prévues, parce qu'elles doivent arriver par un choix tout-à-fait libre. Du
+               Pin. Il faut prévoir de loin tout ce qui peut arriver, &amp; se tenir prêt à prendre
+               parti. Vill. L'esprit humain n'est pas capable de prévoir tous les inconvéniens qui
+               arrivent par le caprice de la fortune. On dit que les coups prévus ne frappent pas si
+               violemment.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Prévu</orth>
+                  </form>
+                  <pc>,</pc> 
+                  <form type="inflected">
+                     <orth>ue</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark> 
+                  <gramGrp>
+                     <gram type="verbForm" expand="participe" norm="part">part.</gram> 
+                     <gram type="subc" expand="passe" norm="past">pass.</gram> &amp; 
+                     <gram type="pos" expand="adjectif" norm="ADJ">adj.</gram>
+                  </gramGrp>
+               </form> 
+               <sense n="1">Antevisus, praevisus.</sense>
+            </entry>
+         </entry> 
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>PREVÔT</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark> 
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form> 
+            <sense n="1">Juge inférieur. Tribunus, Praepositus. Les Prevôts sont les premiers
+         Juges Royaux, &amp; qui jugent les affaires civiles en première instance. Les Juges qu'on
+         appelle Prevôts dans la plus grande partie des provinces du Royaume, sont appellés
+         Châtelains en Bourbonnois, Auvergne, &amp; lieux voisins ; Vicomtes en Normandie ; Viguiers
+         en Languedoc &amp; en Provence : ensorte que les Prevôts, Châtelains, Vicomtes &amp;
+         Viguiers sont tous Juges de même pouvoir, &amp; ne diffèrent que de nom. Les Prevôts ne
+         connoissent point des causes des Nobles ; mais seulement de toutes sortes de matières
+         civiles, personnelles, réelles, ou mixtes entre roturiers, à l'exception de celles qui sont
+         réservées aux Baillis &amp; Sénéchaux par l'Édit de Crémieu en 1536. Il ne faut pas
+         confondre le Prevôt de Paris avec les Prevôts dont on vient de parler. Car il a la même
+         Jurisdiction que les Baillis ou Sénéchaux. On prétend même qu'il précède les autres Baillis
+         &amp; Sénéchaux du Royaume. Le siége du Prevôt de Paris est au grand Châtelet, qui est
+         présentement la seule Jurisdiction de cette grande ville. En 1674. l'on avoit créé le
+         nouveau Châtelet ; mais pour éviter la multiplicité des Jurisdictions, le nouveau Châtelet
+         a été réuni à l'ancien en 1684. Avant le règne de S. Louis on avoit introduit l'abus de
+         bailler à ferme l'Office de Prevôt, Châtelain, Vicomte, ou Viguier ; les Prevôtés
+         s'affermoient aussi, sous prétexte d'affermer les droits domaniaux. La Prevôté de Paris
+         étoit vénale, ou donnée à louage, comme les autres, &amp; souvent à des Marchands qui en
+         mettoient les profits à l'enchère. Saint Louis tâcha de réprimer cet abus, qui duroit
+         encore du temps de Charles VI. Voyez Loyseau. C'étoit autrefois le Comte, ou le Gouverneur
+         qui administroit lui-même la justice, &amp; faisoit la même chose dans les Prevôtés, que
+         les Baillis dans les Bailliages, &amp; les Sénéchaux dans les Sénéchaussées. Tel est encore
+         le Prevôt de Paris Juge d'épée, qui préside quelquefois au Châtelet, qui recueille les
+         voix, qui fait prononcer par ses Lieutenans. Toutes les sentences &amp; les contrats en
+         forme sont intitulés du nom de Prevôt de Paris, &amp;c.</sense> 
+            <pb n="506"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Prevôt de l'armée</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form> 
+               <sense n="1">Officier préposé
+         pour avoir l'inspection sur les délits qui se commettent dans l'armée par les soldats. On
+         appelle aussi Prevôt dans quelques Régimens, l'Officier qui a pareille inspection sur les
+         délits qui se commettent dans ces Régimens par les soldats ; &amp; Prevôt des Bandes,
+         l'Officier qui a pareille jurisdiction dans le Régiment des Gardes. On a mis ce soldat
+         entre les mains du Prevôt des Bandes.</sense></entry> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Grand Prevôt de la Connétablie</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense n="1">est un Juge d'épée
+         qui instruit les procès des gens de guerre à l'armée. Supremus rei bellicae Praepositus ac
+         Magister. Il a quatre Lieutenans qui sont distribués dans les armées, qu'on appelle aussi
+         Prevôts de l'armée. Il y a aussi des Prevôts particuliers dans plusieurs Régimens. Celui du
+         Régiment des Gardes s'appelle le Prevôt des Bandes, qu'on appelloit autrefois Prevôt de
+         l'Infanterie Françoise.</sense>
+            </entry> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Grand Prevôt de l'Hôtel</orth></form>
+                  <pc>,</pc>
+                  <lbl>ou</lbl> 
+                     <form type="variant"><orth>Grand Prevôt de France</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense n="1">est un Juge
+         d'épée qui a jurisdiction dans la Maison du Roi, &amp; sur les Officiers commensaux &amp;
+         privilégiés ; qui a soin de la police, &amp; du taux des vivres à la suite de la Cour, qui
+         a un Lieutenant de robe qui tient ses audiences au-dessous du Grand Conseil. Familiae &amp;
+         annonae regiae praepositus. On l'a appellé autrefois Roi des Ribauds. Voyez Hôtel.</sense></entry> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Prevôt de l'Île</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+               <sense>Officier préposé dans toute l'étendue de l'Île de France pour veiller à la sûreté
+         des grands chemins, &amp; connoître des délits qui s'y commettent.</sense>
+            </entry> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Prevôt des Marchands</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+         <sense n="1">est un Magistrat populaire qui préside au Bureau de la ville, &amp; qui y juge avec les
+         Échevins, qui a soin de la police des ports, de la taxe des marchandises qui arrivent par
+         la rivière, &amp; de la navigation. Urbis Praepositus. Il connoît des causes des Marchands
+         pour fait de marchandises arrivées par eau, sur les ports de Paris ; des causes des
+         Officiers de Police en ce qui concerne leurs charges. Il connoît aussi des rentes
+         constituées sur l'Hôtel de ville, &amp; des différends qui en naissent, &amp;c. C'est lui
+         qui ordonne des cérémonies publiques de la ville. Il représente à la Cour les bourgeois
+         &amp; le peuple. On l'appelle Prevôt des Marchands, parce qu'anciennement il connoissoit
+         avec les Échevins du fait de marchandise, lorsqu'il tenoit sa justice au Parloir aux
+         Bourgeois : d'où il retient encore la connoissance de la marchandise amenée dans Paris sur
+         la rivière entre les quatre tours. Voyez Loyseau.</sense></entry> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+               <form type="compound">
+                  <orth>Prevôts des Maréchaux</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            </form> 
+               <sense n="1">sont des Officiers
+         Royaux réputés du corps de la Gendarmerie, &amp; Lieutenans des Maréchaux de France,
+         établis pour la sûreté de la Campagne contre les vagabonds, &amp; les déserteurs.
+         Castrensium Praefectorum capitalis Tribunus. On leur a attribué la connoissance des cas
+         Royaux, qu'on a appellés pour cela prevôtaux, comme de tous crimes commis par gens
+         vagabonds, sans aveu ou sans domicile, vol de grand chemin, port d'armes, infraction de
+         sauvegarde, incendie, fausse-monnoie, &amp;c. Voyez l'Ordonnance de 1670. laquelle règle la
+         compétence du Prevôt des Maréchaux. Si sa compétence est contestée, le Présidial a droit
+         d'en décider par jugement dernier ; les Prevôts des Maréchaux ne peuvent juger à la charge
+         de l'appel. Ils prononcent en dernier ressort. Il y a 180 Siéges de Prevôts des Maréchaux
+         en France. En quelques provinces, comme en Lionnois, en Auvergne, &amp;c. il y a des Grands
+         Prevôts des Maréchaux, qui en ont d'autres sous eux. A Paris le Prevôt des Maréchaux est
+         connu sous le nom de Prevôt de l'Isle. La vraie Jurisdiction des Prevôts des Maréchaux
+         regarde les voleurs, &amp; les coureurs de grands chemins. Les Rois ne l'ont fondée que
+         pour la conservation de la sûreté publique. Auguste &amp; Tibère avoient de même établi de
+         pareils Officiers pour exterminer les voleurs qui pilloient l'Italie. Cujas dit qu'on les
+         appelloit Latrunculatores, pour marquer que leur emploi étoit de donner la chasse aux
+         voleurs.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Prevôt Général de la Marine</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense n="1">est un Officier qui instruit les procès des gens de
+         mer qui ont commis quelque crime, &amp; qui en fait le rapport au Conseil de guerre. Rei
+         maritimae Praepositus generalis. Il y a dans chaque vaisseau un Prevôt Marinier, qui est
+         une espèce de Geolier, qui a les prisonniers en sa garde, &amp; qui nettoie le vaisseau.
+         <milestone unit="paragraph" rendition="leftShift"/>
+         <sense>Sur la mer le Prevôt d'un vaisseau est ordinairement le plus mauvais matelot, que l'on
+         emploie à faire balayer le vaisseau, &amp; à châtier les malfaiteurs. Nauticus scoparius,
+         &amp; tortor.</sense></sense> 
+            </entry>
+         <entry>
+            <form type="lemmaGrp">
+               <form type="compound">
+                  <orth>Prevôt et Garde des Monnoies</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            </form> 
+            <sense n="1">est un Juge particulier institué pour la
+         capture des faux-monnoyeurs, qui instruit</sense>
+         </entry>
+         </entry> 
+      </body>
+   </text>
+</TEI>
