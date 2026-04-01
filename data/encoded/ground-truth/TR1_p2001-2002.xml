@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="2001"/>
+         <entry type="fragment" subtype="continued">
+            <sense>parle aussi dans son Alceste, mais il ne le décrit point. Diodore de Sicile, Liv.
+               I. ch. 92. dit qu'Orphée ayant remarqué qu'en Egypte il y avoit une ville où l'on
+               passoit les corps morts dans une barque sur un grand lac pour les aller enterrer de
+               l'autre côté du lac, il fit de cela la fable de Charon, qu'il débita en Grèce.
+               Peut-être que cette fable ne vient que de Memphis, où l'on passoit les corps morts
+               sur le Nil, pour aller les enterrer du côté où sont encore les Pyramides. Diodore
+               ajoûte que Charon signifioit en Egyptien Nautonnier, ou Batelier. D'autres disent
+               qu'il fut appellé Charon par antiphrase, pour , fàcheux, désagréable, triste.
+               Vigenère traite de cette fable sur Tite-Live, Tom. I. pag. 850. &amp; 851. Dans le
+               4e, le 10e, le 23e dialogue des Morts de Lucien, &amp; dans celui qui est intitulé
+               Charon, sive Contemplantes, Charon joue de plaisans rôles. La scène de Charon dans le
+               IVe Acte de l'Alceste de Quinault est fort belle. La pitié n'est point ici bas, Et
+               Charon ne fait point de grace. Quinault. Il m'importe peu que l'on crie, Helas !
+               Charon, helas ! helas ! Il faut encore payer au dela du trépas. Id. <milestone
+                  unit="paragraph" rendition="#leftShift"/> Vossius De Idolol. Lib. II. cap. 57. à
+               la fin croit que Charon est le même Dieu que le Mercure infernal ; &amp; que ce nom
+               Charon, vient de l'Hébreu , colère ; qu'il lui fut donné parce qu'il étoit le
+               ministre de la colère divine ; de sorte que Charon signifie proprement un mauvais
+               Ange, dont l'office est de conduire les ames criminelles au lieu du supplice.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Charon</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">est aussi un nom d'homme que deux anciens Historiens ont porté, l'un de
+                  Lampsaque &amp; l'autre de Carthage.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARPENTE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark> On dit aussi CHARPENTERIE, dans le
+               même sens, mais le premier vaut mieux. <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Gros bois propre aux grandes constructions de maisons, de bateaux, de
+               navires. Materiaria structura, materiatio. Ce Marchand ne fait trafic que de bois de
+               charpente.</sense>
+            <sense n="2">On le dit aussi du gros bois taillé &amp; assemblé. La charpente de cette
+               maison a tant coûté. Le bois de charpente se vend au cent de pièces.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Charpente</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">se dit aussi de tout le bois assemblé qui soutient la couverture d'un
+                  édifice. La charpente de plusieurs Eglises de France est de bois de
+                  chataignier.</sense>
+               <sense n="2">On le dit aussi de l'art d'assembler le bois pour faire un ouvrage de
+                  charpente.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARPENTER</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="verbe" norm="VERB">v.</gram>
+                  <gram type="subc" expand="active" norm="actif">act.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Tailler du bois de charpente pour le mettre en état d'être assemblé.
+               Materiarium opus facere.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="2"><usg type="style" ana="#figure">On le dit aussi au figuré</usg>, de ce qui
+               est mal coupé. Imperitè secare, incidere. Ce Tailleur ne sait pas son métier, il a
+               tout charpenté cette étoffe. Ce Chirurgien est ignorant, il a charpenté le bras de
+               cet homme en le voulant panser.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARPENTERIE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Art qui enseigne à tailler &amp; à assembler de grosses pièces de bois pour
+               bâtir des maisons, &amp; les couvrir pour construire des bateaux, des navires, faire
+               des machines, des clochers, &amp;c. Materiatura, materiaria fabrica. Comme les
+               maisons ne furent d'abord construites que de bois, l'art de Charpenterie est plus
+               ancien que celui de Maçonnerie. François Pyrard dit qu'aux Maldives la charpenterie
+               est si ingénieusement travaillée, qu'elle tient sans clous &amp; sans chevilles,
+               &amp; qu'elle est si ferme, qu'on ne la peut désassembler sans en savoir
+               l'artifice.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARPENTIER</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Ouvrier qui taille &amp; qui assemble la charpente. Materiarius, tignarius
+               faber. Charpentier de maisons. Charpentier de vaisseaux. On l'a nommé autrefois
+               Chapuis.</sense>
+            <sense n="2">On appelle aussi Charpentier le maître qui entreprend &amp; conduit un
+               ouvrage de charpente.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <etym>Ce mot vient de Carpentarius, qui a été fait de carpentum, qui signifie un char ;
+               bien que ceux que nous nommons aujourd'hui Charpentiers fassent tout autre chose que
+               les voitures appellées carpenta. Bollandistes, Act. SS. Mart. T. I. p. 589. B. &amp;
+               Ménage.</etym>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Charpentier</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1"><usg type="dom" ana="#marine">en terme de Marine</usg>, s'appelle Maître
+                  de hache. Les métiers de Charpentier, Calfateur &amp; Perceur de navire, peuvent
+                  être exercés par une même personne, suivant le titre 9. du liv. 2. de l'Ordonnance
+                  de la Marine. <pb n="2002"/>Le Charpentier du Roi portoit autrefois pour Armoiries
+                  deux haches adossées dans un Ecu.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Charpentier</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+               <sense n="1">Oiseau qui n'est pas plus gros qu'une alouette, qui se trouve dans
+                  l'Isle de S. Domingue. On l'appelle ainsi à cause de la force qu'il a de percer un
+                  palmiste jusqu'au coeur, pour en tirer la moëlle, dont il est plein. Quoique le
+                  bois de cet arbre soit si dur que les meilleurs instrumens rebroussent dessus, il
+                  ne lui faut qu'un jour pour cela. Son bec est pointu, &amp; long d'un bon
+                  pouce.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARPIE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <dictScrap>Quelques-uns disent <form type="variant"><orth>charpi</orth></form>, d'autres
+                  <form type="variant"><orth>charpis</orth></form>, au <gram type="gen"
+                  norm="masculine">masculin</gram>.</dictScrap>
+            <sense n="1">Filets de vieille toile qui servent à faire des tentes pour panser les
+               plaies. Linamentum. On a fait faire pour l'armée douze tonnes de charpie.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <etym>Ce mot vient de carpia, ou carpita, qui se trouve dans les Gloses, qui a été dit à
+               carpendo. Menage.</etym>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="2">On dit aussi d'une étoffe usée, d'une viande trop bouillie, qu'elle est
+               toute en charpie.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARPIR</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="verbe" norm="VERB">v.</gram>
+                  <gram type="subc" expand="neutre" norm="neuter">n.</gram>
+               </gramGrp>
+            </form>
+            <usg type="time" ana="#vieux">Vieux mot,</usg>
+            <sense n="1">qui signifioit autrefois, Faire de la charpie, effiler ou carder la vieille
+               toile. Telam filatim dissolvere. D'où on a fait son composé décharpir, qui se dit
+               encore en parlant des gens qui se battent, qu'on a de la peine à séparer.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRÉE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Cendre qui reste sur le cuvier quand on a coulé la lescive. Lixivius cinis,
+               prononcez charée. La charrée est bonne au pied des arbres.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRETÉE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Ce que peut contenir, ou ce que peut porter une charrette. Vehes, vehis,
+               plaustri onus. La corde de bois contient deux charretées ou voies de Paris.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRETIER</orth>
+               </form>, ou <form type="variant">
+                  <orth>CHARTIER</orth>
+               </form>
+               <pc>,</pc>
+               <form type="inflected">
+                  <orth>ière</orth></form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Ce mot est plus ordinairement de trois syllabes que de deux ; ainsi il est
+               plus ordinaire d'écrire Charetier que Chartier. Il signifie celui qui mène une
+               charrette, un chariot, ou une charrue. Carri, plaustri ductor. Ce Charretier fait
+               claquer son fouet. La Police défend aux Charretiers d'être montés sur leurs chevaux,
+               ils doivent conduire à pied leurs harnois, &amp; ne point faire courir leurs chevaux
+               dans les rues.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="2"><usg type="style" ana="#proverbialement">On dit proverbialement</usg>, Il
+               n'est si bon Charretier qui ne verse ; pour dire, il n'y a point d'homme si habile
+               qui ne fasse quelque faute.</sense>
+            <sense n="3">On dit aussi d'un grand Jureur, il jure comme un Charretier
+               embourbé.</sense>
+            <etym>Charretier vient de carretiero, comme charrette de carretta.</etym>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRETIN</orth>
+               </form>
+               <pc>,</pc> ou <form type="variant">
+                  <orth>CHARRETEIN</orth>
+                  <pc>,</pc>
+                  <lbl>comme écrit Liger</lbl></form>
+               <metamark function="lemmaDelimiter">.</metamark>
+            </form>
+            <sense n="1">Espèce de charrette sans ridelles, &amp; dons les Bourguignons se servent,
+               sur-tout pour charrier du vin. Liger. Il paroît que ce mot n'est en usage qu'en
+               Bourgogne ; ailleurs on dit simplement charrette.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRETTE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Vaisseau qui est monté sur deux roues, qui sert à voiturer les denrées
+               &amp; choses pesantes. Carrus, plaustrum. Une charrette à mener du bois, du vin, de
+               la pierre, &amp;c. On mène exécuter les criminels dans une charrette. On fouette les
+               coupeurs de bourses au cul d'une charrette. Les limons, les ridelles d'une charrette.
+               Une charrette à gerbes est une grande charrette. Charrette à ridelles. Liger.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <etym>Ce mot vient de carrecta diminutif de carrus, comme charrue de carruca. Men. On
+               l'a appellée aussi carrecta, &amp; carrectarius, charretier, &amp; carrecta,
+               charretée. Du Cange. On trouve dans la basse Latinité carrata au même sens.</etym>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="2">On appelle proverbialement un avaleur de charrettes ferrées, un Thrason, un
+               Capitan. C'est une phrase Grecque qui se trouve dans Athénée &amp; Xénophon.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRIER</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark>
+            </form>
+            <sense n="1">Voyez CHARIER.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARROI</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Conduite de voitures sur des roues, soit charrette, charriot, coche ou
+               carrosse. Vectio quae carris, plaustris fit ; exportatio in carro. Les passages des
+               montagnes sont difficiles, on n'y sauroit aller par charroi ; on n'y peut mener le
+               charroi ; on travaille à y faire un chemin de charroi. Voilà un bon charroi de grain.
+               Payez-moi mes charrois ; c'est-à-dire, ce que je vous ai charié. Liger, ou plutôt ce
+               que vous me devez pour l'avoir charié. Il y a à la Cour des charges de Capitaine de
+               charroi. On dit aussi charriage dans le même sens.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Charroi</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1"><usg type="dom" ana="#mer">se dit sur mer</usg>, d'une grande chaloupe
+                  relevée de deux fargues de toile, pour porter la morue en Terre-neuve. Exportatio
+                  in navigio.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHARRON</orth>
+               </form>
+               <pc>,</pc>
+               <form type="inflected">
+                  <orth>ONNE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">subst.</gram>
+               </gramGrp>
+            </form> 
+            <sense>Artisan qui fait les trains
+            d'artillerie, de charrettes, de chariots, de carrosses. Plaustrorum carrorum, curruum
+            faber. On fait marcher force Charrons avec l'équipage de l'armée.</sense> 
+         </entry>
+      </body>
+   </text>
+</TEI>
