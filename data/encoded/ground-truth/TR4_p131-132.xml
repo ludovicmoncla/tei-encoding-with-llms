@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="131"/>
+         <entry type="fragment" subtype="continued">
+            <sense>marier, &amp; avoir néanmoins des pensions sur les bénéfices. <milestone
+                  unit="paragraph" rendition="#leftShift"/> Ces Chevaliers faisoient autrefois des
+               voeux solennels, &amp; il y avoit aussi des Religieuses de cet Ordre. Il en reste
+               encore un Monastère en Suisse. Les Chevaliers hospitaliers de S. Lazare portent sur
+               la poitrine une croix à huit pointes. Il y a de l'apparence que ce ne fut qu'à la fin
+               du XVe siècle, ou au commencement du XVIe qu'ils la prirent, lorsque Léon X. rétablit
+               cet Ordre en Italie. Stumpfius dit que la marque de cet Ordre est une croix verte sur
+               un manteau noir, avec un capuce. <milestone unit="paragraph" rendition="#leftShift"/>
+               On a appellé les Chevaliers de S. Lazare, Chevaliers de Saint Ladre ; &amp; l'on
+               trouve ce nom dans quelques anciennes épitaphes de Chevaliers. On a dit aussi
+               LAZARITE. Voyez ce mot ci-dessous. Voyez le P. Héliot, P. I. c. 4. &amp; P. II. c.
+               69. &amp; c. 82. &amp; ci-dessus, CARMEL, T. I. p. 1459.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Père de S. Lazare</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+               <sense n="1">Nom que l'on donne à des Clercs Réguliers d'une Congrégation qui a été
+                  instituée en France au XVIIe siècle, par M. Vincent, Prêtre. Ils ont pris le nom
+                  de Pères de S. Lazare, d'une maison qu'ils ont dans un Faux-bourg de Paris, du
+                  côté du nord, sur le chemin de S. Denys. Ils ont encore un Séminaire dans Paris,
+                  qu'on nomme le Séminaire des Bons Enfans. Il est à l'entrée du Faux-bourg S.
+                  Marceau, du côté de la ville. On les appelle aussi quelquefois Lazarites. Ils font
+                  des voeux, mais simples, &amp; dont on peut leur donner la dispense. A Paris, ils
+                  desservent encore l'Église de l'Hôtel des Invalides ; &amp; à Versailles, ils ont
+                  soin de la sacristie &amp; de la Chapelle du Roi, &amp; ils ont la
+                  Paroisse.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Saint Lazare</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">L'Archipel de S. Lazare. Archipelagus S. Lazari. C'est une partie de
+                  l'Océan Oriental. On lui a donné le nom d'Archipel, à cause d'un grand nombre
+                  d'îles qui s'y trouvent, entre lesquelles sont les îles des Larrons.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Saint Lazare Baxos</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+               <sense n="1">Basse de S. Lazare. Écueil de S. Lazare. Syrtis S. Lazari. Cet écueil
+                  est dans l'Océan Éthiopien, près de la côte du Zanguebar, &amp; de l'île du
+                  Querinba. Maty.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>LAZARET</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense>C'est un bâtiment public fait en forme d'Hôpital, pour recevoir les pauvres, les
+               pestiférés. Xenodochium, nosocomium suburbicanum. Il est destiné en quelques endroits
+               à faire la quarantaine par ceux qui viennent des lieux suspects de peste. C'est une
+               grande maison hors de la ville, dont les bâtimens sont séparés &amp; isolés, &amp; où
+               l'équipage des vaisseaux demeure quarante jours, plus ou moins, selon les temps,
+               &amp; l'endroit du départ. Le Lazaret de Milan est un des plus beaux Hôpitaux
+               d'Italie. <milestone unit="paragraph" rendition="#leftShift"/>On a appellé Lazares,
+               les ladres ou lépreux, à cause que leur maison, ou Église, qui étoit hors des murs de
+               Jérusalem, étoit dédiée à Saint Lazare.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>LAZARITE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+            </gramGrp>
+            </form> 
+            <sense n="1">Chevalier de S. Lazare. Lazarita, sancti Lazari miles.</sense>
+            <sense n="2">On dit aussi ce nom, &amp; plus ordinairement même, des Pères de S. Lazare.</sense> 
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>LAZE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  &amp; <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form> 
+            <sense n="1">Nom d'un peuple de Scythie. Lazus, a.
+            Pline,
+            L. VI. C. 4. Étienne de Byzance place les Lazes près du Pont-Euxin. Au
+            temps d'Adrien, ils étoient séparés de la Colchide. Tillemont.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>LAZZI</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+            </gramGrp>
+            </form>
+            <sense n="1"><usg type="dom" ana="#comedie_italienne">Terme de Comédie Italienne.</usg> Action, mouvement, jeu muet de Théâtre dans la
+            représentation des Comédies. Les Comédies Italiennes sont pleines de lazzi.
+            Quelques-uns écrivent lazzis au pluriel.</sense> </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>LE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark>
+            </form>
+            <sense n="1">Article masculin des noms substantifs. Le Ciel,
+            l'Orient, &amp;c. comme la est l'article des noms féminins, La
+            terre, la mer. Le pluriel de ces deux articles est les. Les hommes,
+               les femmes.</sense> </entry>
+         <!--<article ID="250288610">           
+            <G><vedette>LE, LA,</vedette></G>
+            <cat_gra>adj.</cat_gra>
+            <cat_gra>Pronom relatif.</cat_gra> Je ne sais où est cet homme, je <I>le</I> cherche
+            depuis longtemps. Il aime cette fille, &amp; <I>la</I> demande en mariage. Le pluriel de
+            ce pronom est aussi <I>les,</I> pour le masculin &amp; pour le féminin. Je ne sais où
+            sont ces hommes, je <I>les</I> cherche par tout. Ces deux frères aiment <I>les</I> deux
+            soeurs, &amp; <I>les</I> demandent en mariage. On demande si dans cette phrase, Vous
+            savez mon secret, dites-<I>le</I> lui, on ne devroit pas supprimer ce <I>le</I> là, afin
+            de la rendre plus agréable. Cela se pourroit tout au plus supporter dans la
+            conversation, mais non pas en écrivant. M. Arnaud a dit, puisqu'il veut marcher dans le
+            chemin des Justes, il faut que je <I>le</I> lui montre. Le meilleur seroit, s'il etoit
+            possible, d'éviter ces sortes de phrases. On demande {132}encore, s'il faut prononcer
+            faites <I>le,</I> ou faites <I>lé.</I> Régulièrement on doit prononcer faites-<I>le</I>
+            avec un <I>e</I> féminin. Mais parce qu'on a quelque peine à prononcer deux <I>e</I>
+            féminins, comme faites-<I>le,</I> quelques-uns se relachent à dire faites <I>lé :</I>
+            quoique cette prononciation soit vicieuse. Les Gascons parlent de la sorte. C'est une
+            faute que de transposer <I>le.</I> Par éxemple, je <I>le</I> vous dis en prose, &amp;
+               <I>le</I> vous dirai en vers. Ceux qui écrivent bien, évitent cette construction.
+            Autrefois on n'étoit pas si scrupuleux Il semble même que nos Anciens Poëtes aimoient
+            mieux écrire, je <I>le</I> vous dis, que je vous <I>le</I> dis. Marot a fait un rondeau
+            dont le refrain est, On <I>le</I> m'a dit. </article>-->
+         <!--<article ID="250288620">
+            <G><vedette>LÉ,</vedette></G>
+            <cat_gra>s. m.</cat_gra> Largeur d'une étoffe entre deux lisières. <I>Panni
+               latitudo.</I> Pour faire ces chemises bien amples, il faut y mettre tout le <I>lé</I>
+            de la toile. On fait deux mouchoirs au <I>lé,</I> quand elle a une aune de large. On
+            fait des jupes à quatre, cinq, ou six <I>lés,</I> suivant la largeur de l'étoffe. Voilà
+            une grande tache d'huile, il y faut mettre un <I>lé.</I> Ce mot vient de
+                  <I><Etym>latus</Etym></I>, parce qu'il borne la largeur d'une étoffe, <I>latus,
+               lé,</I> On dit dans les enterremens des Grands, qu'il y avoit un ou deux <I>lés</I>
+            de velours chargés de blason, sur deux ou trois <I>lés</I> de drap, pour la tenture de
+            l'Église. <S><svedet>Lé,</svedet></S> en vieux François, signifioit <I>large</I> en
+            général, &amp; on disoit, long &amp; <I>lé,</I> pour dire, long &amp; large, de front
+            &amp; de côté. <S><svedet>Lé,</svedet></S> se dit aussi de l'espace que les riverains
+            des rivières doivent laisser pour ne pas empêcher la navigation. Les Ordonnances veulent
+            qu'on laisse 24 piés de <I>lés</I> sur les bords des rivières navigables, pour faire
+            monter &amp; descendre les bateaux avec des chevaux. On le dit aussi des forêts : d'où
+            vient qu'on dit, les arbres de lisière. Quelques-uns écrivent <I>lai,</I> au lieu de
+               <I>lé.</I>
+         </article>-->
+         <!--<article ID="250288630">
+            <G><vedette>LEAM,</vedette></G>
+            <cat_gra>s. m.</cat_gra>
+            <dom>Terme de Relation.</dom> En Latin, <I>Argenteus Sinicus.</I> C'est le nom que les
+            Chinois donnent à leur écu. Les Portugais l'appellent <I>Tael.</I> Le <I>leam</I>
+            revient à quatre livres deux sols deux deniers 2273 de notre monnoie. <S><auteur>P. Le
+                  Comte.</auteur></S>
+         </article>-->
+         <!--<article ID="250288640">
+            <G><vedette>LÉANDRE,</vedette></G>
+            <cat_gra>s. m.</cat_gra> Nom propre d'homme. <I>Leander.</I> S. Grégoire le Grand fut
+            ami de <I>Léandre,</I> Évêque de Séville, qu'il connut à Constantinople, lorsqu'il y
+            étoit Apocrisiaire. M. de Tillemont dit <I>Léander ;</I> mais nous disons Aléxandre,
+            Timandre, Alcandre, &amp;c. Pourquoi donc ne pas dire <I>Léandre ?</I> M. Chastelain
+            suit cet usage, &amp; dit <I>Léandre.</I>
+            <S><svedet>Léandre.</svedet></S>
+            <dom>Terme de Fleuriste.</dom> Nom d'une Tulipe, qui est colombin, rouge &amp; chamois.
+                  <S><auteur>Morin.</auteur></S>
+         </article>-->
+         <!--<article ID="250288650">
+            <G><vedette>LÉANS,</vedette></G>
+            <cat_gra>adv.</cat_gra> Vieux mot, qui signifioit dans quelque lieu. <I>Ibi, isthic,
+               illic.</I> Cet homme n'est point encore sorti de sa maison, il est <I>léans.</I> Les
+            Sergens disent encore qu'ils ont mis un homme <I>léans ;</I> pour dire, qu'ils l'ont mis
+            en prison, qu'ils l'ont écroué ; mais cela ne se dit que par raillerie. </article>-->
+         <!--<article ID="250288660">
+            <G><vedette>LÉAO,</vedette></G>
+            <cat_gra>s. m.</cat_gra> Grande ville de la Chine. <I>Leaum.</I> Elle est dans la
+            Province de Xansi, &amp; elle est célèbre par le commerce du ginseng &amp; du musc dont
+            son territoire abonde. <I>Ambass. des Holl. à la Chine, P. I. p.</I> 241. </article>-->
+         <!--<article ID="250288670">
+            <G><vedette>LÉAOTUNG, LIAUTUM,</vedette></G>
+            <cat_gra>s. m.</cat_gra> Nom propre d'une grande contrée dépendante de la Chine.
+               <I>Leaotunia.</I> Elle a la Tartarie au nord, le golfe de Nanquin au midi, la Corée
+            au levant, &amp; la Province de Péking au couchant. Leaoyang &amp; Nyngiven sont ses
+            villes principales. C'est par cette contrée que les Tartares entrèrent dans la Chine,
+            lorsqu'ils s'en rendirent les Maîtres. Le Père le Comte assure que le <I>Leaotung</I>
+            est mal placé dans toutes nos cartes. Elles le mettent dans la Chine, au midi de la
+            grande muraille ; &amp; elle est dans la Tartarie, au nord de la muraille, &amp; ainsi
+            au nord du Pékéli. <S><auteur>Maty.</auteur></S> L'Auteur de l'Ambassade des Hollandois
+            à la Chine, <I>P. II. p.</I> 114. dit que le <I>Leaotung</I> est renfermé entre le
+            fleuve Çang &amp; la grande muraille ; qu'il a pour bornes au levant la rivière d'Ylao,
+            &amp; un bras de mer qui le sépare du Corée ; au couchant la grande muraille qui confine
+            au nord ; &amp; au midi la Province de Péking, la rivière de Linoang, &amp; un golfe de
+            mer qui y passe &amp; le défend. Les habitans du <I>Leaotung</I> sont grossiers &amp;
+            stupides, mais fort adroits à la guerre, &amp; accoutumés au travail, &amp; à la
+            fatigue. Ils tiennent pour les moeurs, des Tartares leurs voisins ; pour la Religion,
+            ils sont Chinois. <I>Ambassade des Hollandois citée.</I>
+         </article>-->
+      </body>
+   </text>
+</TEI>
