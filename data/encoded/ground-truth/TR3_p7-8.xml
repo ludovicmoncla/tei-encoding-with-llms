@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="7"/>
+         <entry type="fragment" subtype="continued">
+            <sense>dans l'Astrologie, d'autres dans la Physique, d'autres dans la Politique, ou la
+               Morale, d'autres dans tout cela. C'est le meilleur parti. Voyez sur ce sujet le
+               Traité de Grotius de veritate Religionis, la Démonstration Evangélique de M. Huet,
+               les Notes de Barlaeus sur la Théogonie d'Hésiode, Seldénus de Diis Syris Proleg. III.
+               l'Explication historique des fables par M. l'Abbé Bannières, imprimée à Paris en 2.
+               vol. in 12. &amp;c.</sense>
+            <entry>
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Fable</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">signifie aussi absolument, Conte, fausseté. Tout ce que les Païens ont
+                  dit de leurs Dieux sont des fables. Je me repais ici de fables &amp; de chimères.
+                  >Port-R. L'histoire du lion baptisé par S. Paul, que quelques-uns attribuoient à
+                  S. Luc, est une fable, dit S. Jérôme de Script. Eccles. Cela sent extrêmement la
+                  fable. Voit.</sense>
+               <milestone unit="paragraph" rendition="#leftShift"/>
+               <sense n="2">On dit qu'un homme est la fable du peuple ; pour dire, qu'il est le
+                  jouet de toutes les compagnies où on parle de lui, qu'il y est tourné en ridicule,
+                  qu'il y est méprise. Nous allons servir de able &amp; de risée à tout le monde.
+                  Mol. Suis-je, sans le savoir, la fable de l'armée. Rac. Les Latins ont dit tout de
+                  même, Fabula fies.</sense>
+               <milestone unit="paragraph" rendition="#leftShift"/>
+               <etym>Ce mot vient du Latin fabula, qui a signifié aussi Entretien, comme on voit
+                  dans ce Proverbe, Lupus in fabula, qui répond au nôtre, Qui parle du loup en voit
+                  la queue, d'où on a fait confabulari &amp; confabulatio, &amp; les Italiens
+                  favella, pour dire, Parole, langage ordinaire. Les Espagnols disent, Morir sin
+                  fabla, ou fabula, pour dire, Mourir intestat.</etym>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABLIAU</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+               <lbl>On dit au pluriel</lbl>
+               <form type="inflected"><orth>fabliaux</orth></form>. </form>
+            <sense n="1"><usg type="time" ana="#vieux">Vieux mot</usg>, qui s'est dit autrefois des
+               compositions &amp; contes faits à plaisir, que faisoient les anciens Poëtes
+               Provençaux, appellés Troubadours ou Trouvères ; c'est-à-dire trouveurs, ou inventifs.
+               Les Chantres ou Ménétriers, alloient chanter les fabliaux dans les maisons des
+               Princes &amp; Grands Seigneurs. Fabliaux sont or, moult en corse Maint deniers en ont
+               en borse. Garin. <milestone unit="paragraph" rendition="#leftShift"/> Voyez Fauchet
+               des Poëtes François : il en rapporte plusieurs. Voyez aussi le traité de Mr Daniel
+               Huet, fur l'origine des Romans.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABLIER</orth></form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Mot inventé par Madame de Bouillon. <milestone unit="paragraph"
+                  rendition="#leftShift"/>Comme l'arbre qui porte des pommes est appelle Pommier,
+               elle disoit de Mr de La Fontaine, c'est un Fablier, pour dire que ses Fables
+               naissoient d'elles-mêmes dans son cerveau, &amp; s'y trouvoient faites sans
+               méditation de sa part, ainsi que les pommes sur le Pommier. Histoire de l'Académie
+               Françoise.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRIANO</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Nom propre d'un bourg d'Italie. Fabrianum. Il est de l'État de l'Église,
+               dans la Marche d'Ancône, &amp; du diocèse de Camerino. Fabriano est situé proche des
+               sources du Fiumesino, à cinq lieuës au couchant de Sansévérino, &amp; à six de
+               Matélica. Nicolas V. répara &amp; agrandit Fabriano ; Aléxandre VI. l'embellit de
+               plusieurs bâtimens ; &amp; ce bourg vaut mieux que plusieurs lieux qui ont titre de
+               ville. On fabrique du papier à Fabriano. Le corps de Saint Romuald repose à Fabriano
+               dans l'Église de son Ordre. C'est là aussi qu'est l'Abbaye chef de la Congregation
+               Silvestrine, Ordre de S. Benoît. C'est la patrie de Gentil de Fabriano, Peintre qui a
+               de la réputation. Maty, Corn.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">FABRICANT</form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Qui entretient un ou plusieurs métiers, où l'on travaille à des étoffes de
+               soie, de laine, &amp;c. On dit un Marchand fabricant, pour le distinguer de celui qui
+               ne fait que vendre &amp; acheter, sans faire fabriquer. C'est le plus gros fabricant
+               de Lyon.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICATEUR</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Qui fabrique. Fabricator, opifex, artifex, faber. Les Fabricateurs des
+               monnoies sont responsables de la bonté des espéces. On le dit plus souvent de ceux
+               qui fabriquent de la fausse monnoie, ou qui font de faux actes en Justice, des
+               calomnies, &amp; généralement de toutes sortes de faussetés.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Fabricateur Souverain</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+               <sense n="1">Terme dont on se sert pour désigner Dieu. Le Créateur de toutes choses.
+                  Le Fabricateur Souverain nous créa tous de même matiére. La Font. Cette expression
+                  étant trop recherchée n'est bonne tout au plus qu'en vers : la langue Françoise ne
+                  souffre pas qu'on dise par une périphrase guindée ce qu'on peut dire
+                  simplement.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICATION</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Action de fabriquer. Fabricatio. Il ne se dit guère que des monnoies. La
+               fabrication de la monnoie au moulin est bien plus prompte que celle du
+               marteau.</sense>
+            <pb n="8"/>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="2">On le dit aussi en mauvaise part en matiére de faussetés. La fabrication
+               d'un acte faux, d'une calomnie, d'une nouvelle.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Fabrication</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">se dit encore pour signifier la peine, le tems qu'on a employé à
+                  fabriquer. Payer les frais de la fabrication de la monnoie. Bouteroue.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; <gram
+                     type="pos" norm="PROPN">nom propre</gram>
+                  <gram type="gen" norm="masculine">d'homme</gram>
+               </gramGrp>. </form>
+            <sense n="1">Fabricius. Quelques-uns de nos Auteurs récens appellent Fabrices, les
+               Modernes qui portent le nom de Fabricius, &amp; ils disent que Fabrice ou Fabricius,
+               est la même chose que Fabri ou le Févre. Faber &amp; Fabricius sont néanmoins
+               differens. D'autres, &amp; c'est le plus ordinaire, disent Fabricius. M. Fabricius
+               Professeur de Théologie à Hambourg a donné plusieurs Ouvrages depuis quinze ou vingt
+               ans. L'art Poëtique de George Fabricius. Henri Fabricius Médecin Allemand de
+               Bergzabern. La Bibliothéque Latine de Fabricius est une Notice des Auteurs Latins, la
+               Bibliothéque Grecque du même Jean Albert Fabricius est une Notice des Auteurs Grecs
+               en 7 volumes in 4°. Ces ouvrages sont utiles. Tous les Journaux, qui tout récemment
+               ont parlé de ces ouvrages, disent toujours Fabricius, &amp; jamais Fabrice. Le mieux
+               est de les imiter ; mais sur-tout, il ne faut jamais dire Fabrice, quand on parle des
+               anciens Romains qui ont porté le nom de Fabricius. Ceux même qui se servent de
+               Fabrice, dans les occasions que nous avons marquées, ne le disent jamais, quand il
+               s'agit de l'Antiquité.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICE</orth></form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1"> Voyez FABRIQUE. Temporel d'une Église.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICIEN</orth></form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">On nomme ainsi dans les Chapitres, Églises, Paroisses &amp; Confrairies,
+               ceux qui ont soin des revenus de l'Oeuvre, ceux qui ont l'Intendance des édifices.
+               C'est à peu près ce que les anciens appelloient aedituus. A Paris on dit Marguillier.
+               Voyez ci-dessous FABRIQUE.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICIER</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Ce mot se trouve dans quelques Auteurs, c'est la même chose que Fabricien.
+               Fabricier d'honneur, Fabricier comptable. L'Auteur des définitions du Droit Canon se
+               sert de ce mot. Févret dit toujours Fabricien.</sense>
+         </entry>
+         <entry type="mainGrp">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRICIUS</orth>
+               </form>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth>FABRICIA</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; <gram
+                     type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Nom propre d'une famille Romaine. Fabricius, Fabricia Gens. La famille
+               Fabricia étoit Consulaire. Vaillant. C. Fabricius Luscus ou Luscinius, si renommé
+               pour sa frugalité, fut Consul l'an 471 &amp; 475. de Rome, &amp; Censeur l'an 478.
+               C'est ce Fabricius, qui, commandant l'armée contre Pyrrus, lui renvoya son Médecin,
+               qui promettoit de l'empoisonner, si on lui vouloit promettre quelque récompense.
+               Voyez encore FABRICE.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRINIUS</orth>
+               </form>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth>FABRINIA</orth>
+               </form>
+               <metamark function="lemmaDelimiter">.</metamark>
+            </form>
+            <sense n="1">Nom propre d'une famille Romaine, dont le nom ne se trouve nulle part que
+               sur deux médailles rapportées par Patin, page 109. avec cette inscription M. FABRINI.
+               Encore cet Auteur croit que ce peut être une faute du Monétaire, mais cela n'est pas
+               probable.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABRIQUE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Maniére de construire quelque ouvrage. Fabrica, opus. La fabrique des draps
+               d'Espagne est meilleure que celle de Hollande. On invente tous les jours de nouvelles
+               fabriques d'étoffes. Il n'y a que des Officiers qui ont serment à Justice, qui osent
+               travailler à la fabrique des monnoies.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <etym>Ce mot vient du Latin fabrica, qui, proprement signifie forge ; &amp; de là vient
+               sans doute que le mot de fabrique se prend quelquefois pour le lieu où l'on fabrique
+               la monnoie, qu'on appelle Monnoie, ou Hôtel de la Monnoie, Cudendae monetae officina.
+               Les Anciens érigeoient des autels au milieu des fabriques de la monnoie.
+               Bouteroue.</etym>
+            <entry>
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Fabrique</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">se dit aussi pour Construction d'un édifice ; mais il ne se dit guère
+                  qu'en parlant des Églises. Ce fonds est destiné pour la fabrique d'une Église
+                  Paroissiale. L'Ac. Ce mot se dit en Italie de tout bâtiment considérable. Il
+                  signifie aussi en François, la maniére de construire. Cet édifice est d'une belle
+                  fabrique. Toute la structure de la fabrique paroit riche. Daviler.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Fabrique</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">en <usg type="dom" ana="#peinture">termes de Peinture,</usg> se dit des
+                  bâtimens en général, mais plus particuliérement de ceux qui ont quelque régularité
+                  d'Architecture, ou du moins qui sont plus apparens. Les fabriques sont d'un grand
+                  ornement dans le paysage. De Piles. Le Poussin a peint dans ses ouvrages des
+                  fabriques Romaines d'une grande élégance, &amp; Bourdon des fabriques Gothiques,
+                  qui, toutes Gothiques qu'elles sont, ne laissent pas de jetter un air sublime dans
+                  ses paysages. Id.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Fabrique</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark></form>
+               <sense n="1">signifie aussi, le temporel, le revenu affecté à l'entretien d'une
+                  Église Paroissiale, tant pour les réparations, que pour la célébration du Service.
+                  Il est gouverné par des</sense>
+            </entry>
+         </entry>
+      </body>
+   </text>
+</TEI>

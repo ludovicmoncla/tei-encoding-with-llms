@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="5"/>
+         <entry type="fragment" subtype="continued">
+            <sense n="1">c'est-à-dire, l'an 250. le 20 Janvier. Eusébe, hist. Eccl. L. VI. C. 22.
+               Anastase, Orose, L. VII. Baronius à l'an 238. Du Pin. Bibl. des Aut. Eccl.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="2">On appella aussi Fabiens à Rome ceux de la Tribu Faba. Voyez Suétone dans
+               Auguste, C. 40 ; mais non pas ceux de la famille Fabia. Voyez FABIUS.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <sense n="3">Une partie des Luperques porta encore ce nom ; car ils furent divisés en
+               deux parties, dont l'une fut appellée les Fabiens, de Fabius leur chef, comme l'autre
+               les Quintiliens, de leur chef Quintilius. Les Fabiens étoient pour Romulus, &amp; les
+               Quintiliens pour Rémus. Voyez LUPERQUE.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABIUS</orth>
+               </form>
+               <metamark function="lammaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            </form>
+            <sense n="1">Nom propre de ceux qui étoient de la famille Fabia. Fabius. Il ne faut
+               point nommer Fabiens les Romains qui ont porté le nom Fabius. Nous sommes obligés de
+               faire souvent une pareille remarque, parce que quelques-uns de nos Livres y manquent.
+               Fabius &amp; Fabianus sont deux noms fort différens, &amp; si l'on traduit le premier
+               Fabien, comment les distinguera-t-on ? Qui jamais a dit en notre langue que Fabien
+               Maxime, surnommé le Temporiseur, désespéra Annibal par sa conduite &amp; sa prudence,
+               &amp; rétablit les affaires des Romains ? On dit Fabius Maximus ; &amp; au pluriel
+               les Fabius. Nos Antiquaires &amp; les habiles gens parlent toujours ainsi.</sense>
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <etym>Les Fabius tiroient leur nom du mot faba, qui signifie une féve parce que le
+               premier de cette famille s'entendoit à cultiver &amp; à élever des feves : car dans
+               ces premiers tems les Romains s'adonnoient tout à l'agriculture. D'autres dérivent ce
+               nom de Fabius fils d'Hercule, qui fut le chef de cette famille ; &amp; quelques-uns
+               disent qu'il fut appellé Favius, d'où l'on fit Fabius, &amp; que Favius venoit de
+               fovea, fosse, parce que ce fut dans une fosse qu'il fut conçu ; &amp; quelques
+               autres, parce qu'il trouva &amp; enseigna l'art de prendre les ours &amp; les loups
+               dans des fosses.</etym>
+            <note>Les Fabius étoient si puissans à Rome, que seuls avec leurs amis, ou leurs cliens,
+               ils entreprirent la guèrre contre les Veïentes. Ils remportèrent d'abord quelques
+               avantages ; mais ayant donné bataille sur les bords du Cremera, aujourd'hui Baccano,
+               l'an 277 de Rome, 475 avant J. C. de trois cens sept Fabius qu'ils étoient, tous
+               périrent, à la réserve d'un, qui rétablit cette famille, qui fut encore dans la suite
+               très-nombreuse &amp; très-puissante. Denys d'Halicarnasse, L. IX. T. Live, L. I.
+               &amp; II. Florus L. I. C. 12. Aurel. Victor, C. 14. Orosius, L. II. Pline, L. XVIII.
+               C. 3. Ovide, Fast. L. II. v. 235. Macrob. L. I. C. 6. rapportent ce fait. On ne
+               trouve plus de Fabius après Tibere. La famille Fabia étoit Patricienne, &amp; même
+               des premières Patriciennes, qu'on appelle majorum gentium. Elle se divisoit en cinq
+               branches, dont on ne trouve guère sur les médailles. Les Maximes, les Labéons &amp;
+               les Pictores. Voyez Patin, Fam. Rom. p. 107. &amp; Vaillant dans ses Familles Rom.
+               &amp; Numism. Imp. p. 26. Les Fabius prétendoient descendre d'Hercule &amp; d'une
+               fille d'Évandre.</note>
+            <etym>Plutarque dans la Vie de Fabius Maximus rapporte que quelques-uns disoient que les
+               Fabius avoient été appellés d'abord Fodius, de ce qu'ils travailloient à la terre
+               &amp; au labourage, &amp; que de Fodius s'étoit fait Fabius. Fodere, Fodio, bêcher,
+               remuer la terre.</etym>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>FABLE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp><gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form> 
+            <sense n="1">Conte, narration fabuleuse ; chose feinte &amp; inventée pour
+            instruire, ou pour divertir ; fiction d'un entretien entre des animaux, ou des choses
+            inanimées, d'où on tire quelque moralité, ou plaisanterie. Fabula. Il y a de
+            belles moralités dans les Fables d'Ésope, de Phédre. La Fontaine les a traduites
+            en François d'une maniére fort enjouée, &amp; fort ingénieuse. Les Savans doutent que
+            les Fables qui passent sous le nom d'Ésope, soient de lui ; la matiére &amp;
+            l'invention sont d'Ésope ; mais ni le style, ni le tour n'en sont pas. Le Grec est de
+            Planude, &amp; c'est de fort mauvais Grec, au jugement du P. Vavasseur, de ludicra
+               dict. Voyez sur les Fables d'Ésope, &amp; sur leur Auteur, la Préface des
+               Fables de La Fontaine ; &amp; la vie d'Ésope par le même Auteur, qui l'a tirée
+            de Planude. Après Phédre, Aviénus a traité le même sujet, &amp; mis en vers élégiaques
+            les Fables d'Ésope. Locman, Auteur Arabe, que quelques-uns croient n'être point
+            différent d'Ésope, a aussi écrit des Fables, dont plusieurs sont les mêmes que
+            celles d'Ésope. Le Prophéte Nathan se servit d'une Fable pour amener David à se
+            condamner lui-même sur la mort d'Urie. On n'ose parler aux Princes d'Orient de leurs
+            défauts que sous le voile des Fables, comme on l'apprend par celles de Pilpay
+            Indien. On prétend que les Fables doivent leur origine aux Phéniciens, qui
+            décrivoient des choses <pb n="6"/>ordinaires d'une maniére toute figurée, &amp; toute
+            hyperbolique. Les Fables répandent insensiblement la vertu dans une ame, &amp;
+            lui apprennent à se connoître, sans qu'elle s'apperçoive de cette étude, &amp; tandis
+            qu'elle croit seulement se divertir. La Font.
+            Les Fables ne sont pas ce qu'elles semblent être :
+               Le plus simple animal nous y tient lieu de maître.
+            La Font. Les Fables ont été inventées pour aider la
+            foiblesse des enfans, qui ne pouvant pas encore soutenir la gravité des préceptes, ni
+            s'embarrasser d'une longue suite de régles de Morale, reçoivent les premières
+            impressions de la vertu, lors même qu'ils s'imaginent qu'on ne songe qu'à les amuser.
+                  S. Evr. Les Fables servent d'enveloppe à
+            d'importantes vérités, &amp; l'utile y est déguisé sous l'appas du plaisir.
+                  Font. La Fable est un détour pour ménager la
+            délicatesse du coeur humain, qui ne se révolte point contre la censure indirecte de la
+               Fable.
+            S. Evr.</sense> 
+            <milestone unit="paragraph" rendition="#leftShift"/>
+            <etym>Le mot de fable vient du Latin fabula.
+            Dans les mots qui ont en latin à la pénultiéme syllable un u devant la consonne
+               l, qui commence la dernière syllabe, nous retranchons cet u, &amp; nous
+            leur donnons la terminaison propre de notre langue : c'est ainsi qu'ont été formés les
+            mots de table, cercle, régle, ongle, tabernacle, &amp;c. des noms Latins
+               tabula, circulus, regula, ungula, tabernaculum, &amp;c. D'abord cet u
+            s'est changé en e muet, puis on l'a retranché, fabula, fabule, fabele,
+               fable.</etym>
+            <entry type="relatedEntry">
+               <form type="lemma">
+                  <form>
+                     <orth>Fable</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense n="1">se dit aussi de l'action qui sert de sujet aux Poëmes
+            Épiques &amp; Dramatiques, &amp; aux Romans. La belle disposition de la Fable est
+            aussi nécessaire dans un Poëme, que celle des figures dans un tableau. La Fable
+            est un discours inventé pour former les moeurs, par des instructions déguisées sous les
+            allégories d'une action. Le P. le B. Pour bien construire la
+               Fable, il faut bien choisir l'instruction, &amp; le point de Morale qui lui
+            doit servir de fond. Id. Pour faire ce déguisement avec adresse, &amp; sous
+            l'idée de la vérité, il faut chercher dans l'Histoire les noms de quelques personnes à
+            qui la chose soit vraisemblablement arrivée, &amp; la raconter sous ces noms connus avec
+            des circonstances qui ne changent rien au but principal de la Fable &amp; de la
+            Morale. Id. Aristote ordonne même d'inventer avant toutes choses, &amp; de faire
+            le projet de la Fable, avant que d'imposer les noms ; &amp; alors si les
+            personnes que le Poëte introduit, ont fait des actions qui se rapportent à son dessein,
+            il doit s'en servir, &amp; les accommoder à son plan. Id. La Fable est
+            l'ame de la Poësie ; c'est une fiction qui sert de personnes agissantes pour conduire
+            une intrigue, qui enveloppe l'action. Elle développe cette action pour servir
+            d'instruction morale, ou pour proposer un modele de vertu à imiter, ou quelque vice à
+            fuir &amp; à éviter. La Fable ne doit guère sortir des bornes du vrai-semblable,
+            si ce n'est quand, pour donner dans le merveilleux, on y introduit des Dieux de
+            l'ancienne Fable, ou quand on fait des personnages vivans &amp; agissans, des
+            êtres abstraits, comme sont les vertus, les passions, les opérations de l'ame, les
+            vices, &amp;c. Les anciens Comédiens se servent de ces sortes de personnages. On en
+            trouve encore dans Aristophane. Il y en avoit aussi dans les autres Auteurs de
+            l'ancienne Comédie, Cratin, Eupolis, &amp;c. cela n'est plus d'usage. La Fable
+            dans l'Énéïde n'a pas cette simplicité qu'Aristote a trouvé si divine dans Homere.
+                  Mlle Dacier.</sense></entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Fable</orth>
+                  </form>
+                  <metamark> function="lemmaDelimiter",</metamark>
+               </form> 
+               <sense n="1">se prend aussi dans un sens collectif, pour signifier
+            toutes les Fables de l'Antiquité Païenne, ou l'Histoire Fabuleuse, l'Histoire
+            Poëtique : auquel sens il n'a point de pluriel ; c'est la Théologie des Païens. Il est
+            savant dans la Fable, il possede bien la Fable. Sans la Fable, on
+            ne peut entendre les Poëtes. Ronsard en se servant trop fréquemment de la Fable,
+            au lieu d'acquérir la réputation de Poëte, a acquis celle de Pédant.
+                  Mén.
+            La Fable offre à l'esprit mille agrémens divers.
+            Boil. Il faut choisir dans un Poëme entre le Christianisme &amp;
+            la Fable. Dès qu'on s'est engagé avec Apollon, &amp; avec les Muses, il ne faut
+            plus retourner aux idées Chrétiennes. On n'approuve point ce mélange dans quelques
+            Poëtes Latins modernes, qui sont d'ailleurs assez bons. Plusieurs Auteurs ont tâché de
+            découvrir l'origine des Fables. Les uns la cherchent dans l'Écriture, d'autres
+            dans l'Histoire ; quelques-uns</sense>
+            </entry> 
+         </entry>
+      </body>
+   </text>
+</TEI>
