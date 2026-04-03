@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="57"/>
+         <entry type="fragment" subtype="continued">
+            <note>Les levriers sont chiens à hautes jambes qui chassent de vîtesse. Vertagi. Voyez
+               LEVRIER.</note>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">Limiers</form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont des chiens muets qui servent à quêter &amp; à détourner le cerf,
+                  chien quêtant &amp; requérant. Canis vestigator, indagator.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Chiens bauds</orth></form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">qu'on surnomme greffiers, sont des chiens blancs dont la race vient de
+                  Barbarie. Canes albi vestigatores &amp; indagatores. Ils sont beaux chasseurs,
+                  requérans &amp; forcenans. Ils chassent de haut nez, gardent bien le change. Ils
+                  sont de bonne créance, &amp; tiennent mieux dans les chaleurs. Ce sont les
+                  meilleurs pour courre le cerf.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Les chiens gris savent faire tous mètiers, &amp; courent toutes sortes de bêtes.
+               Les chiens noirs qu'on appelle de Saint Hubert, sont bons pour les bêtes puantes. On
+               en conserve la race en mémoire de ce Saint dans l'Abbaye qui porte son nom dans les
+               Ardennes. Nicod dit qu'ils sont puissans de corsage ; qu'ils ont les jambes basses
+               &amp; courtes, qu'ils sont de haut nez, chassans de forlonge, &amp; ne craignans eaux
+               de froidure. Les chiens fauves ou rouges sont chiens de grand coeur, fort hardis,
+               &amp; chiens d'entreprise. On appelle chiens de toute pièce, ceux qui sont d'une
+               couleur, tout blancs, ou tout noirs, &amp;c. Unius ejusdemque coloris canes, unicolor
+               canis,</note>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">Les <form type="compound">
+                     <orth>chiens couchans</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont chiens de l'arquebuse qui chassent de haut nez, &amp; arrêtent
+                  tout. Anceps canis, canis cubitor. Les meilleurs viennent d'Espagne. Ils servent à
+                  faire lever les perdrix &amp; les cailles, &amp; ces chiens sont au poil &amp; à
+                  la plume. On dit que des chiens piquent la sonnette, pour dire, qu'ils courent
+                  trop vigoureusement après l'oiseau.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Braque</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont des chiens de même allure, aussi-bien que les turquets &amp;
+                  metis.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Epagneuls</orth>
+                  </form>
+                  <pc>,</pc> ou <form type="variant">
+                     <orth>Espagnols</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont des chiens qui chassent de gueule, &amp; forcent les lapins dans
+                  les broussailles. Canis bene auritus &amp; cirratus. Ils rident ou suivent la
+                  piste de la bête sans crier. Ils sont bons aussi pour les oiseaux, &amp; chassent
+                  le nez bas.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Griffon</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">se dit aussi d'une espèce de chiens qui chassent le nez haut, &amp; qui
+                  arrêtent tout. Canis sagax. Ils viennent d'Italie &amp; de Piémont.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Bassets</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">qu'on appelle autrement chiens de terre sont des chiens qui entrent dans
+                  les tanières des renards &amp; taissons. Canis brevioribus tibiis animalium
+                  subterraneorum indagator, investigator. Ils viennent de Flandre &amp; d'Artois.
+                  Ils attaquent tout ce qui se terre, comme bléreaux, renards, chats, harèts,
+                  fouïnes, putois. Ils quêtent bien, &amp; servent aussi à l'arquebuse. Ils sont
+                  noirs à demi-poil, avec la queue en trompe. Il y en a qui ont double rang de dents
+                  comme les loups, &amp; qui sont sujets à mordre, qui ont les partes de devant
+                  tortues. On parle aux bassets en leur criant, Coule, coule bassets.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Chiens de vautrait</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+               <sense n="1">Voyez VAUTRAIT.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Barbets</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont chiens frisés qui chassent le nez bas quand le gibier fuit, &amp;
+                  le nez haut quand il demeure. Ils l'arrêtent sur terre &amp; dans l'eau. Longioris
+                  atque crispi villi canis, canis cirratus. Leur principale nature est de rapporter,
+                  &amp; ce sont les plus fidelles chiens du monde, qui ne veulent connoître qu'un
+                  maître, &amp; ne le perdent jamais de vûe. On les appelle aussi chiens à gros
+                  poil.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Dogues</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont chiens de combat qui servent à assaillir les grosses bêtes, comme
+                  des taureaux, des lions, &amp;c. Molossus Britannicus. Les Espagnols doivent une
+                  partie des conquêtes de l'Amérique à des dogues d'Angleterre, comme on voit dans
+                  Herréra. Le mot de dogue est Anglois, &amp; signifie chien.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Matins</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont chiens de garde qu'on laisse dans les bassecours pour aboyer. Canis
+                  villaticus. Il y a aussi des mâtins dans le vautrait pour chasser au
+                  sanglier.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Chiens allans</orth>
+                  </form>
+                  <pc>,</pc> ou <form type="variant">
+                     <orth>gentils</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">sont de gros chiens qui en allant détournent le gibier. On le dit aussi
+                  des chiens de Bouchers qui servent à conduire leurs troupeaux. Lanionius
+                  canis.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <lbl>On appelle</lbl>
+                  <form type="compound">
+                     <orth>chiens trouveurs</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark></form>
+               <sense n="1">des chiens qui vont requérir un renard, quand il y auroit 24 heures
+                  qu'il seroit passé.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Chien barreur</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">est le meilleur chien pour le chevreuil.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <lbl>On appelle un</lbl>
+                  <form type="compound">
+                     <orth>chien secret</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">un limier qui pousse la voie sans appeller. Vestigator canis tacitus. On
+                  l'appelle aussi muet, &amp; on dit qu'il ride.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">Un <form type="compound">
+                     <orth>chien babillard</orth>
+                  </form>
+                  <pc>,</pc> ou <form type="variant">
+                     <orth>qui caquette</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">est celui qui crie hors la voie, &amp; le plus souvent d'ardeur, ou qui
+                  crie des matinées <pb n="57"/>entières. On l'appelle en Latin argutarius, dont il
+                  est parlé dans la Loi Salique.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">Un <form type="compound">
+                     <orth>chien mentenr</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">est un chien qui cèle la voie pour gagner le devant. Canis
+                  mendax.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">Un <form type="lemma"><orth>chien
+                     vicieux</orth></form><metamark function="lemmaDelimiter">,</metamark></form>
+               <sense n="1">celui qui chasse tout ce qu'il rencontre, &amp; qui s'écarte toujours de
+                  la meute. Canis vitiosus. Un chien de bonne crèance, de bonne affaire, quand il
+                  est docile &amp; obéissant. docilis, obsequens. Un chien qui chasse de forlonge,
+                  qui sent de loin le gibier, sagax, un chien qui ne se rompt point au bruit. Canis
+                  usque praedam insequens.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">Un <form type="lemma"><orth>chien sage</orth></form><metamark
+                     function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">qui chasse bien, qui tourne juste. Venandi peritus. Un chien de tête,
+                  &amp; un chien d'entreprise, qui est hardi &amp; vigoureux, Strenuus,
+                  animosus.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>On dit qu'un chien a le nez dur, lorsqu'il rentre malaisément dans la voie, &amp;
+               qu'il reprend lentement, obtusae naris : qu'il est de haut nez, lorsqu'il va requérir
+               sur le haut du jour : &amp; qu'il a le nez fin, lorsqu'il chasse bien dans les
+               chaleurs &amp; dans la poussière, canis doctus, ou auctor, ou canis judex.</note>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp"><lbl>On appelle</lbl>
+                  <form type="lemma"><orth>chien d'aiguail</orth></form><metamark
+                     function="lemmaDelimiter">,</metamark></form>
+               <sense n="1">celui qui chasse bien le matin, lorsque la rosée est sur la terre, &amp;
+                  qui ne vaut rien au haut du jour, canis matutinus ; &amp; au contraire un chien de
+                  haut jour, qui ne vaut rien dans l'aiguail. Canis serotinus.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <lbl>On appelle</lbl>
+                  <form type="compound">
+                     <orth>chien étraffé</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">celui qui a une cuisse qui ne prend plus de nourriture, &amp; qui est
+                  boiteux ; Canis pede mutilus aliquo ; chien butté, celui à qui la jointure des
+                  jambes de devant grossit ; Canis inflatas ossium commissuras habens ; chien
+                  épointé, celui qui a des os des cuisses rompus ; aliqua corporis parte fractus ;
+                  chien allongé, celui qui a les doigts du pied étendus par quelque blessure qui a
+                  touché les nerfs ; chiens courtauts, Cauda mutilus, decurtatus.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>On dit qu'un chien a belle gorge, lorsqu'il crie bien, &amp; qu'il a la voix
+               grosse &amp; forte : qu'un chien abboie, quand il sent le gibier ou quelque chose
+               d'étrange : qu'un chien jappe, lorsqu'il crie sans sujet, ou au moindre bruit de nuit
+               ou de jour ; &amp; qu'il hurle, lorsqu'il sent des loups, ou une chienne chaude qu'il
+               ne peut joindre. On dit que le chien sonne ; pour dire, qu'il appelle au bon chemin
+               ayant trouvé la trace.</note>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <lbl>On appelle un</lbl>
+                  <form type="compound">
+                     <orth>chien armé</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark></form>
+               <sense n="1">armatus, quand il est couvert pour attaquer un sanglier.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>C'est une bonne qualité de chien, d'avoir le jarret droit &amp; bien herpé.</note>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <entry type="relatedEntry">
+               <usg type="dom" ana="#chasse">A la chasse</usg>
+               <lbl>on dit,</lbl>
+               <form type="lemmaGrp">
+                  <form type="compound">
+                     <orth>Parler aux chiens</orth></form>
+                  <metamark function="lemmaDelimiter">;</metamark>
+               </form>
+               <sense n="1">pour dire, les réjouir, comme on fait à la chasse du cerf, Canibus
+                  blandiri, canes voce mulcere, ou les exciter, ou menacer comme on fait à celle du
+                  sanglier avec des cris rudes &amp; furieux, &amp; avec la trompe. Increpare,
+                  minitari. On appelle titre de chiens, le lieu où on pose les chiens, afin que
+                  quand la bête passera, ils la courent bien à-propos. Opportunus locus. Ces chiens
+                  sont mis en un bon titre ; pour dire, sont postés en un bon relais.</sense>
+            </entry>
+            <entry type="relaedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Trait de chiens</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">se dit des laisses de crin &amp; des coliers qui servent à coupler les
+                  chiens. Lorum. Ainsi on dit, qu'un cerf ou une autre bête a senti le vent du trait
+                  ; pour dire, des chiens.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Rompre les chiens</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+               <sense n="1">se dit de la faute d'un Picqueur &amp; Chasseur, losqu'ils passent à
+                  travers des chiens pendant qu'ils courent, &amp; ainsi rompent leur course. Cursum
+                  canum avertere. Il faut quelquefois rompre les chiens, les menacer, les recoupler
+                  ; &amp; sapper à route, afin de suivre &amp; relancer le cerf, qui leur a donné le
+                  change, &amp; les a fait tomber en défaut.</sense>
+               <milestone unit="paragraph" rendition="leftShift"/>
+               <sense n="2"><usg type="style" ana="#figurement">On dit figurément</usg> en ce sens,
+                  Rompre les chiens, quand on interrompt quelqu'un dans son discours, pour empêcher
+                  qu'il ne dise quelque chose de désavantageux ; ou qu'il n'entreprenne quelque
+                  affaire. Interpellare.</sense>
+            </entry>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Le droit des chiens est ce qu'on leur donne à la curée, comme la langue, le
+               muffle, les oreilles d'un cerf. Pars praedae canibus debita.</note>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Il y a enfin des chiens de la chambre pour le divertissement des Dames, qu'on
+               nourrit pour leur petitesse, leur beauté, &amp; qu'on appelle chiens de manchons,
+               comme les chiens de Boulogne, d'Artois, épagneuls, bichons, barbets, levrons, chiens
+               ras ou de Barbarie, &amp;c. Catellus. Chien de Boulogne. C'est un petit Chien de
+               manchon. Canis Bononiensis. Ils sont ainsi appellés parce qu'ils viennent de Boulogne
+               ; où pour les empêcher de croître, on les frotte pendant plusieurs jours</note>
+         </entry>
+      </body>
+   </text>
+</TEI>
