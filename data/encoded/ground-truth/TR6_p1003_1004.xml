@@ -155,7 +155,7 @@
          </entry>
          <entry type="mainEntry">
             <form type="lemmaGrp">
-               <orth>ZOPHORIQUE</orth>
+               <form type="lemma"><orth>ZOPHORIQUE</orth></form>
             </form>
             <metamark function="lemmaDelimiter">.</metamark>
             <sense n="1">Voyez Zoophorique.</sense>
@@ -215,6 +215,7 @@
          </entry>
          <entry type="mainEntry">
             <form type="lemmaGrp">
+               <g ref="#manicula"/>
                <form type="compound">
                   <orth>Au Diable Zot</orth>
                </form>
@@ -277,7 +278,10 @@
                Maty.</sense>
          </entry>
          <entry type="mainEntry">
-            <form>ZUARA.</form>
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ZUARA</orth></form>
+               <metamark function="lemmaDelimiter">.</metamark></form>
             <sense n="1">Voyez Zoara.</sense>
          </entry>
          <entry type="mainEntry">

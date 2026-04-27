@@ -26,7 +26,7 @@
                les Notes de Barlaeus sur la Théogonie d'Hésiode, Seldénus de Diis Syris Proleg. III.
                l'Explication historique des fables par M. l'Abbé Bannières, imprimée à Paris en 2.
                vol. in 12. &amp;c.</sense>
-            <entry>
+            <entry type="relatedEntry">
                <form type="lemmaGrp">
                   <form type="lemma">
                      <orth>Fable</orth>
@@ -113,7 +113,7 @@
          </entry>
          <entry type="mainEntry">
             <form type="lemmaGrp">
-               <form type="lemma">FABRICANT</form>
+               <form type="lemma"><orth>FABRICANT</orth></form>
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>

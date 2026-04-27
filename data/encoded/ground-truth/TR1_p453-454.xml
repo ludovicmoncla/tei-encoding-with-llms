@@ -77,7 +77,7 @@
             <milestone unit="paragraph" rendition="leftShift"/>
             <entry type="relatedEntry">
                <form type="lemmaGrp">
-                  <form type="compound">Croix de S. André</form>
+                  <form type="lemma">Croix de S. André</form>
                   <metamark function="lemmaDelimiter">,</metamark>
                </form>
             <sense n="1">c'est une Croix en sautoir, comme si cell où ce Saint fut attaché, avoit eu cette figure
@@ -86,7 +86,7 @@
          </entry>
          <entry type="mainEntry">
             <form type="lemmaGrp">
-               <form type="compound">S. ANDRÉ DU CHARDON</form>
+               <form type="compound"><orth>S. ANDRÉ DU CHARDON</orth></form>
                <metamark function="lemmaDelimiter">.</metamark>
             </form>
             <sense n="1">Ordre militaire en Ecosse, institué, à ce
@@ -146,7 +146,8 @@
             d'Ecosse, après qu'il eut conquis &amp; réuni à sa couronne le Royaume des Pictes au
             milieu du IXe siècle : &amp; en 1474. il fut érigé en Archevêché ; &amp; Grahan, qui en
             fut le premier Archevêque, prit le titre de Primat d'Ecosse, qu'il a transmis à ses
-            successeurs. Id.</sense></entry>
+            successeurs. Id.</sense>
+            </entry>
             <entry type="relatedEntry">
                <form type="lemmaGrp">
                   <form type="compound">

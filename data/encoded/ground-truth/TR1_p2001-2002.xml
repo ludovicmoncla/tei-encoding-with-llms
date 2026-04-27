@@ -243,7 +243,7 @@
                   <orth>CHARTIER</orth>
                </form>
                <pc>,</pc>
-               <form type="inflected">
+               <form type="inflected" value="gender">
                   <orth>ière</orth></form>
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
