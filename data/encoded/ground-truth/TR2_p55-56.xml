@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="55"/>
+         <entry type="fragment" subtype="continued">
+            <sense>&amp; d'Octobre. On retrousse &amp; on lie
+            toutes ses feuilles aux premiers froids pour les blanchir, c'est ce qu'on vend sous le
+            nom de Chicorée blanche. On a appris à les blanchir ainsi, parce qu'on a remarqué
+            que les chicorées sauvages ayant été couvertes de terre par les inondations, ne
+            conservoient plus leur amertume, &amp; devenoient tendres &amp; blanches. On les mange
+            en salade, &amp; on en met dans les potages une partie de l'hiver. En les semant sur des
+            couches dans des caves, ou des lieux souterrains ou obscurs, elle blanchit aussi sans
+            être liée, &amp; l'on en peut avoir tout l'hiver. 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            La Chicorée sauvage est fort
+            employée en Médecine. Son eau distilée est rafraîchissante, &amp; elle entre dans les
+            potions rafraîchissantes &amp; fébrifuges. Ses feuilles sont fort amères ; on les met
+            dans les bouillons amers &amp; rafraîchissans. Ses racines sont usitées dans les
+            ptisanes pour les fébricitans. La conserve de ces fleurs est aussi d'usage. Si l'on
+            broie de la chicorée sauvage dans un mortier, qu'on en tire le suc &amp; qu'on le
+            passe, qu'ensuite pendant douze heures de suite, ou même plus, on prenne alternativement
+            d'heure en heure un verte de ce jus de chicorée sauvage, un verre de vin, un
+            bouillon, on suera beaucoup, &amp; ce remède est excellent dans les pleurésies, les
+            rhumatismes, &amp; semblables maux.</sense> 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <etym>Chicorée vient de Chicoreum, qui vient
+            du mot Grec , ou , &amp; , qui signifie trouver ; car cette
+            plante se trouve par tout.</etym> </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHICOT</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+            </gramGrp>
+            </form> 
+            <sense n="1">Petit éclat ou morceau de bois. Coliculus, flagellum,
+               surculus. Il se dit particulièrement de ceux qui viennent aux branches, &amp; qui
+            font les noeuds. Il a eté blessé d'un chicot d'épine dans le pied, ce qui lui a
+            causé la cangrène.</sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>Chicot</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense n="1">se dit aussi du tronc qui reste sur
+            la terre, quand on a coupé les arbres &amp; les arbrisseaux. Truncus excisa restans
+               arbore. On l'appelle autrement argot. </sense>
+               <milestone unit="paragraph" rendition="leftShift"/>
+               <sense><usg type="dom" ana="#blason">En terme de Blason</usg>,
+            chicot se dit d'un bâton noueux, d'un jetton d'arbres, soit des racines, soit du
+            tronc, soit des branches. Stolo.</sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">Chicot</form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense n="1">Se dit aussi d'une petite pointe de dent qui demeure
+            dans la gencive, quand elle est pourrie, ou quand on l'arrache. Putridi cariosique
+               dentis particula.</sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHICOTER</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="verbe" norm="VERB">v.</gram> 
+               <gram type="subc" expand="neutre" norm="neuter">n.</gram>
+            </gramGrp>
+            </form> 
+            <sense n="1"><usg type="register" ana="#populaire">Terme populaire</usg>, qui signifie, Contester sur des choses de peu
+            d'importance. Contendere, rixari, cavillari.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHICOTIN</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+            </gramGrp>
+            </form> 
+            <sense n="1">Terme dont le peuple se sert pour remarquer l'amertume de la
+            coloquinte &amp; de l'alun. On dit d'une chose désagréable &amp; très amère, Cela est
+            amer comme du Chicotin. On en saupoudre le mammellon des Nourrices des enfans
+            qu'on veut sevrer, &amp; on en répand aussi sur les alimens qu'on veut leur faire éviter
+            &amp; prendre en horreur. 
+            <milestone unit="paragraph" rendition="leftShift"/>On appelle dragées de chicotin, certaines dragées fort
+            amères, où on a mêlé du chicotin.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>CHIEN</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+               </gramGrp>
+            <form type="inflected">
+               <orth>Chienne</orth>
+            </form>
+               <pc>,</pc>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+               </gramGrp>
+            </form> 
+            <sense n="1">Animal domestique qui aboie, qui sert à garder la maison, &amp;
+            à la chasse. Canis. Il naît aveugle, &amp; vit à-peu près douze à quinze ans. Il
+            est ennemi des loups &amp; des crocodilles. Le chien est le symhole de la
+            fidélité ; &amp; parce que les chiens qui étoient dans le Capitole se trouverent
+            tous endormis lorsque les Gaulois y donnerent l'assaut, &amp; que ce fut par le cri des
+            oies que les Romains furent réveillés, en punition de ce manque de fidélité &amp; de
+            vigilance de la part des chiens, on avoit coutume à Rome de pendre un
+               chien tous les ans, &amp; de le montrer par la ville en cet état, tandis que
+            l'on conduisoit une oie dans une litière fort propre. Voyez Plutarque. Les Egyptiens au
+            contraire avoient de la vénération pour le chien, parce que c'est lorsque la
+            constellation du chien paroît sur l'horison que vient le débordement du Nil.
+            Hermippe, Aristote, Plutarque, Elien, ont dit qu'il y avoit une contrée d'Ethiopie, où
+            les peuples prenoient un chien pour leur Roi. C'est apparemment une fable. Le
+               Chien étoit un animal ami du Dieu Pan. Alexandre ayant demandé aux Athéniens
+            qu'ils lui livrassent leurs Orateurs qui déclamoient contre lui, on cita l'apologue des
+            loups qui voulurent un jour faire la paix avec les brebis, pourvû qu'elles leur
+            livrassent le chien du Berger. Ablanc. Les Egyptiens
+            adoroient les chiens à Cynopolis, c'est-à-dire, dans la ville des chiens.
+            C'est Strabon <pb n="56"/>qui nous l'apprend. Ils gravoient des chiens aux portes de
+            leurs temples, pour marquer la vigilance que devoient avoit les Princes dans le
+            Gouvernement ; car dans leurs hiéroglyphes le chien signifie la vigilance.
+                  Kirker. Les chiens sont en telle abomination aux
+            Maldives, que si un chien avoit touché quelqu'un du pays, il iroit incontinent se
+            baigner pour se purifier. Pyrard. Au contraire chez les Gaures
+            ils sont en si grande vénération, que les Prêtres se servent des chiens pour
+            purifier leurs pénitens. Tavernier. Un chien fut établi
+            pour Gouverneur de la Norvége par Osten Roi de Suède, après qu'il l'eut subjuguée ; il
+            obligea par ignomine les rebelles à rendre hommage à son chien, qu'il appelloit
+            Sueing, comme témoigne Saxon la Grammairien. 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            Sur les médailles, le chien est le
+            symbole commun de la fidélité. Il est sur la médaille d'Ulysse, parce qu'il le fit
+            reconnoître à son retour à Itaque. On le donne à Mercure à cause de sa vigilance, &amp;
+            de son industrie à découvrir ce qu'il quête. Diane a ses Lévriers auprès d'elle. Quand
+            il est auprès d'une coquille, &amp; le museau barbouillé, il marque la ville de Tyr, où
+            le chien d'Hercule ayant croqué le murex, en revint le nez tout empourpré,
+            &amp; fit connoître cette belle couleur. P. Jobert.
+                  Favin, Hist. de Nav. L. XII. p. 734.
+            dit, que par jugement de Louis XII. &amp; en sa présence un chien combattit le
+            meurtrier de son maître, &amp; en eut la victoire ; que l'histoire en est peinte au
+            château de Montargis, &amp; que les Gaulois se servoient de chiens à la guérre.</sense>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <etym>Ce mot vient du Grèc 
+            canis. Le P. Pezron prétend que 
+            canis, chien, vient du Ki des Celtes, qui a la même signification ; &amp;
+            cela est si vrai, que le génitif  ne se dit que parce que les Celtes disent
+               Kun &amp; Koun, pour signifier des chiens ; &amp; que de
+               Ki se fait 
+            moveo, parce que le chien va &amp; se remue sans cesse.</etym> 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Il y a de
+            plusieurs sortes de chiens différens, tant pour la taille, que pour le naturel,
+            ou le service qu'ils rendent aux hommes.</note> 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Les premiers sont les chiens de chasse,
+               Canes venatici, dont les plus nobles sont les chiens courans, ou
+               allans, qui chassent par la force de l'odorat. Canis celer, cursor.
+            Qu'un fier sanglier dans sa rage,
+               Des chiens, des filets se dégage,
+               L'acier tonne, il sait l'arréter.
+               Tendre Cypris, ô que de larmes
+               Autrefois de si sures armes
+               À vos yeux pouvoient éviter !
+            De S. Gilles.</note> 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Entre les chiens François quelques-uns sont
+            appellés de race royale, qui courent à force les cerfs, chevreuils, loups &amp;
+            sangliers. Les chiens courans, appellent les Veneurs ; &amp; pour cela on dit
+            qu'ils chassent de gueule. Voici comme Nicod parle de ces sortes de chiens. Les
+               chiens courans, dit-il, sont certaine manière de chiens assez grands,
+            ayant les narines grosses &amp; ouvertes, la tête grosse &amp; le front large ; les
+            lèvres avallées &amp; pendantes ; les yeux gros, noirs ou vermeils ; les oreilles
+            larges, épaisses &amp; abbatues ; le museau long &amp; gros, desquels on fait des meutes
+            pour le cerf &amp; autre bête rousse &amp; fauve. Ils sont appellés chiens
+               courans d'autant qu'étant allés après leur chasse, ils courent incessament après,
+            tant qu'ils la rendent aux abois. Ainsi le Chien courant, veut partir de
+                  la main
+               Au premier vent qui sort d'une corne d'airain ;
+               Il chasse de la voix, il saute, il se tourmente,
+               Et ses yeux devant lui courent la bête absente.
+               P. Le M.</note> 
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Il y en a d'autres de race commune, qui chassent
+            seulement le chevreuil, le loup &amp; le sanglier ; d'autres de race mêlée ou
+               petite race, qui chassent les lièvres tant dans les bois que dans la plaine.</note>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <note>Il y aussi des chiens Anglois de trois sortes. Ceux de la race royale
+            servent à chasser les cerfs, daims &amp; chevreuils. Les chiens baubis sont pour
+            les lièvres, renards &amp; sangliers. On leur coupe presque à tous la queue. Ils sont
+            plus bas de terre, &amp; plus longs que les autres, de gorge effroyable, qui heurlent
+            sur la voie, &amp; qui ont le nez dur, &amp; sont barbets à demi-poil. Les bigles
+            sont pour les lièvres &amp; lapins. Il y en a de grands &amp; de petits, &amp; ils sont
+            excellens pour courir le lièvre dans les plaines.</note> 
+         </entry>
+      </body>
+   </text>
+</TEI>
