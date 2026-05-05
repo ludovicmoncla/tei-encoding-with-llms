@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt  # install dependencies
 
 ## Project structure:
 
-'''
+```
 ├── data/  
 │   ├── input/            # fichiers d'entrée
 │   │   └── TR5_p489-490.txt
@@ -39,4 +39,4 @@ python -m pip install -r requirements.txt  # install dependencies
 │   │    │       └── Prompt_2/
 │   │    │           └── TR5_p489-490.xml
 └── reports/       # métriques / résultats d'évaluation
-'''
+```
