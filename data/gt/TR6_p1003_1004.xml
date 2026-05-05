@@ -270,8 +270,8 @@
                </form>
                <metamark function="lemmaDelimiter">.</metamark>
             </form>
-            <sense>Nom d'un cap de l'île de Candie. Caput S. Joannis, <usg type="time" ana="#anciennement">anciennement</usg> <form type="variant"><orth>Zephyrium
-               promontorium</orth></form>. Il est en la côte septentrionale, près de la forteresse de Spinalonga.
+            <sense>Nom d'un cap de l'île de Candie. Caput S. Joannis, <usg type="time" ana="#anciennement">anciennement <oRef type="variant">Zephyrium
+               promontorium</oRef></usg>. Il est en la côte septentrionale, près de la forteresse de Spinalonga.
                Maty.</sense>
          </entry>
          <entry type="mainEntry">
@@ -292,7 +292,7 @@
                </gramGrp>
             </form>
             <sense>Nom d'un isthme qui joint la Tartarie-Crimée avec celle de Nogais, qui sont
-               les deux parties de la petite Tartarie. Zucala, <usg type="time" ana="#anciennement">anciennement</usg> <form type="variant"><orth>isthmus Tauricus</orth></form>. Cet
+               les deux parties de la petite Tartarie. Zucala, <usg type="time" ana="#anciennement">anciennement <oRef type="variant">isthmus Tauricus</oRef></usg>. Cet
                isthme est entre le lac de Sescan, &amp; le golfe de Nigropoli, partie de la mer
                Noire. Il n'a pas plus de demi-lieue de largeur, &amp; il est défendu par la ville de
                Pérécop, qui y est située. Maty.</sense>
