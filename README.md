@@ -15,3 +15,28 @@ python -m pip install -r requirements.txt  # install dependencies
 ```
 
 
+## Project structure:
+
+'''
+├── data/  
+│   ├── input/            # fichiers d'entrée
+│   │   └── TR5_p489-490.txt
+│   ├── prompts/          # prompts utilisés
+│   │   ├── Prompt_1.txt
+│   │   ├── Prompt_2.txt
+│   │   └── Prompt_3.txt
+│   ├── gt/               # ground truth
+│       └── TR5_p489-490.xml
+│   ├── output/           # sorties des modèles
+│   │    ├── gpt-5-mini/
+│   │    │   ├── Prompt_1/
+│   │    │   │   └── TR5_p489-490.xml
+│   │    │   └── Prompt_2/
+│   │    │   │   └── TR5_p489-490.xml
+│   │    │   └── gemma-3-27b-it/
+│   │    │       ├── Prompt_1/
+│   │    │       │    └── TR5_p489-490.xml
+│   │    │       └── Prompt_2/
+│   │    │           └── TR5_p489-490.xml
+└── reports/       # métriques / résultats d'évaluation
+'''
