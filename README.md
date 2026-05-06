@@ -40,3 +40,33 @@ python -m pip install -r requirements.txt  # install dependencies
 │   │    │           └── TR5_p489-490.xml
 └── reports/       # métriques / résultats d'évaluation
 ```
+
+
+## Générer des tableaux et graphiques pour un article
+
+Le script suivant agrège les fichiers JSON de `reports/` et produit:
+
+- des tableaux CSV et Markdown par document / modèle / prompt,
+- des scores pour `mainEntry`, `relatedEntry` et tous les tags,
+- des graphiques (heatmaps + bar chart).
+
+Commande:
+
+```sh
+python scripts/generate_article_results.py
+```
+
+Sorties:
+
+- `article_results/tables/entries_by_document.md`
+- `article_results/tables/tags_by_document.md`
+- `article_results/tables/mean_f1_by_model_prompt.md`
+- `article_results/figures/entries_f1_heatmaps.png`
+- `article_results/figures/tags_f1_heatmaps.png`
+- `article_results/figures/mean_f1_by_element_model_prompt.png`
+
+Options:
+
+```sh
+python scripts/generate_article_results.py --reports-dir reports --out-dir article_results
+```
