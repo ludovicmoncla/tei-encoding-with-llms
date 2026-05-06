@@ -19,6 +19,19 @@ from lxml import etree
 plt: Any = None
 
 
+# Editorial palette for publication figures (colorblind-friendly, softer contrast)
+MODEL_PALETTE = [
+    "#E56B6F",  # warm coral
+    "#EAAC8B",  # soft apricot
+    "#3A7CA5",  # steel blue
+    "#2A9D8F",  # teal
+    "#355070",  # deep slate blue
+    "#6D597A",  # muted violet
+    "#B56576",  # dusty rose
+    "#264653",  # deep teal
+]
+
+
 REPORT_PATTERN = re.compile(r"^(?P<model>.+?)_(?P<prompt>Prompt_\d+)_(?P<document>TR\d+_p\d+-\d+)\.json$")
 
 
@@ -415,7 +428,7 @@ def build_matrix(rows: list[dict[str, Any]],
 
 
 def plot_heatmap(ax: Any, matrix: list[list[float]], x_labels: list[str], y_labels: list[str], title: str) -> None:
-    im = ax.imshow(matrix, vmin=0.0, vmax=1.0, aspect="auto", cmap="YlGnBu")
+    im = ax.imshow(matrix, vmin=0.0, vmax=1.0, aspect="auto", cmap="viridis")
     ax.set_title(title)
     ax.set_xticks(range(len(x_labels)))
     ax.set_xticklabels(x_labels, rotation=45, ha="right")
@@ -479,6 +492,139 @@ def plot_tags_heatmaps(tag_rows: list[dict[str, Any]], tags: list[str], document
     plt.close(fig)
 
 
+def _bar_chart_single(
+    ax: Any,
+    lookup: dict,
+    keys: list,
+    key_labels: list[str],
+    models: list[str],
+    title: str,
+    ylabel: str,
+    x_rotation: int = 30,
+    show_values: bool = True,
+) -> None:
+    """Draw a grouped bar chart on *ax* (one bar per model per X group)."""
+    n_models = len(models)
+    width = 0.8 / max(1, n_models)
+    x_positions = list(range(len(keys)))
+
+    for idx, model in enumerate(models):
+        y_values = [lookup.get((model, k), math.nan) for k in keys]
+        shifted = [x + (idx - (n_models - 1) / 2) * width for x in x_positions]
+        bars = ax.bar(
+            shifted,
+            y_values,
+            width=width,
+            label=model,
+            color=MODEL_PALETTE[idx % len(MODEL_PALETTE)],
+        )
+        if show_values:
+            for bar, val in zip(bars, y_values):
+                if not math.isnan(val):
+                    label_y = min(val, 1.0) - 0.02 if val > 0.90 else min(val, 1.0) + 0.01
+                    label_va = "top" if val > 0.90 else "bottom"
+                    label_color = "white" if val > 0.90 else "black"
+                    label_weight = "bold" if val > 0.90 else "normal"
+                    ax.text(
+                        bar.get_x() + bar.get_width() / 2,
+                        label_y,
+                        f"{val:.2f}",
+                        ha="center",
+                        va=label_va,
+                        fontsize=8,
+                        rotation=45,
+                        color=label_color,
+                        fontweight=label_weight,
+                    )
+
+    ax.set_ylim(0.0, 1.0)
+    ax.set_ylabel(ylabel)
+    ax.set_title(title)
+    ax.set_xticks(x_positions)
+    ax.set_xticklabels(key_labels, rotation=x_rotation, ha="right")
+    ax.yaxis.grid(True, linestyle="--", alpha=0.5)
+    ax.set_axisbelow(True)
+
+
+def plot_prompt1_document_bars_by_model(
+    entry_rows: list[dict[str, Any]],
+    models: list[str],
+    documents: list[str],
+    out_path: Path,
+    prompt: str = "Prompt_1",
+) -> None:
+    """One PNG per entry type: X=documents, bars=models, Y=F1 – Prompt 1."""
+    filtered = [r for r in entry_rows if r["prompt"] == prompt]
+
+    for element in ["mainEntry", "relatedEntry"]:
+        lookup: dict[tuple[str, str], float] = {}
+        for row in filtered:
+            if row["element"] == element and row["f1"] != "":
+                lookup[(row["model"], row["document"])] = float(row["f1"])
+
+        fig, ax = plt.subplots(figsize=(max(10, len(documents) * 0.9), 5))
+        _bar_chart_single(
+            ax, lookup, documents, documents, models,
+            title=f"{element} – F1 par document (Prompt 1)",
+            ylabel="F1",
+            x_rotation=30,
+            show_values=False,
+        )
+        ax.legend(
+            loc="upper center",
+            bbox_to_anchor=(0.5, -0.18),
+            ncol=min(4, len(models)),
+            borderaxespad=0,
+            fontsize=9,
+            title="Modèle",
+        )
+        fig.tight_layout()
+        stem = out_path.stem
+        element_path = out_path.with_name(f"{stem}_{element}.png")
+        fig.savefig(element_path, dpi=300, bbox_inches="tight")
+        plt.close(fig)
+
+
+def plot_mean_f1_by_model(
+    overall_rows: list[dict[str, Any]],
+    models: list[str],
+    prompts: list[str],
+    out_path: Path,
+) -> None:
+    """One PNG per entry type: X=prompts, bars=models, Y=mean F1."""
+    elements = ["mainEntry", "relatedEntry"]
+    plabels = [prompt_label(p) for p in prompts]
+
+    for element in elements:
+        lookup: dict[tuple[str, str], float] = {}
+        for row in overall_rows:
+            if row.get("group_type") == "entry" and row.get("group_name") == element:
+                val = row.get("mean_f1", "")
+                if val != "":
+                    lookup[(row["model"], row["prompt"])] = float(val)
+
+        fig, ax = plt.subplots(figsize=(max(8, len(prompts) * 2.0), 5))
+        _bar_chart_single(
+            ax, lookup, prompts, plabels, models,
+            title=f"{element} – Mean F1 par prompt et par modèle",
+            ylabel="Mean F1",
+            x_rotation=0,
+        )
+        ax.legend(
+            loc="upper center",
+            bbox_to_anchor=(0.5, -0.18),
+            ncol=min(4, len(models)),
+            borderaxespad=0,
+            fontsize=9,
+            title="Modèle",
+        )
+        fig.tight_layout()
+        stem = out_path.stem
+        element_path = out_path.with_name(f"{stem}_{element}.png")
+        fig.savefig(element_path, dpi=300, bbox_inches="tight")
+        plt.close(fig)
+
+
 def plot_mean_f1_bar(mean_rows: list[dict[str, Any]], tags: list[str], out_path: Path) -> None:
     elements = ["mainEntry", "relatedEntry"] + [f"tag:{t}" for t in tags]
     series_labels = [f"{r['model']} | {r['prompt']}" for r in mean_rows]
@@ -495,7 +641,13 @@ def plot_mean_f1_bar(mean_rows: list[dict[str, Any]], tags: list[str], out_path:
             y_values.append(float(value) if value != "" else math.nan)
 
         shifted = [x + (idx - (len(elements) - 1) / 2) * width for x in x_positions]
-        ax.bar(shifted, y_values, width=width, label=element)
+        ax.bar(
+            shifted,
+            y_values,
+            width=width,
+            label=element,
+            color=MODEL_PALETTE[idx % len(MODEL_PALETTE)],
+        )
 
     ax.set_ylim(0.0, 1.05)
     ax.set_ylabel("Mean F1")
@@ -700,6 +852,8 @@ def main() -> None:
     plot_entries_heatmaps(entry_rows, documents, model_prompts, figures_dir / "entries_f1_heatmaps.png")
     plot_tags_heatmaps(tag_rows, tags, documents, model_prompts, figures_dir / "tags_f1_heatmaps.png")
     plot_mean_f1_bar(mean_rows, tags, figures_dir / "mean_f1_by_element_model_prompt.png")
+    plot_prompt1_document_bars_by_model(entry_rows, models, documents, figures_dir / "prompt1_f1_by_document_and_model.png")
+    plot_mean_f1_by_model(overall_rows, models, prompts, figures_dir / "mean_f1_by_model.png")
 
     print("Generated article assets:")
     print(f"- Tables: {tables_dir}")
