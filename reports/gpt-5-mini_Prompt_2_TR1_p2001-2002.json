@@ -3,12 +3,16 @@
     "mainEntry": {
       "precision": 1.0,
       "recall": 1.0,
-      "f1": 1.0
+      "f1": 1.0,
+      "pred_count": 14,
+      "gold_count": 14
     },
     "relatedEntry": {
       "precision": 0,
       "recall": 0.0,
-      "f1": 0
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 5
     }
   },
   "tags": {
