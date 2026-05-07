@@ -1,0 +1,13 @@
+model,prompt,mean_f1_mainEntry,mean_f1_relatedEntry,mean_f1_tag:milestone,mean_f1_tag:usg_dom,mean_f1_tag:usg_other
+gemini-3.1-flash-lite-preview,FS,0.94,0.21,0.71,0.63,0.17
+gemini-3.1-flash-lite-preview,FS-R,0.93,0.26,0.00,0.56,0.00
+gemini-3.1-flash-lite-preview,ZS,0.94,0.23,0.68,0.60,0.14
+gemma-3-27b-it,FS,0.87,0.41,0.27,0.05,0.00
+gemma-3-27b-it,FS-R,0.81,0.40,0.15,0.05,0.00
+gemma-3-27b-it,ZS,0.74,0.15,0.17,0.00,0.00
+gpt-5-mini,FS,0.95,0.31,0.61,0.27,0.03
+gpt-5-mini,FS-R,0.93,0.25,0.03,0.15,0.00
+gpt-5-mini,ZS,0.89,0.06,0.48,0.05,0.06
+gpt-5.4-mini,FS,0.94,0.06,0.16,0.32,0.10
+gpt-5.4-mini,FS-R,0.92,0.19,0.00,0.10,0.00
+gpt-5.4-mini,ZS,0.89,0.07,0.04,0.17,0.00
