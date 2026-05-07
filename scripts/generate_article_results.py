@@ -32,7 +32,7 @@ MODEL_PALETTE = [
 ]
 
 
-REPORT_PATTERN = re.compile(r"^(?P<model>.+?)_(?P<prompt>Prompt_\d+)_(?P<document>TR\d+_p\d+-\d+)\.json$")
+REPORT_PATTERN = re.compile(r"^(?P<model>.+?)_(?P<prompt>Prompt_\d+|ZS|FS|FS-R)_(?P<document>TR\d+_p\d+-\d+)\.json$")
 
 
 def parse_args() -> argparse.Namespace:
@@ -69,6 +69,37 @@ def prompt_label(prompt: str) -> str:
     if match:
         return f"P{match.group(1)}"
     return prompt
+
+
+def prompt_sort_key(prompt: str) -> tuple[int, list[Any]]:
+    order = {
+        "ZS": 0,
+        "FS": 1,
+        "FS-R": 2,
+        "Prompt_1": 0,
+        "Prompt_2": 1,
+        "Prompt_3": 2,
+    }
+    return (order.get(prompt, 99), natural_sort_key(prompt))
+
+
+def model_figure_sort_key(model: str) -> tuple[int, list[Any]]:
+    name = model.lower()
+    if name.startswith("gemma"):
+        rank = 0
+    elif name.startswith("gemini"):
+        rank = 1
+    elif name.startswith("gpt-5-mini"):
+        rank = 2
+    elif name.startswith("gpt-5.4"):
+        rank = 3
+    else:
+        rank = 99
+    return (rank, natural_sort_key(model))
+
+
+def sort_models_for_figures(models: list[str]) -> list[str]:
+    return sorted(models, key=model_figure_sort_key)
 
 
 def safe_metric(value: Any) -> Any:
@@ -183,7 +214,7 @@ def load_reports(reports_dir: Path, gt_dir: Path) -> tuple[list[dict[str, Any]],
         entry_rows,
         tag_rows,
         sorted(models, key=natural_sort_key),
-        sorted(prompts, key=natural_sort_key),
+        sorted(prompts, key=prompt_sort_key),
         sorted(documents, key=natural_sort_key),
         sorted(tags, key=natural_sort_key),
     )
@@ -268,6 +299,60 @@ def mean_f1_by_model_prompt(entry_rows: list[dict[str, Any]], tag_rows: list[dic
     return out_rows
 
 
+def mean_f1_by_model_prompt_micro(entry_rows: list[dict[str, Any]], tag_rows: list[dict[str, Any]], tags: list[str]) -> list[dict[str, Any]]:
+    """Compute micro-F1 by model/prompt for entries and tags using aggregated counts."""
+    collector: dict[tuple[str, str, str], dict[str, float]] = defaultdict(lambda: {"tp": 0.0, "pred": 0.0, "gold": 0.0})
+
+    def add_row(row: dict[str, Any], key_name: str) -> None:
+        key = (row["model"], row["prompt"], key_name)
+
+        pred_count = row.get("pred_count", "")
+        gold_count = row.get("gold_count", "")
+        precision = row.get("precision", "")
+        recall = row.get("recall", "")
+
+        pred = float(pred_count) if pred_count != "" and pred_count is not None else None
+        gold = float(gold_count) if gold_count != "" and gold_count is not None else None
+
+        tp = None
+        if gold is not None and recall != "":
+            tp = float(recall) * gold
+        elif pred is not None and precision != "":
+            tp = float(precision) * pred
+
+        if tp is not None:
+            collector[key]["tp"] += tp
+        if pred is not None:
+            collector[key]["pred"] += pred
+        if gold is not None:
+            collector[key]["gold"] += gold
+
+    for row in entry_rows:
+        add_row(row, row["element"])
+
+    for row in tag_rows:
+        add_row(row, f"tag:{row['tag']}")
+
+    grouped: dict[tuple[str, str], dict[str, float]] = defaultdict(dict)
+    for (model, prompt, key_name), values in collector.items():
+        tp = values["tp"]
+        pred = values["pred"]
+        gold = values["gold"]
+        p = tp / pred if pred > 0 else 0.0
+        r = tp / gold if gold > 0 else 0.0
+        f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+        grouped[(model, prompt)][key_name] = round(f1, 6)
+
+    out_rows: list[dict[str, Any]] = []
+    for (model, prompt), by_element in sorted(grouped.items(), key=lambda x: (natural_sort_key(x[0][0]), natural_sort_key(x[0][1]))):
+        row: dict[str, Any] = {"model": model, "prompt": prompt}
+        for element in ["mainEntry", "relatedEntry"] + [f"tag:{t}" for t in tags]:
+            row[f"mean_f1_{element}"] = by_element.get(element, "")
+        out_rows.append(row)
+
+    return out_rows
+
+
 def mean_scores_overall(entry_rows: list[dict[str, Any]], tag_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     collector: dict[tuple[str, str, str, str], dict[str, Any]] = defaultdict(
         lambda: {
@@ -342,6 +427,121 @@ def mean_scores_overall(entry_rows: list[dict[str, Any]], tag_rows: list[dict[st
         )
 
     return out_rows
+
+
+def mean_scores_overall_micro(entry_rows: list[dict[str, Any]], tag_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Compute micro-averaged precision/recall/F1 by aggregating counts across documents."""
+    collector: dict[tuple[str, str, str, str], dict[str, Any]] = defaultdict(
+        lambda: {
+            "tp": 0.0,
+            "pred": 0.0,
+            "gold": 0.0,
+            "documents": set(),
+        }
+    )
+
+    def add_row(row: dict[str, Any], group_type: str, group_name: str) -> None:
+        key = (row["model"], row["prompt"], group_type, group_name)
+        bucket = collector[key]
+        bucket["documents"].add(row["document"])
+
+        pred_count = row.get("pred_count", "")
+        gold_count = row.get("gold_count", "")
+
+        pred = float(pred_count) if pred_count != "" and pred_count is not None else None
+        gold = float(gold_count) if gold_count != "" and gold_count is not None else None
+
+        # Derive TP from available metric/count pair.
+        tp = None
+        recall = row.get("recall", "")
+        precision = row.get("precision", "")
+        if gold is not None and recall != "":
+            tp = float(recall) * gold
+        elif pred is not None and precision != "":
+            tp = float(precision) * pred
+
+        if tp is not None:
+            bucket["tp"] += tp
+        if pred is not None:
+            bucket["pred"] += pred
+        if gold is not None:
+            bucket["gold"] += gold
+
+    for row in entry_rows:
+        add_row(row, "entry", row["element"])
+
+    for row in tag_rows:
+        add_row(row, "tag", row["tag"])
+
+    out_rows: list[dict[str, Any]] = []
+    for (model, prompt, group_type, group_name), values in sorted(
+        collector.items(),
+        key=lambda x: (
+            natural_sort_key(x[0][0]),
+            natural_sort_key(x[0][1]),
+            0 if x[0][2] == "entry" else 1,
+            natural_sort_key(x[0][3]),
+        ),
+    ):
+        tp = values["tp"]
+        pred = values["pred"]
+        gold = values["gold"]
+
+        micro_precision = tp / pred if pred > 0 else 0.0
+        micro_recall = tp / gold if gold > 0 else 0.0
+        micro_f1 = (
+            2 * micro_precision * micro_recall / (micro_precision + micro_recall)
+            if (micro_precision + micro_recall) > 0
+            else 0.0
+        )
+
+        out_rows.append(
+            {
+                "model": model,
+                "prompt": prompt,
+                "group_type": group_type,
+                "group_name": group_name,
+                "mean_precision": round(micro_precision, 6),
+                "mean_recall": round(micro_recall, 6),
+                "mean_f1": round(micro_f1, 6),
+                "support": int(gold) if gold > 0 else len(values["documents"]),
+                "n_documents": len(values["documents"]),
+            }
+        )
+
+    return out_rows
+
+
+def merge_macro_micro_overall_rows(
+    macro_rows: list[dict[str, Any]],
+    micro_rows: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Merge macro and micro F1 into a single row set keyed by model/prompt/group."""
+    micro_lookup: dict[tuple[str, str, str, str], dict[str, Any]] = {}
+    for row in micro_rows:
+        key = (row["model"], row["prompt"], row["group_type"], row["group_name"])
+        micro_lookup[key] = row
+
+    merged: list[dict[str, Any]] = []
+    for row in macro_rows:
+        key = (row["model"], row["prompt"], row["group_type"], row["group_name"])
+        micro = micro_lookup.get(key, {})
+        merged.append(
+            {
+                "model": row["model"],
+                "prompt": row["prompt"],
+                "group_type": row["group_type"],
+                "group_name": row["group_name"],
+                "mean_precision": row.get("mean_precision", ""),
+                "mean_recall": row.get("mean_recall", ""),
+                "macro_f1": row.get("mean_f1", ""),
+                "micro_f1": micro.get("mean_f1", ""),
+                "support": row.get("support", ""),
+                "n_documents": row.get("n_documents", ""),
+            }
+        )
+
+    return merged
 
 
 def build_entry_prompt_matrix_rows(
@@ -551,9 +751,9 @@ def plot_prompt1_document_bars_by_model(
     models: list[str],
     documents: list[str],
     out_path: Path,
-    prompt: str = "Prompt_1",
+    prompt: str = "FS",
 ) -> None:
-    """One PNG per entry type: X=documents, bars=models, Y=F1 – Prompt 1."""
+    """One PNG per entry type: X=documents, bars=models, Y=F1 for a given prompt."""
     filtered = [r for r in entry_rows if r["prompt"] == prompt]
 
     for element in ["mainEntry", "relatedEntry"]:
@@ -565,7 +765,7 @@ def plot_prompt1_document_bars_by_model(
         fig, ax = plt.subplots(figsize=(max(10, len(documents) * 0.9), 5))
         _bar_chart_single(
             ax, lookup, documents, documents, models,
-            title=f"{element} – F1 par document (Prompt 1)",
+            title=f"{element} – F1 par document ({prompt})",
             ylabel="F1",
             x_rotation=30,
             show_values=False,
@@ -590,6 +790,7 @@ def plot_mean_f1_by_model(
     models: list[str],
     prompts: list[str],
     out_path: Path,
+    metric_label: str = "Mean F1",
 ) -> None:
     """One PNG per entry type: X=prompts, bars=models, Y=mean F1."""
     elements = ["mainEntry", "relatedEntry"]
@@ -606,8 +807,8 @@ def plot_mean_f1_by_model(
         fig, ax = plt.subplots(figsize=(max(8, len(prompts) * 2.0), 5))
         _bar_chart_single(
             ax, lookup, prompts, plabels, models,
-            title=f"{element} – Mean F1 par prompt et par modèle",
-            ylabel="Mean F1",
+            title=f"{element} – {metric_label} par prompt et par modèle",
+            ylabel=metric_label,
             x_rotation=0,
         )
         ax.legend(
@@ -623,6 +824,135 @@ def plot_mean_f1_by_model(
         element_path = out_path.with_name(f"{stem}_{element}.png")
         fig.savefig(element_path, dpi=300, bbox_inches="tight")
         plt.close(fig)
+
+
+def plot_tag_micro_by_prompt_model(
+    overall_rows_micro: list[dict[str, Any]],
+    models: list[str],
+    prompts: list[str],
+    out_path: Path,
+    tag_name: str,
+) -> None:
+    """Single chart: X=prompts, bars=models, Y=micro F-mesure for one tag."""
+    lookup: dict[tuple[str, str], float] = {}
+    for row in overall_rows_micro:
+        if row.get("group_type") == "tag" and row.get("group_name") == tag_name:
+            val = row.get("mean_f1", "")
+            if val != "":
+                lookup[(row["model"], row["prompt"])] = float(val)
+
+    prompt_labels = [prompt_label(p) for p in prompts]
+
+    fig, ax = plt.subplots(figsize=(max(8, len(prompts) * 2.0), 5))
+    _bar_chart_single(
+        ax,
+        lookup,
+        prompts,
+        prompt_labels,
+        models,
+        title=f"{tag_name} - Micro F-mesure par prompt et par modele",
+        ylabel="Micro F-mesure",
+        x_rotation=0,
+    )
+    ax.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.18),
+        ncol=min(4, len(models)),
+        borderaxespad=0,
+        fontsize=9,
+        title="Modele",
+    )
+
+    fig.tight_layout()
+    fig.savefig(out_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+
+
+def plot_prompt1_entry_metrics_for_model(
+    entry_rows: list[dict[str, Any]],
+    documents: list[str],
+    out_path: Path,
+    model: str = "gpt-5-mini",
+    prompt: str = "FS",
+    element: str = "relatedEntry",
+) -> None:
+    """Plot precision/recall/micro_f1 by document for one model/prompt and a given entry type."""
+    selected = [
+        r for r in entry_rows
+        if r["model"] == model and r["prompt"] == prompt and r["element"] == element
+    ]
+
+    lookup: dict[str, dict[str, float]] = {}
+    for row in selected:
+        precision = float(row["precision"]) if row.get("precision", "") != "" else 0.0
+        recall = float(row["recall"]) if row.get("recall", "") != "" else 0.0
+
+        pred_count = row.get("pred_count", "")
+        gold_count = row.get("gold_count", "")
+        pred = float(pred_count) if pred_count != "" and pred_count is not None else 0.0
+        gold = float(gold_count) if gold_count != "" and gold_count is not None else 0.0
+
+        tp = recall * gold if gold > 0 else precision * pred
+        micro_precision = tp / pred if pred > 0 else 0.0
+        micro_recall = tp / gold if gold > 0 else 0.0
+        micro_f1 = (
+            2 * micro_precision * micro_recall / (micro_precision + micro_recall)
+            if (micro_precision + micro_recall) > 0
+            else 0.0
+        )
+
+        lookup[row["document"]] = {
+            "precision": precision,
+            "recall": recall,
+            "micro_f1": micro_f1,
+        }
+
+    metrics = ["precision", "recall", "micro_f1"]
+    metric_labels = {
+        "precision": "Precision",
+        "recall": "Recall",
+        "micro_f1": "Micro F-mesure",
+    }
+    metric_colors = {
+        "precision": "#355070",
+        "recall": "#6D597A",
+        "micro_f1": "#2A9D8F",
+    }
+
+    width = 0.8 / len(metrics)
+    x_positions = list(range(len(documents)))
+
+    fig, ax = plt.subplots(figsize=(max(10, len(documents) * 0.9), 5))
+
+    for idx, metric in enumerate(metrics):
+        y_values = [lookup.get(doc, {}).get(metric, math.nan) for doc in documents]
+        shifted = [x + (idx - (len(metrics) - 1) / 2) * width for x in x_positions]
+        ax.bar(
+            shifted,
+            y_values,
+            width=width,
+            label=metric_labels[metric],
+            color=metric_colors[metric],
+        )
+
+    ax.set_ylim(0.0, 1.0)
+    ax.set_ylabel("Score")
+    ax.set_title(f"{element} - {prompt} - {model} (Precision / Recall / Micro F-mesure)")
+    ax.set_xticks(x_positions)
+    ax.set_xticklabels(documents, rotation=30, ha="right")
+    ax.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.18),
+        ncol=3,
+        borderaxespad=0,
+        fontsize=9,
+    )
+    ax.yaxis.grid(True, linestyle="--", alpha=0.5)
+    ax.set_axisbelow(True)
+
+    fig.tight_layout()
+    fig.savefig(out_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
 
 
 def plot_mean_f1_bar(mean_rows: list[dict[str, Any]], tags: list[str], out_path: Path) -> None:
@@ -650,8 +980,8 @@ def plot_mean_f1_bar(mean_rows: list[dict[str, Any]], tags: list[str], out_path:
         )
 
     ax.set_ylim(0.0, 1.05)
-    ax.set_ylabel("Mean F1")
-    ax.set_title("Mean F1 by element, model and prompt")
+    ax.set_ylabel("Micro F-mesure")
+    ax.set_title("Micro F-mesure by element, model and prompt")
     ax.set_xticks(x_positions)
     ax.set_xticklabels(series_labels, rotation=45, ha="right")
     ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0))
@@ -686,11 +1016,14 @@ def main() -> None:
 
     observed_model_prompts = {(r["model"], r["prompt"]) for r in entry_rows}
     observed_model_prompts.update({(r["model"], r["prompt"]) for r in tag_rows})
+
+    figure_models = sort_models_for_figures(models)
+    figure_model_index = {m: i for i, m in enumerate(figure_models)}
     model_prompts = [
         f"{model} | {prompt}"
         for model, prompt in sorted(
             observed_model_prompts,
-            key=lambda x: (natural_sort_key(x[0]), natural_sort_key(x[1])),
+            key=lambda x: (figure_model_index.get(x[0], 999), natural_sort_key(x[1])),
         )
     ]
 
@@ -754,11 +1087,14 @@ def main() -> None:
     )
 
     mean_rows = mean_f1_by_model_prompt(entry_rows, tag_rows, tags)
+    mean_rows_micro = mean_f1_by_model_prompt_micro(entry_rows, tag_rows, tags)
     mean_fieldnames = ["model", "prompt"] + [f"mean_f1_{e}" for e in ["mainEntry", "relatedEntry"] + [f"tag:{t}" for t in tags]]
     write_csv(tables_dir / "mean_f1_by_model_prompt.csv", mean_rows, mean_fieldnames)
     write_markdown_table(tables_dir / "mean_f1_by_model_prompt.md", mean_rows, mean_fieldnames)
 
     overall_rows = mean_scores_overall(entry_rows, tag_rows)
+    overall_rows_micro = mean_scores_overall_micro(entry_rows, tag_rows)
+    merged_overall_rows = merge_macro_micro_overall_rows(overall_rows, overall_rows_micro)
     overall_fieldnames = [
         "model",
         "prompt",
@@ -766,12 +1102,13 @@ def main() -> None:
         "group_name",
         "mean_precision",
         "mean_recall",
-        "mean_f1",
+        "macro_f1",
+        "micro_f1",
         "support",
         "n_documents",
     ]
-    write_csv(tables_dir / "mean_scores_overall_documents.csv", overall_rows, overall_fieldnames)
-    write_markdown_table(tables_dir / "mean_scores_overall_documents.md", overall_rows, overall_fieldnames)
+    write_csv(tables_dir / "mean_scores_overall_documents.csv", merged_overall_rows, overall_fieldnames)
+    write_markdown_table(tables_dir / "mean_scores_overall_documents.md", merged_overall_rows, overall_fieldnames)
 
     main_matrix_rows, prompt_columns = build_entry_prompt_matrix_rows(
         overall_rows,
@@ -851,9 +1188,78 @@ def main() -> None:
 
     plot_entries_heatmaps(entry_rows, documents, model_prompts, figures_dir / "entries_f1_heatmaps.png")
     plot_tags_heatmaps(tag_rows, tags, documents, model_prompts, figures_dir / "tags_f1_heatmaps.png")
-    plot_mean_f1_bar(mean_rows, tags, figures_dir / "mean_f1_by_element_model_prompt.png")
-    plot_prompt1_document_bars_by_model(entry_rows, models, documents, figures_dir / "prompt1_f1_by_document_and_model.png")
-    plot_mean_f1_by_model(overall_rows, models, prompts, figures_dir / "mean_f1_by_model.png")
+    plot_mean_f1_bar(mean_rows_micro, tags, figures_dir / "micro_f1_by_element_model_prompt.png")
+    plot_prompt1_document_bars_by_model(entry_rows, figure_models, documents, figures_dir / "fs_f1_by_document_and_model.png", prompt="FS")
+    plot_mean_f1_by_model(overall_rows_micro, figure_models, prompts, figures_dir / "micro_f1_by_model.png", metric_label="Micro F-mesure")
+    plot_tag_micro_by_prompt_model(
+        overall_rows_micro,
+        figure_models,
+        prompts,
+        figures_dir / "micro_f1_milestone_by_prompt_model.png",
+        tag_name="milestone",
+    )
+    plot_tag_micro_by_prompt_model(
+        overall_rows_micro,
+        figure_models,
+        prompts,
+        figures_dir / "micro_f1_usg-dom_by_prompt_model.png",
+        tag_name="usg_dom",
+    )
+    plot_tag_micro_by_prompt_model(
+        overall_rows_micro,
+        figure_models,
+        prompts,
+        figures_dir / "micro_f1_usg-other_by_prompt_model.png",
+        tag_name="usg_other",
+    )
+    plot_prompt1_entry_metrics_for_model(
+        entry_rows,
+        documents,
+        figures_dir / "fs_relatedentry_precision_recall_microf1_gpt-5-mini.png",
+        model="gpt-5-mini",
+        prompt="FS",
+        element="relatedEntry",
+    )
+    plot_prompt1_entry_metrics_for_model(
+        entry_rows,
+        documents,
+        figures_dir / "fs_mainentry_precision_recall_microf1_gpt-5-mini.png",
+        model="gpt-5-mini",
+        prompt="FS",
+        element="mainEntry",
+    )
+    plot_prompt1_entry_metrics_for_model(
+        entry_rows,
+        documents,
+        figures_dir / "fs_relatedentry_precision_recall_microf1_gemma-3-27b-it.png",
+        model="gemma-3-27b-it",
+        prompt="FS",
+        element="relatedEntry",
+    )
+    plot_prompt1_entry_metrics_for_model(
+        entry_rows,
+        documents,
+        figures_dir / "fs_mainentry_precision_recall_microf1_gemma-3-27b-it.png",
+        model="gemma-3-27b-it",
+        prompt="FS",
+        element="mainEntry",
+    )
+
+    # Remove legacy figure names that previously used "mean" for micro-based outputs.
+    (figures_dir / "mean_f1_by_element_model_prompt.png").unlink(missing_ok=True)
+    (figures_dir / "mean_f1_by_model_mainEntry.png").unlink(missing_ok=True)
+    (figures_dir / "mean_f1_by_model_relatedEntry.png").unlink(missing_ok=True)
+    (figures_dir / "mean_f1_by_model.png").unlink(missing_ok=True)
+    (figures_dir / "mean_f1_by_model_micro_mainEntry.png").unlink(missing_ok=True)
+    (figures_dir / "mean_f1_by_model_micro_relatedEntry.png").unlink(missing_ok=True)
+
+    # Remove legacy Prompt_1 figure names replaced by FS strategy outputs.
+    (figures_dir / "prompt1_f1_by_document_and_model_mainEntry.png").unlink(missing_ok=True)
+    (figures_dir / "prompt1_f1_by_document_and_model_relatedEntry.png").unlink(missing_ok=True)
+    (figures_dir / "prompt1_relatedentry_precision_recall_microf1_gpt-5-mini.png").unlink(missing_ok=True)
+    (figures_dir / "prompt1_mainentry_precision_recall_microf1_gpt-5-mini.png").unlink(missing_ok=True)
+    (figures_dir / "prompt1_relatedentry_precision_recall_microf1_gemma-3-27b-it.png").unlink(missing_ok=True)
+    (figures_dir / "prompt1_mainentry_precision_recall_microf1_gemma-3-27b-it.png").unlink(missing_ok=True)
 
     print("Generated article assets:")
     print(f"- Tables: {tables_dir}")
