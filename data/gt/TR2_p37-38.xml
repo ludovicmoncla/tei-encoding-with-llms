@@ -133,7 +133,6 @@
                voir si les chemins sont en bon état ; les maîtres des Eaux &amp; Forêts, pour
                conserver les Forêts du Roi, &amp;c. Et les rapports qu'ils en envoient au Conseil
                sont appellés les procès verbaux de chevauchée.</sense>
-            <milestone unit="paragraph" rendition="#leftShift"/>
             <entry type="relatedEntry">
                <form type="lemmaGrp">
                <form type="lemma">Devoir chevauchée</form>
@@ -276,7 +275,7 @@
             </form> 
             <sense><usg type="time" ana="#vieux">Vieux mot</usg>, qui signifie chevet, oreiller.</sense>
          </entry>
-         <entry>
+         <entry type="mainEntry">
             <form type="lemmaGrp">
                <form type="lemma">
                   <orth>CHEVECERIE</orth>
