@@ -255,7 +255,7 @@
                   <orth>FABRICIUS</orth>
                </form>
                <pc>,</pc>
-               <form type="variant">
+               <form type="inflected">
                   <orth>FABRICIA</orth>
                </form>
                <metamark function="lemmaDelimiter">,</metamark>
@@ -278,7 +278,7 @@
                   <orth>FABRINIUS</orth>
                </form>
                <pc>,</pc>
-               <form type="variant">
+               <form type="inflected">
                   <orth>FABRINIA</orth>
                </form>
                <metamark function="lemmaDelimiter">.</metamark>
