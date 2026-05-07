@@ -1,72 +1,126 @@
 # TEI Encoding with LLMs
 
+Ce depot contient un pipeline d'evaluation pour comparer des sorties TEI generees par differents LLMs, sur plusieurs documents et strategies de prompt.
 
-This repository contains code and resources for using Large Language Models (LLMs) to assist in the encoding of texts in the Text Encoding Initiative (TEI) format. The TEI is a standard for representing texts in digital form, and LLMs can help automate and enhance the encoding process.
+Objectifs principaux:
+
+- evaluer `mainEntry` et `relatedEntry` (precision, rappel, F1),
+- evaluer les tags globaux (`usg_dom`, `usg_other`, `milestone`),
+- produire des tableaux et figures resumant les performances par modele/prompt/element.
 
 
 ## Installation
 
-To install project dependencies:
-
 ```sh
-python -m venv .venv  # create virtual env.
-source .venv/bin/activate  # use virtual env (linux, macos)
-python -m pip install -r requirements.txt  # install dependencies
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 
-## Project structure:
+## Structure du projet
 
-```
-├── data/  
-│   ├── input/            # fichiers d'entrée
-│   │   └── TR5_p489-490.txt
-│   ├── prompts/          # prompts utilisés
-│   │   ├── Prompt_1.txt
-│   │   ├── Prompt_2.txt
-│   │   └── Prompt_3.txt
-│   ├── gt/               # ground truth
-│       └── TR5_p489-490.xml
-│   ├── output/           # sorties des modèles
-│   │    ├── gpt-5-mini/
-│   │    │   ├── Prompt_1/
-│   │    │   │   └── TR5_p489-490.xml
-│   │    │   └── Prompt_2/
-│   │    │   │   └── TR5_p489-490.xml
-│   │    │   └── gemma-3-27b-it/
-│   │    │       ├── Prompt_1/
-│   │    │       │    └── TR5_p489-490.xml
-│   │    │       └── Prompt_2/
-│   │    │           └── TR5_p489-490.xml
-└── reports/       # métriques / résultats d'évaluation
+```text
+.
+├── data/
+│   ├── input/      # textes source
+│   ├── gt/         # TEI de reference (gold)
+│   ├── output/     # sorties TEI des modeles
+│   └── prompts/    # prompts utilises
+├── reports/        # rapports JSON par modele/prompt/document
+├── scripts/
+│   └── generate_article_results.py
+├── evaluation.ipynb
+└── article_results/
+		├── tables/
+		└── figures/
 ```
 
 
-## Générer des tableaux et graphiques pour un article
+## Convention des rapports
 
-Le script suivant agrège les fichiers JSON de `reports/` et produit:
+Le script agrege les fichiers de `reports/` avec le schema suivant:
 
-- des tableaux CSV et Markdown par document / modèle / prompt,
-- des scores pour `mainEntry`, `relatedEntry` et tous les tags,
-- des graphiques (heatmaps + bar chart).
+`<model>_<prompt>_<document>.json`
 
-Commande:
+Prompts supportes:
+
+- `ZS`
+- `FS`
+- `FS-R`
+
+
+## Evaluation (notebook)
+
+Le notebook `evaluation.ipynb`:
+
+1. lit un XML predit et un XML gold,
+2. aligne les entrees (`mainEntry`, `relatedEntry`),
+3. calcule precision/rappel/F1 + comptes,
+4. extrait les tags globaux et calcule leurs scores,
+5. ecrit un JSON dans `reports/`.
+
+Important pour les tags:
+
+- les scores sont calcules a partir des comptes globaux par document (pas d'alignement positionnel fin).
+
+
+## Generation des tableaux et figures
+
+Script principal:
 
 ```sh
 python scripts/generate_article_results.py
 ```
 
-Sorties:
+Options:
+
+```sh
+python scripts/generate_article_results.py \
+	--reports-dir reports \
+	--out-dir article_results \
+	--gt-dir data/gt
+```
+
+Ce script produit:
+
+- tables CSV + Markdown dans `article_results/tables/`,
+- figures PNG dans `article_results/figures/`.
+
+
+## Sorties principales
+
+Tables:
 
 - `article_results/tables/entries_by_document.md`
 - `article_results/tables/tags_by_document.md`
 - `article_results/tables/mean_f1_by_model_prompt.md`
+- `article_results/tables/mean_scores_overall_documents.md`
+- `article_results/tables/scores_matrix_entries.md`
+
+Figures:
+
 - `article_results/figures/entries_f1_heatmaps.png`
 - `article_results/figures/tags_f1_heatmaps.png`
-- `article_results/figures/mean_f1_by_element_model_prompt.png`
+- `article_results/figures/micro_f1_by_element_model_prompt.png`
+- `article_results/figures/micro_f1_by_model_mainEntry.png`
+- `article_results/figures/micro_f1_by_model_relatedEntry.png`
+- `article_results/figures/micro_f1_milestone_by_prompt_model.png`
+- `article_results/figures/micro_f1_usg-dom_by_prompt_model.png`
+- `article_results/figures/micro_f1_usg-other_by_prompt_model.png`
+- `article_results/figures/fs_f1_by_document_and_model_mainEntry.png`
+- `article_results/figures/fs_f1_by_document_and_model_relatedEntry.png`
 
-Options:
 
-```sh
-python scripts/generate_article_results.py --reports-dir reports --out-dir article_results
-```
+## Macro vs micro
+
+Dans `mean_scores_overall_documents.*`:
+
+- `macro_f1`: moyenne simple des F1 par document,
+- `micro_f1`: calcul global a partir des comptes agreges (TP/FP/FN implicites).
+
+
+## Notes
+
+- Le tri des modeles dans les figures est personnalise pour faciliter la lecture
+- Les scores sont formates a 2 decimales dans les exports.
