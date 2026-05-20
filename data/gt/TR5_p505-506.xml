@@ -37,7 +37,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense> Nom propre d'une petite ville forte, située dans l'Épire, sur le bord
@@ -55,7 +55,7 @@
                <metamark>.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">subst.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre d'homme, qui s'est fait de Procule. Proculus. Voyez M.
@@ -69,7 +69,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense><usg type="dom" ana="#theologie">Terme de Théologie.</usg> Connoissance de ce qui
@@ -84,7 +84,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="subc" expand="active" norm="actif">act.</gram>
+                  <gram type="subc" expand="active" norm="Act">act.</gram>
                </gramGrp>
                <form type="inflected">
                   <orth>Je prévoi</orth>, 
@@ -114,8 +114,8 @@
                   </form>
                   <metamark function="lemmaDelimiter">.</metamark> 
                   <gramGrp>
-                     <gram type="verbForm" expand="participe" norm="part">part.</gram> 
-                     <gram type="subc" expand="passe" norm="past">pass.</gram> &amp; 
+                     <gram type="subc" expand="participe" norm="Part">part.</gram> 
+                     <gram type="subc" expand="passe" norm="Past">pass.</gram> &amp; 
                      <gram type="pos" expand="adjectif" norm="ADJ">adj.</gram>
                   </gramGrp>
                </form> 
@@ -130,7 +130,7 @@
                <metamark function="lemmaDelimiter">.</metamark> 
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form> 
             <sense>Juge inférieur. Tribunus, Praepositus. Les Prevôts sont les premiers

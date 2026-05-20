@@ -24,7 +24,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="subc" expand="active" norm="actif">act.</gram>
+                  <gram type="subc" expand="active" norm="Act">act.</gram>
                </gramGrp>
             </form>
             <sense>Garder, garantir de quelque mal. Servare, custodire, tueri, defendere. On
@@ -44,8 +44,8 @@
                   </form>
                   <metamark function="lemmaDelimiter">.</metamark>
                   <gramGrp>
-                     <gram type="verbForm" expand="participe" norm="part">part.</gram>
-                     <gram type="subc" expand="passe" norm="past">pass.</gram> &amp; <gram
+                     <gram type="subc" expand="participe" norm="Part">part.</gram>
+                     <gram type="subc" expand="passe" norm="Past">pass.</gram> &amp; <gram
                         type="pos" expand="adjectif" norm="ADJ">adj.</gram>
                   </gramGrp>
                </form>
@@ -58,7 +58,7 @@
                <metamark>.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">subst.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>La qualité de Président. Praesidis dignitas. La première Présidence d'un
@@ -72,7 +72,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Chef, ou Modérateur d'une Compagnie, d'une Assemblée. Praeses, Moderator.
@@ -160,7 +160,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="subc" expand="neutre" norm="neuter">n.</gram>
+                  <gram type="subc" expand="neutre" norm="Neut">n.</gram>
                </gramGrp>
             </form>
             <sense>Être à la tête d'une assemblée pour la régir &amp; modérer, pour recueillir
@@ -218,10 +218,10 @@
                <metamark function="lemmaDelimiter">.</metamark> 
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; 
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram> &amp; 
                   <gram type="pos" expand="adjectif" norm="ADJ">adj.</gram> 
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; 
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram> &amp; 
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
                <sense>Tribunal ; Compagnie de Juges établie
@@ -285,8 +285,8 @@
                <metamark function="lemmaDelimiter">.</metamark> 
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
-                  <gram type="num" expand="pluriel" norm="plural">plur.</gram> 
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="num" expand="pluriel" norm="Plur">plur.</gram> 
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form> 
             <sense>Mot Italien. L'État delli Présidii. Status, Ditio Praesidii.

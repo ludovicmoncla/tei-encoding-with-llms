@@ -78,7 +78,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>C'est un bâtiment public fait en forme d'Hôpital, pour recevoir les pauvres, les
@@ -99,7 +99,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Chevalier de S. Lazare. Lazarita, sancti Lazari miles.</sense>
@@ -114,8 +114,8 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; <gram
-                     type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram> &amp; <gram
+                     type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Nom d'un peuple de Scythie. Lazus, a. Pline, L. VI. C. 4. Étienne de
@@ -130,7 +130,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense><usg type="dom" ana="#comedie_italienne">Terme de Comédie Italienne.</usg>
@@ -191,7 +191,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Largeur d'une étoffe entre deux lisières. Panni latitudo. Pour faire ces
@@ -240,7 +240,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense><usg type="dom" ana="#relation">Terme de Relation.</usg> En Latin,
@@ -256,7 +256,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre d'homme. Leander. S. Grégoire le Grand fut ami de Léandre,
@@ -299,7 +299,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Grande ville de la Chine. Leaum. Elle est dans la Province de Xansi, &amp;
@@ -318,7 +318,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre d'une grande contrée dépendante de la Chine. Leaotunia. Elle a
