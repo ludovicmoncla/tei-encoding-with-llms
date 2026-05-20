@@ -28,7 +28,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Petit ragoût que font les Cuisiniers avec de la chair de veau hachée &amp; des
@@ -43,7 +43,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Andratomia. Dissection du corps humain, comme la Zootomie est la dissection du
@@ -59,7 +59,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Andreas. Nom propre d'homme. S. André étoit disciple de S. Jean-Baptiste ; il fut
@@ -164,7 +164,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Animal fabuleux, sur lequel les Auteurs des anciens Romans ont monté leurs Héros,
@@ -184,7 +184,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Robe à l'usage des Dames. A la représentation qui se fit en 1704. de l'Andrienne,
@@ -201,7 +201,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Adrianopolis, Hadrianopolis. Nom propre de ville. Il y en a eu plusieurs de ce
@@ -228,8 +228,8 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram> &amp; <gram
-                     type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram> &amp; <gram
+                     type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Hermaphrodite, qui a les deux natures, qui est mâle &amp; femelle tout ensemble.
@@ -260,7 +260,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form> 
             <sense>Androïdes. Figure d'homme qui par le moyen de ressorts &amp; de machines, marche &amp;

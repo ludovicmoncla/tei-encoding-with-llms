@@ -84,7 +84,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="subc" expand="active" norm="actif">act.</gram>
+                  <gram type="subc" expand="active" norm="Act">act.</gram>
                </gramGrp>
             </form>
             <sense>Tailler du bois de charpente pour le mettre en état d'être assemblé. Materiarium
@@ -103,7 +103,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Art qui enseigne à tailler &amp; à assembler de grosses pièces de bois pour bâtir
@@ -123,7 +123,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Ouvrier qui taille &amp; qui assemble la charpente. Materiarius, tignarius faber.
@@ -170,7 +170,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp> Quelques-uns disent <form type="variant"><orth>charpi</orth></form>,
                d'autres <form type="variant"><orth>charpis</orth></form>, au masculin.</form>
             <sense>Filets de vieille toile qui servent à faire des tentes pour panser les plaies.
@@ -189,7 +189,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="subc" expand="neutre" norm="neuter">n.</gram>
+                  <gram type="subc" expand="neutre" norm="Neut">n.</gram>
                </gramGrp>
             </form>
             <sense><usg type="time" ana="#vieux">Vieux mot,</usg> qui signifioit autrefois, Faire de
@@ -205,7 +205,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Cendre qui reste sur le cuvier quand on a coulé la lescive. Lixivius cinis,
@@ -219,7 +219,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Ce que peut contenir, ou ce que peut porter une charrette. Vehes, vehis, plaustri
@@ -275,7 +275,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Vaisseau qui est monté sur deux roues, qui sert à voiturer les denrées &amp;
@@ -309,7 +309,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Conduite de voitures sur des roues, soit charrette, charriot, coche ou carrosse.

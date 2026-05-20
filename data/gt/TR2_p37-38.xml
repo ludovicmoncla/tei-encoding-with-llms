@@ -73,7 +73,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>L'Ordre de S. Jacques de l'Epée en Espagne &amp; en Portugal a des Religieuses
@@ -90,7 +90,7 @@
                <metamark function="lemmaDelimieter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram></gramGrp>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram></gramGrp>
             </form>
             <sense><usg type="time" ana="#vieux">Vieux mot</usg>, qui ne se dit plus qu'à la <usg type="geo" ana="#campagne">campagne</usg>, de la nourriture ou du trafic des
                chevaux. Equorum commercium, pabulum. Ce pays est abondant en prairies, on y fait
@@ -108,7 +108,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense><usg type="time" ana="#vieux">Vieux mot &amp; hors d'usage</usg>, qui signifioit autrefois le bien d'ue personne.
@@ -123,7 +123,7 @@
                </form><metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Equestris excursio, calvacata <usg type="lang" ana="#basse_latinite">dans la basse Latinité</usg>. Visite que sont obligés de
@@ -161,7 +161,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="voice" expand="actif" norm="active">act.</gram>
+                  <gram type="subc" expand="actif" norm="Act">act.</gram>
                </gramGrp>
             </form> 
             <sense><usg type="time" ana="#vieux">Vieux mot</usg>, qui signifioit autrefois, Aller à cheval. Equitare. Personne n'a
@@ -191,7 +191,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form> 
             <sense><usg type="time" ana="#vieux">Vieux mot</usg>, qui signifioit autrefois, Maître de
@@ -226,7 +226,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form> 
             <sense><usg type="time" ana="#vieux">vieux mot</usg>, qui veut dire monture.</sense></entry>
@@ -246,7 +246,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form> 
             <sense>Cavalerie. Equitatus. <usg type="time" ana="desuet">Il y a long-temps que ce mot ne se dit plus.</usg>
@@ -259,7 +259,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form> 
             <sense>Tresse de cheveux. Ce mot n'est plus en usage.</sense>
@@ -270,7 +270,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form> 
             <sense><usg type="time" ana="#vieux">Vieux mot</usg>, qui signifie chevet, oreiller.</sense>
@@ -296,7 +296,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram></gramGrp>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram></gramGrp>
             </form> 
             <sense>Espèce d'oiseau nocturne, de mauvais augure, qu'on appelle autrement chouette,
             ou civette, ou fresaye. Noctua, ulula, strix. Voyez CHOUETTE. Ce mot vient de cavecca,
@@ -310,7 +310,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form> 
             <sense>Celui qui est le Chef, qui a la première dignité dans plusieurs Eglises
