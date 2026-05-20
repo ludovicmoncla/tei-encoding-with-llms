@@ -51,7 +51,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense><usg type="dom" ana="#relation">Terme de Relation</usg> corrompu du Grec
@@ -73,7 +73,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram></gramGrp>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram></gramGrp>
             </form>
             <sense>Nom propre d'une petite ville d'Allemagne Zontium, Sontina. Elle est sur le Rhin,
                dans l'Archevêché de Cologne, à cinq lieues au-dessous de la ville de Cologne.
@@ -87,7 +87,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Description de la Nature &amp; des propriétés des Animaux. Zoographia.</sense>
@@ -102,7 +102,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Culte, adoration des animaux. Zoolatria. La zoolâtrie étoit fort en usage chez
@@ -118,7 +118,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense><usg type="dom" ana="#architecture">Terme d'Architecture.</usg> C'est la
@@ -165,7 +165,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Corps naturel qui tient de l'animal &amp; de la plante. Planta animalis.
@@ -189,7 +189,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>C'est un goudron ou espèce de poix noire qu'on détache des navires, après
@@ -247,7 +247,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">masc.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">masc.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre d'un bourg de l'État de Venise. Zoanum, Zovanum. Il est dans le
@@ -270,8 +270,8 @@
                </form>
                <metamark function="lemmaDelimiter">.</metamark>
             </form>
-            <sense>Nom d'un cap de l'île de Candie. Caput S. Joannis, <usg type="time" ana="#anciennement">anciennement</usg> <form type="variant"><orth>Zephyrium
-               promontorium</orth></form>. Il est en la côte septentrionale, près de la forteresse de Spinalonga.
+            <sense>Nom d'un cap de l'île de Candie. Caput S. Joannis, <usg type="time" ana="#anciennement">anciennement <oRef type="variant">Zephyrium
+               promontorium</oRef></usg>. Il est en la côte septentrionale, près de la forteresse de Spinalonga.
                Maty.</sense>
          </entry>
          <entry type="mainEntry">
@@ -292,7 +292,7 @@
                </gramGrp>
             </form>
             <sense>Nom d'un isthme qui joint la Tartarie-Crimée avec celle de Nogais, qui sont
-               les deux parties de la petite Tartarie. Zucala, <usg type="time" ana="#anciennement">anciennement</usg> <form type="variant"><orth>isthmus Tauricus</orth></form>. Cet
+               les deux parties de la petite Tartarie. Zucala, <usg type="time" ana="#anciennement">anciennement <oRef type="variant">isthmus Tauricus</oRef></usg>. Cet
                isthme est entre le lac de Sescan, &amp; le golfe de Nigropoli, partie de la mer
                Noire. Il n'a pas plus de demi-lieue de largeur, &amp; il est défendu par la ville de
                Pérécop, qui y est située. Maty.</sense>
@@ -305,7 +305,7 @@
                <metamark function="lemmaDelimiter">.</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="pos" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre de Royaume. Zuenziga Regnum. Contrée du Zaara, en Afrique. Elle
