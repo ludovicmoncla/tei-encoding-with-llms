@@ -25,7 +25,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="voice" expand="actif" norm="active">act.</gram>
+                  <gram type="subc" expand="actif" norm="Act">act.</gram>
                </gramGrp>
             </form>
             <sense>Recevoir l'exhibition d'un contrat d'acquisition d'un héritage dépendant de sa
@@ -43,7 +43,7 @@
                   </form>
                   <metamark function="lammaDelimieter">.</metamark>
                   <gramGrp>
-                     <gram type="VerbForm" expand="participe" norm="Part">part.</gram>
+                     <gram type="subc" expand="participe" norm="Part">part.</gram>
                   </gramGrp>
                </form>
             </entry>
@@ -56,7 +56,7 @@
                <metamark function="lemmaDelimieter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="voice" expand="actif" norm="active">act.</gram>
+                  <gram type="subc" expand="actif" norm="Act">act.</gram>
                </gramGrp>
             </form>
             <sense>Rendre sanglant ; couvrir de sang. Cruentare, oblinire sanguine, cruore tingere.
@@ -96,8 +96,8 @@
                   <orth>ée.</orth>
                </form>
                <gramGrp>
-                  <gram type="VerbForm" expand="participe" norm="Part">part.</gram>
-                  <gram type="Tense" expand="passe" norm="Past">pass.</gram> &amp; <gram type="pos"
+                  <gram type="subc" expand="participe" norm="Part">part.</gram>
+                  <gram type="subc" expand="passe" norm="Past">pass.</gram> &amp; <gram type="pos"
                      expand="adjectif" norm="ADJ">adj.</gram>
                </gramGrp>
             </form>
@@ -120,7 +120,7 @@
                <metamark function="lemmaDelimieter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Signe, marque publique &amp; évidente qu'on met en quelque endroit pour trouver
@@ -189,7 +189,7 @@
                   </form>
                   <metamark function="leammaDelimiter">,</metamark>
                   <gramGrp>
-                     <gram type="number" norm="Plur">au pluriel</gram>
+                     <gram type="num" norm="Plur">au pluriel</gram>
                   </gramGrp>, </form>
                <sense>se dit des preuves, des titres de quelque chose, du mérite d'une affaire.
                   Argumentum, documentum. Cet homme est noble à bonnes enseignes, il a bien des
@@ -231,7 +231,7 @@
                   <metamark function="lemmaDelimiter">,</metamark>
                   <gramGrp>
                      <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                     <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                     <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                   </gramGrp>
                </form>
                <sense>signifie aussi un Officier d'Infanterie qui porte l'enseigne, le drapeau ;
@@ -293,7 +293,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="maculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Ce qu'on montre, ce qu'on apprend aux autres, instruction que l'on donne ;
@@ -321,7 +321,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="verbe" norm="VERB">v.</gram>
-                  <gram type="voice" expand="actif" norm="active">act.</gram>
+                  <gram type="subc" expand="actif" norm="Act">act.</gram>
                </gramGrp>
             </form>
             <sense>Indiquer, apprendre à quelqu'un une chose qu'il ignoroit. Docere, commonstrare.

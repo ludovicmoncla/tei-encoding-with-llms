@@ -57,7 +57,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
                <lbl>On dit au pluriel</lbl>
                <form type="inflected"><orth>fabliaux</orth></form>. </form>
@@ -77,7 +77,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Mot inventé par Madame de Bouillon. <milestone unit="paragraph"
@@ -95,7 +95,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre d'un bourg d'Italie. Fabrianum. Il est de l'État de l'Église,
@@ -114,7 +114,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Qui entretient un ou plusieurs métiers, où l'on travaille à des étoffes de
@@ -130,7 +130,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Qui fabrique. Fabricator, opifex, artifex, faber. Les Fabricateurs des
@@ -159,7 +159,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Action de fabriquer. Fabricatio. Il ne se dit guère que des monnoies. La
@@ -188,9 +188,9 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; <gram
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram> &amp; <gram
                      type="pos" norm="PROPN">nom propre</gram>
-                  <gram type="gen" norm="masculine">d'homme</gram>
+                  <gram type="gen" norm="Masc">d'homme</gram>
                </gramGrp>. </form>
             <sense>Fabricius. Quelques-uns de nos Auteurs récens appellent Fabrices, les
                Modernes qui portent le nom de Fabricius, &amp; ils disent que Fabrice ou Fabricius,
@@ -214,7 +214,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense> Voyez FABRIQUE. Temporel d'une Église.</sense>
@@ -226,7 +226,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>On nomme ainsi dans les Chapitres, Églises, Paroisses &amp; Confrairies,
@@ -242,7 +242,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Ce mot se trouve dans quelques Auteurs, c'est la même chose que Fabricien.
@@ -261,8 +261,8 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram> &amp; <gram
-                     type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram> &amp; <gram
+                     type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre d'une famille Romaine. Fabricius, Fabricia Gens. La famille
@@ -296,7 +296,7 @@
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form>
             <sense>Maniére de construire quelque ouvrage. Fabrica, opus. La fabrique des draps

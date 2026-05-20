@@ -36,7 +36,7 @@
                <metamark function="lammaDelimiter">,</metamark>
                <gramGrp>
                   <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
-                  <gram type="gen" expand="masculin" norm="masculine">m.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
                </gramGrp>
             </form>
             <sense>Nom propre de ceux qui étoient de la famille Fabia. Fabius. Il ne faut
@@ -82,7 +82,7 @@
                </form>
                <metamark function="lemmaDelimiter">,</metamark>
                <gramGrp><gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
-                  <gram type="gen" expand="feminin" norm="feminine">f.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
                </gramGrp>
             </form> 
             <sense>Conte, narration fabuleuse ; chose feinte &amp; inventée pour
