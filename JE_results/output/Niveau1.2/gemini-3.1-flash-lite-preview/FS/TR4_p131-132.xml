@@ -1,0 +1,26 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="fragment" subtype="continued">
+        <sense>marier, &amp; avoir néanmoins des pensions sur les bénéfices.
+Ces Chevaliers faisoient autrefois des voeux solennels, &amp; il y avoit aussi des Religieuses de cet Ordre. Il en reste encore un Monastère en Suisse. Les Chevaliers hospitaliers de S. Lazare portent sur la poitrine une croix à huit pointes. Il y a de l'apparence que ce ne fut qu'à la fin du XVe siècle, ou au commencement du XVIe qu'ils la prirent, lorsque Léon X. rétablit cet Ordre en Italie. Stumpfius dit que la marque de cet Ordre est une croix verte sur un manteau noir, avec un capuce.
+On a appellé les Chevaliers de S. Lazare, Chevaliers de Saint Ladre ; &amp; l'on trouve ce nom dans quelques anciennes épitaphes de Chevaliers. On a dit aussi LAZARITE. Voyez ce mot ci-dessous. Voyez le P. Héliot, P. I. c. 4. &amp; P. II. c. 69. &amp; c. 82. &amp; ci-dessus, CARMEL, T. I. p. 1459.
+<milestone unit="paragraph" rendition="#leftShift"/>Père de S. Lazare. Nom que l'on donne à des Clercs Réguliers d'une Congrégation qui a été instituée en France au XVIIe siècle, par M. Vincent, Prêtre. Ils ont pris le nom de Pères de S. Lazare, d'une maison qu'ils ont dans un Faux-bourg de Paris, du côté du nord, sur le chemin de S. Denys. Ils ont encore un Séminaire dans Paris, qu'on nomme le Séminaire des Bons Enfans. Il est à l'entrée du Faux-bourg S. Marceau, du côté de la ville. On les appelle aussi quelquefois Lazarites. Ils font des voeux, mais simples, &amp; dont on peut leur donner la dispense. A Paris, ils desservent encore l'Église de l'Hôtel des Invalides ; &amp; à Versailles, ils ont soin de la sacristie &amp; de la Chapelle du Roi, &amp; ils ont la Paroisse.
+<milestone unit="paragraph" rendition="#leftShift"/>Saint Lazare, L'Archipel de S. Lazare. Archipelagus S. Lazari. C'est une partie de l'Océan Oriental. On lui a donné le nom d'Archipel, à cause d'un grand nombre d'îles qui s'y trouvent, entre lesquelles sont les îles des Larrons.
+<milestone unit="paragraph" rendition="#leftShift"/>Saint Lazare Baxos. Basse de S. Lazare. Écueil de S. Lazare. Syrtis S. Lazari. Cet écueil est dans l'Océan Éthiopien, près de la côte du Zanguebar, &amp; de l'île du Querinba. Maty.</sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>LAZARET</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="gen" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense>C'est un bâtiment public fait en forme d'Hôpital, pour recevoir les pauvres, les pestiférés. Xenodochium, nosocomium suburbicanum. Il est destiné en quelques endroits à faire la quarantaine par ceux qui viennent des lieux suspects de peste. C'est une grande maison hors de la ville, dont les bâtimens sont séparés &amp; isolés, &amp; où l'équipage des vaisseaux demeure quarante jours, plus ou moins, selon les temps, &amp; l'endroit du départ. Le Lazaret de Milan est un des plus beaux Hôpitaux d'Italie.
+<milestone unit="paragraph" rendition="#leftShift"/>On a appellé Lazares, les ladres ou lépreux, à cause que leur maison, ou Église, qui étoit hors des murs de Jérusalem, étoit dédiée à Saint Lazare.</sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
