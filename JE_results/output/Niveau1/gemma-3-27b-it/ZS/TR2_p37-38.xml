@@ -1,0 +1,338 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALIER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <sense>
+          est aussi une pièce du jeu des Echets qui saute par dessus les autres, &amp; va toujours de blanc en noir, &amp; de noir en blanc. Eques. L'échec du Chevalier au Roi &amp; à la Dame, au Roi &amp; à la Tour, est fort dangereux. L'échec du Chevalier ne se pout couvrir, si on ne peut le prendre, il faut que le Roi se remue.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALIER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Oiseau aquatique un peu plus gros qu'un pigeon. Il a le bec long, &amp; les jambes si hautes, qu'il est comme à cheval, &amp; c'est pour cela qu'on l'appelle Chevalier. Il y a de deux sortes d'oiseaux chevaliers. Celui qu'on appelle Chevalier rouge, &amp; l'autre Chevalier noir. Le Chevalier rouge, Equus rufus, est de la grosseur d'un pigeon. Son bec &amp; ses jambes sont longues, &amp; de couleur rouge, ce qui donne à connoître qu'il est un oiseau aquatique. Le dessus de son bec est noirâtre. Il est blanc par dessus le ventre, cendré par la tête, &amp; par dessus le cou ; grivelé dessous les ailes &amp; la queue. Ses plumes sont noires à la racine. Il a deux taches noires aux côtés des tempes, qui servent d'ombre aux sourcils, sur lesquels il y en a une blanche. Il a les pieds fendus, comme la pie de mer. Cet oiseau court très-légèremement, il fréquente les prairies &amp; le bord des rivières &amp; des étangs. Il se met à l'eau jusques aux cuisses. Sa chair est très-délicate, &amp; ne sent pas la sauvagine. Il y a quantité de ces oiseaux en basse Normandie.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALIER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Le Chevalier noir, Equus niger, dès sa naissance a les jambes &amp; le bec noir, à l'exception du dessus, qui est rougeâtre. Belon dit que si l'on ne considere point la tête, les jambes &amp; les ailes du Chevalier noir, on trouvera qu'en tout le reste il ressemble beaucoup au pigeon ramier qui est entre cendré &amp; noir. Il fait ses petits au mois d'Avril, &amp; Belon dit qu'en ce temps là il a beaucoup de ressemblance par le champ de son pennage au rasle ; mais on n'en voit pas beaucoup en autre saison qu'en hiver. Il fréquente aussi les lieux marécageux, &amp; vit comme le rouge.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALIER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          On a appellé Chevaliers les Louis d'or de 25 au marc, dont la fabrication fut ordonnée en 1718. Ce nom leur est venu de la croix de Chevalier qui étoit au revers.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALIÈRE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          L'Ordre de S. Jacques de l'Epée en Espagne &amp; en Portugal a des Religieuses qu'on appelle Religieuses Chevalières de S. Jacques de l'Epée. Voyez Jacques.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALIÈRE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Il y a en France des Chevalières de Malthe dans trois cantons, à Toulouse, à Beaulieu en Quercy, &amp; en Provence près de Frejus.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALINE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Vieux mot, qui ne se dit plus qu'à la campagne, de la nourriture ou du trafic des chevaux. Equorum commercium, pabulum. Ce pays est abondant en prairies, on y fait grande nourriture de chevaline, il y a bien des haras. Les paysans trafiquent en chevaline.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVALINE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          On dit encore bête chevaline, pour signifier un cheval ou une cavalle, &amp; en ce sens il est adjectif &amp; du style de pratique.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVANCE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Vieux mot &amp; hors d'usage, qui signifioit autrefois le bien d'ue personne. Bona fortunae. Ce Seigneur avoit grande chevance, c'est-à-dire, il avoit beaucoup de bien. La Coutume de Senlis ne permet le don mutuel qu'entre les conjoints qui ont égalité d'âge &amp; de chevance.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHÉE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Equestris excursio, calvacata dans la basse Latinité. Visite que sont obligés de faire certains Officiers dans l'étendue de leur ressort, &amp; qu'ils font d'ordinaire à cheval, comme les Elus pour faire l'assiette de la taille ; les Prévôts des Maréchaux, pour nettoyer la campagne de brigands ; les Trésoriers de France, pour voir si les chemins sont en bon état ; les maîtres des Eaux &amp; Forêts, pour conserver les Forêts du Roi, &amp;c. Et les rapports qu'ils en envoient au Conseil sont appellés les procès verbaux de chevauchée.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHÉE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Devoir chevauchée, C'est être obligé de monter à cheval pour défendre son Seigneur féodal dans ses querelles particulières. Le droit de Chevauchée, est un ancien droit Seigneurial qui est la même chose que celui que nous appellons Arrière-ban ; droit de faire marcher ses sujets ou vassaux à la guerre. Jus clientes suos ad militiam evocandi. Guillaume Artaud Seigneur d'Aix prétendoit avoir le droit de Chevauchées dans le village du Monstier de Montelar ; le Prieur le nioit, &amp; s'attribuoit même la haute-Justice. Amedée, Evêque {38}de Die, qu'ils prirent pour arbitre, fixa ce droit de chevauchée à dix hommes de pied armés, qu'il chargea le Prieur d'envoyer à Guillaume Artaud ; dans les occasions où il armeroit pour la conservation de ses tours contre ses ennemis, ou pour leur recouvrement. Chorier, Hist. de Dauph. T. II. p. 148. On a rapporté cet exemple, parce qu'il montre que ce droit n'obligeoit pas les vassaux à servir à cheval leur Seigneur, comme le nom semble le signifier.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="verbe" norm="Verb">v.</gram>
+          <gram type="mood" expand="indicatif" norm="Ind">act.</gram>
+        </gramGrp>
+        <sense>
+          Vieux mot, qui signifioit autrefois, Aller à cheval. Equitare. Personne n'a blâmé Agesilaüs de ce que pour s'accommoder à l'humeur de ses petits enfans, il chevauchoit uu bâton avec eux. Mascur.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Ils chevauchent deux à deux
+          Tout droit vers le gué périlleux.
+          On a dit aussi chevalcher. On le dit pourtant encore parmi les Ecuyers, pour la manière de se mettre sur les étriers. Chevaucher long. Chevaucher court, à l'Angloise, à la Turque, &amp;c. Hors ces occasions on ne se sert point de ce mot, à cause du sens obscène qu'on y a attaché. Ménage dérive ce mot de caballicare, dont les Espagnols ont fait cavalgar, &amp; les Italiens cavalcare. Il se trouve dans la basse Latinité, aussi-bien que caballicata, d'où il dérive cavalcate &amp; chevauchée.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Chevaucher, se dit aussi parmi les Artisans, des pièces qui se mettent l'une sur l'autre. Supergredi. Cette solive ne chevauche pas assez avant dans le mur. Les tuiles doivent chevaucher les unes sur les autres.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHEUR</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="masculin" norm="Masc">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">m.</gram>
+        </gramGrp>
+        <sense>
+          Vieux mot, qui signifioit autrefois, Maître de poste, dont les lettres sont expédiées sous le titre de Chevaucheur, Eques, comme le Chevaucheur de Tarare, de la Bresle. On les appelle encore quelquefois ainsi dans les Provinces. Il y a un vieux proverbe qui dit, Le dût-on brûler comme un Chevaucheur d'écouvettes. C'est ainsi qu'on appelloit autrefois un Sorcier. Il y a une Déclaration du Roi Henri III. du mois d'Août 1576. pour les priviléges de six vingts Chevaucheurs de l'Ecurie du Roi. Chevaucheur d'Ecurie étoit aussi un office de la Maison du Duc de Bretagne. Les Chevaucheurs d'Ecurie portoient un émail aux armes du Duc. Hist. de Bret. par Dom Lobineau T. II. p. 1471.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>A CHEVAUCHONS</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="adverbe" norm="Adv">adv.</gram>
+        </gramGrp>
+        <sense>
+          qui se dit de la manière d'aller à cheval, jambe deça, jambe delà ; &amp; se dit aussi de ceux qui sont en cette posture sur un âne, sur un boeuf, sur un cheval, sur un bahu, ou autre chose semblable, Equitatûs in morem.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAUCHURE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          vieux mot, qui veut dire monture.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVAU-LÉGER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Il vit un Chevau-léger, il poussa à lui. Bussi Rab. Voyez CHEVAL.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVECAGNE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Cavalerie. Equitatus. Il y a long-temps que ce mot ne se dit plus.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVEGAILLE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Tresse de cheveux. Ce mot n'est plus en usage.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVECEL</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="masculin" norm="Masc">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">m.</gram>
+        </gramGrp>
+        <sense>
+          Vieux mot, qui signifie chevet, oreiller.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVECERIE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Qualité ou Bénéfice du Chévecier. Cerarii sacri praefectura ; Capicerii dignitas, praefectura.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVÊCHE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="féminin" norm="Fem">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">f.</gram>
+        </gramGrp>
+        <sense>
+          Espèce d'oiseau nocturne, de mauvais augure, qu'on appelle autrement chouette, ou civette, ou fresaye. Noctua, ulula, strix. Voyez CHOUETTE.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVÊCHE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          Ce mot vient de cavecca, qui a été fait de capo. Ménage.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>CHEVECIER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="masculin" norm="Masc">s.</gram>
+          <gram type="num" expand="singulier" norm="Sing">m.</gram>
+        </gramGrp>
+        <sense>
+          Celui qui est le Chef, qui a la première dignité dans plusieurs Eglises Collégiales. C'est la même chose que ce qu'on appelle Trésorier en d'autres, parce qu'il garde le trésor de l'Eglise, qui sont les chefs &amp; les reliques des Saints. Meursius &amp; Vossius l'ont appellé Capicerus, à capiendis ceris. Chevecier de la Sainte-Chapelle de Paris ; c'est celui qui a soin des châpes &amp; de la cire, &amp; qui distribue aux Chanoines les bougies à Matines. Il a deux cents livres de gages, outre ses rétributions du choeur. C'est un Sacristain, qui ordinairement est Prêtre. En beaucoup d'endroits on l'appelle Luminier, parce qu'il a soin du luminaire de l'Eglise. On ne trouve nulle part le mot de Chévecier, non plus que celui de chevecerie. On croit pourtant que ce que Furetière appelle ici Chévecier, est ce que les autres appellent CHÉFECIER. Voyez donc CHÉFECIER dans le lieu où il doit être.
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
