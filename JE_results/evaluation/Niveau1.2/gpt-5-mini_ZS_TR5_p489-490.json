@@ -1,0 +1,41 @@
+{
+  "entries": {
+    "mainEntry": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1": 0.9,
+      "pred_count": 10,
+      "gold_count": 10
+    },
+    "relatedEntry": {
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1": 0.2857142857142857,
+      "pred_count": 1,
+      "gold_count": 6
+    }
+  },
+  "tags": {
+    "usg_dom": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "pred_count": 1,
+      "gold_count": 3
+    },
+    "usg_other": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 1
+    },
+    "milestone": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "pred_count": 4,
+      "gold_count": 1
+    }
+  }
+}
