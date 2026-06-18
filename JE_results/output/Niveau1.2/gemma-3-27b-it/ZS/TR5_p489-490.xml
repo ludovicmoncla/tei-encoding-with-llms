@@ -1,0 +1,212 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSERVER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="verbe" norm="V">v.</gram>
+          <gram type="tense" expand="actif" norm="Act">act.</gram>
+        </gramGrp>
+        <sense>
+          Garder, garantir de quelque mal. Servare, custodire, tueri, defendere. On dit par forme de souhait, Dieu vous préserve de mal &amp; de fortune. Une bonne cuirasse l'a préservé de plusieurs mousquetades. Le zèle de cet homme qui a secouru les pestiférés, l'a préservé jusqu'ici. Une saignée faite à propos préserve d'une maladie qui menaçoit. Le sel préserve de corruption. Aimes la raison, &amp; elle te préservera de la contagion du mauvais exemple. M. Esp.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSENTÉ</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="participe passé" norm="V">éé.</gram>
+          <gram type="aspect" expand="passé" norm="Pass">part.</gram>
+          <gram type="pos" expand="adjectif" norm="Adj">adj.</gram>
+        </gramGrp>
+        <sense>
+          Servatus, tutus.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDENCE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="nom féminin" norm="N">subst.</gram>
+          <gram type="gender" expand="féminin" norm="Fem">f.</gram>
+        </gramGrp>
+        <sense>
+          La qualité de Président. Praesidis dignitas. La première Présidence d'un tel Parlement est vacante. Il y a force brigue pour cette Présidence.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDENT</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="nom masculin" norm="N">s.</gram>
+          <gram type="gender" expand="masculin" norm="Masc">m.</gram>
+        </gramGrp>
+        <sense>
+          Chef, ou Modérateur d'une Compagnie, d'une Assemblée. Praeses, Moderator. Le Président de l'Assemblée du Clergé, le Président des États. Le plus ancien, le Doyen est d'ordinaire le Président, où il n'y en a point de créé, ou de présent.
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma">
+              <orth>Président</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            se dit plus souvent d'un Officier créé pour présider toujours à une Compagnie. Protopraeses. Le premier Président du Parlement, de la Chambre des Comptes, de la Cour des Aides, des Monnoies, du Présidial, de l'Élection, &amp;c. Les Présidens au Mortier, ou grands Présidens qu'on appelle Messeigneurs du grand banc, sont les Présidens de la grand Chambre &amp; de la Tournelle. Au Parlement de Paris, il y a dix Présidens au Mortier. Pour les Présidens des Enquêtes, des Requêtes, &amp; du Grand Conseil, ce ne sont que de simples Commissions. Il y a deux Présidens pour chacune des cinq Chambres des Enquêtes, &amp; deux pour chacune des deux Chambres des Requêtes. Quoique ces Présidens ne soient que des Conseillers qui ont accepté la commission de Président, ils marchent avec Messieurs de la grand'Chambre ; &amp; après les deux plus anciens Conseillers, suivant le Règlement de 1677. Entre les Présidens des Enquêtes &amp; des Requêtes, le rang se règle par l'ancienneté de la réception à la Charge de Président. Du Tillet dit qu'anciennement tous les Conseillers de la grand'Chambre étoient appellés Présidens, &amp; ceux des Enquêtes Résidens. C'est apparemment là-dessus qu'est fondée la contestation entre les Conseillers de la grand'Chambre, &amp; les Présidens des Enquêtes pour le rang &amp; la presséance. Loyseau. On appelloit autrefois Souverains, les Présidens du Parlement &amp; de la Chambre des Comptes. Par une Ordonnance de Philippe le Long en 1319. il est fait défense aux Maîtres des Comptes de sortir de la Chambre, &amp; de desemparer du Parlement, sans la permission du Souverain, c'est-à-dire, du premier Président. On appelle Présidentes, les femmes des Présidens.
+          </sense>
+        </entry>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma">
+              <orth>Président</orth>
+            </form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            se dit aussi dans l'Université d'un Docteur, ou Professeur qui préside à des disputes du Collége, soit Théologie, Philosophie, ou autres. Moderator, praeses. Un tel Évêque étoit Président à un tel acte. On dit aussi d'un homme altier &amp; hautain, qu'il fait le Président en une assemblée, lorsqu'il la veut maitriser, &amp; y régenter comme il lui plait.
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDENTAL</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="adjectif" norm="Adj">adj.</gram>
+        </gramGrp>
+        <sense>
+          Ce qui concerne le Président. Praesidentalis. Voilà un homme qui affecte une gravité présidentale. Celui-là est savant en Droit, en Pratique, il a toutes les qualités présidentales. La robe présidentale est différente de celle des autres Magistrats.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDENTE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="nom féminin" norm="N">Terme</gram>
+          <gram type="pos" expand="nom féminin" norm="N">de</gram>
+          <gram type="pos" expand="nom féminin" norm="N">Fleuriste.</gram>
+        </gramGrp>
+        <sense>
+          Tulipe de couleur de rose tirant sur l'incarnat &amp; blanc d'entrée. Morin.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDER</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="verbe" norm="V">v.</gram>
+          <gram type="tense" expand="neutre" norm="Neut">n.</gram>
+        </gramGrp>
+        <sense>
+          Être à la tête d'une assemblée pour la régir &amp; modérer, pour recueillir les voix. Praesidere, praeesse antestare. Présider aux Conciles, aux États, aux Chambres &amp; Tribunaux de Justice, aux Actes de Colléges. C'est un tel Président qui préside, qui donne l'audience. En l'absence des Présidens le plus ancien Conseiller préside. M. le Président Seguier ne présidoit pas moins par son esprit, que par sa charge. Le Mai. On a prié un tel Docteur de présider à cet Acte.
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma">
+              <orth>Présider</orth>
+            </form>
+            <metamark function="lemmaDelimiter">.</metamark>
+          </form>
+          <sense>
+            Ce mot vient de prae &amp; sedere.
+          </sense>
+        </entry>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma">
+              <orth>Présider</orth>
+            </form>
+            <metamark function="lemmaDelimiter">.</metamark>
+          </form>
+          <sense>
+            signifie aussi, Dominer, gouverner, être maître. Dominari, regere. Selon les Payens, la Fortune préside à la pluspart des choses du monde ; elle en dispose à son plaisir : selon les Chrétiens, c'est la Providence. Quand nous avons à choisir une conduite, les passions président presque toujours à ce choix, &amp; y exercent leur injuste pouvoir. Fléch. Pélage assuroit qu'il y avoit dans nos ames un fond d'innocence, &amp; pour ainsi dire, une justice {490}naturelle, qui préside à toutes nos facultés, ensorte que notre ame n'avoit qu'à faire ses choix, &amp; à se déterminer elle-même. Id. Comment s'accommoder de l'insolence politique de ces distillateurs de Tacite, qui à l'exclusion de Jupiter voudroient présider au gouvernement des choses humaines. Balz. Il faut que la bienséance préside sur toutes nos vertus. Bell. Que l'équité préside à tous vos jugemens. Tour. On hait naturellement certains esprits hautains &amp; entreprenans, qui veulent présider par tout. Bell.
+          </sense>
+        </entry>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma">
+              <orth>Présider</orth>
+            </form>
+            <metamark function="lemmaDelimiter">.</metamark>
+          </form>
+          <sense>
+            signifie aussi, Avoir la conduite &amp; la direction de quelque chose. Gubernare, dirigere. C'étoit M. qui présidoit à cette entreprise. C'étoient les Édiles qui présidoient aux jeux publics. On dit, l'astre qui présidoit à sa naissance. Les heures planétaires sont faites pour marquer l'astre qui préside à chaque jour comme la Lune au Lundi, Mars au Mardi, &amp;c.
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDIAL</orth>
+          </form>
+          <metamark function="lemmaDelimiter">,</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="adjectif" norm="Adj">adj.</gram>
+        </gramGrp>
+        <sense>
+          Ce qui concerne le Président. Praesidentalis. Voilà un homme qui affecte une gravité présidentale. Celui-là est savant en Droit, en Pratique, il a toutes les qualités présidentales. La robe présidentale est différente de celle des autres Magistrats.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDENTE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="nom féminin" norm="N">Terme</gram>
+          <gram type="pos" expand="nom féminin" norm="N">de</gram>
+          <gram type="pos" expand="nom féminin" norm="N">Fleuriste.</gram>
+        </gramGrp>
+        <sense>
+          Tulipe de couleur de rose tirant sur l'incarnat &amp; blanc d'entrée. Morin.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>PRÉSIDII</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <gramGrp>
+          <gram type="pos" expand="nom masculin pluriel" norm="N">s.</gram>
+          <gram type="number" expand="pluriel" norm="Plur">plur.</gram>
+        </gramGrp>
+        <sense>
+          Mot Italien. L'État delli Présidii. Status, Ditio Praesidii. C'est un petit pays du Siénois, en Toscane. Il est autour du golfe de Tellamone, &amp; ses lieux principaux sont Orbitelle, Tellamone, Porto Hercole, Porto S. Stephano. Les petites îles de Giglio, d'Hercole, de Monte-Christi, de Gianuti &amp; de Pianola dépendent de cet État, qui étoit autrefois une partie du territoire de Siéne. Lorsque le Duc de Toscane se rendit maître de la République de Siéne, les Espagnols se saisirent de ce petit pays : ils y tiennent des garnisons en plusieurs places, &amp; c'est de là qu'il a pris son nom, qui signifie l'État des garnisons, du Latin, praesidium. Maty.
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
