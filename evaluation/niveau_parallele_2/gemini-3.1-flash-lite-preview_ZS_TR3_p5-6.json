@@ -1,0 +1,60 @@
+{
+  "tags": {
+    "definition": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "pred_count": 4,
+      "gold_count": 6
+    },
+    "traduction": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "pred_count": 2,
+      "gold_count": 2
+    },
+    "exemple": {
+      "precision": 1.0,
+      "recall": 0.5625,
+      "f1": 0.72,
+      "pred_count": 9,
+      "gold_count": 16
+    },
+    "renvoi": {
+      "precision": 1.0,
+      "recall": 0.8181818181818182,
+      "f1": 0.9,
+      "pred_count": 9,
+      "gold_count": 11
+    },
+    "reference": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "pred_count": 5,
+      "gold_count": 4
+    },
+    "encycl": {
+      "precision": 1.0,
+      "recall": 0.2571428571428571,
+      "f1": 0.40909090909090906,
+      "pred_count": 9,
+      "gold_count": 35
+    },
+    "etym": {
+      "precision": 1.0,
+      "recall": 0.05,
+      "f1": 0.09523809523809523,
+      "pred_count": 1,
+      "gold_count": 20
+    },
+    "glose": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 5
+    }
+  }
+}

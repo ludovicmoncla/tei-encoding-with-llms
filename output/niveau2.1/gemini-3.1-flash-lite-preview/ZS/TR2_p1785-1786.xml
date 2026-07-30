@@ -1,0 +1,151 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="fragment" subtype="continued">
+        <sense>la marge du contrat. On doit douze deniers pour cet ensaisinement.</sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSAISINER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>v.</gram> <gram>act.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Recevoir l'exhibition d'un contrat d'acquisition d'un héritage dépendant de sa Seigneurie.</def>
+          <cit type="example"><quote>Un Seigneur ne peut plus prétendre de droits Seigneuriaux du passé, depuis qu'il a ensaisiné un contrat.</quote></cit>
+          <cit type="example"><quote>Le Seigneur ne peut pas obliger à faire ensaisiner un contrat.</quote></cit>
+          <usg type="time" ana="#autrefois">Autrefois</usg> <def>Ensaisiner signifioit seulement Metire en possession.</def>
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Ensaisiné</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp><gram>ée.</gram> <gram>part.</gram></gramGrp>
+          </form>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSANGLANTER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>v.</gram> <gram>act.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Rendre sanglant ; couvrir de sang.</def>
+          <cit type="translation" xml:lang="la"><quote>Cruentare, oblinire sanguine, cruore tingere.</quote></cit>
+          <cit type="example"><quote>Il lui est venu un saignement de nez qui a ensanglante son linge, ses habits.</quote></cit>
+        </sense>
+        <sense>
+          <def>Ensanglanter, se dit aussi en parlant des meurtres, des carnages.</def>
+          <cit type="translation" xml:lang="la"><quote>Hérode a ensanglanté ses mains du sang des Innocens.</quote></cit>
+          <cit type="example"><quote>Ce Prince fut débonnaire, il ne voulut point ensanglanter son règne. Oui, sans frémir, j'irai dans son perfide coeur, Moi-même ensanglanter l'image de ma soeur.</quote><bibl><author>Corn.</author></bibl></cit>
+        </sense>
+        <sense>
+          <def>Ensanglanté. Ce mot, <usg type="dom" ana="#tragédie">quand il est question de Tragédie</usg>, veut dire, Faire mourir sur le théatre le Héros de la pièce.</def>
+          <cit type="example"><quote>C'est une règle du Poëme Dramatique, qu'il ne faut point ensanglanter la scène.</quote><bibl><author>Hor.</author></bibl></cit>
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Ensanglanté</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp><gram>ée.</gram> <gram>part.</gram> <gram>pass.</gram> <gram>adj.</gram></gramGrp>
+          </form>
+          <sense>
+            <cit type="translation" xml:lang="la"><quote>Cruore tinctus.</quote></cit>
+          </sense>
+          <sense>
+            <cit type="example"><quote>Essuyons ce fer ensanglanté, De crainte qu'il ne soit gâté.</quote><bibl><author>Opéra de Cad.</author></bibl></cit>
+          </sense>
+          <sense>
+            <def>Ensanglanté, <usg type="dom" ana="#blason">en termes de Blason</usg>, se dit du pélican, &amp; autres animaux sanglans.</def>
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSEIGNE</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>f.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Signe, marque publique &amp; évidente qu'on met en quelque endroit pour trouver quelque personne, ou quelque chose.</def>
+          <cit type="translation" xml:lang="la"><quote>Signum, insigne.</quote></cit>
+          <cit type="example"><quote>Les Marchands mettent une enseigne à leurs boutiques, afin qu'on les reconnoisse. Ils enveloppent leurs marchandises dans une image de leur enseigne. Ils payent un droit au Voyer pour poser leur enseigne, pour changer d'enseigne. Les armoiries des nouvelles maisons sont la plus grande partie, les enseignes de leurs anciennes boutiques.</quote><bibl><author>Mén.</author></bibl></cit>
+          <def>Ce mot vient de insigne.</def><bibl><author>Nicot.</author></bibl>
+        </sense>
+        <sense>
+          <def>Enseigne, est aussi un signe militaire sous lequel se rangent les soldats, selon les différens corps dont ils sont, ou les différens partis qu'ils suivent.</def>
+          <cit type="translation" xml:lang="la"><quote>Militare signum, vexillum.</quote></cit>
+        </sense>
+        <sense>
+          <usg type="dom" ana="#marine">En termes de Marine</usg>, <def>se dit du pavillon que l'on arbore sur la pouppe.</def>
+        </sense>
+        <sense>
+          <def>Enseigne de pierreries, se dit d'un ornement où plusieurs pierreries sont enchâssées.</def>
+          <cit type="translation" xml:lang="la"><quote>Monile structile ex adamantibus, ex gemmis adamantes umbilicati compactiles.</quote></cit>
+        </sense>
+        <sense>
+          <def>Enseignes, au pluriel, se dit des preuves, des titres de quelque chose, du mérite d'une affaire.</def>
+          <cit type="translation" xml:lang="la"><quote>Argumentum, documentum.</quote></cit>
+        </sense>
+        <sense>
+          <def>Enseignes, se dit aussi des marques qu'on se donne réciproquement pour connoître la vérité d'une chose, pour n'être point trompé.</def>
+        </sense>
+        <sense>
+          <def>Enseignes. Ce mot au pluriel se dit encore pour les armes d'un peuple, d'une nation.</def>
+          <cit type="translation" xml:lang="la"><quote>Signa, arma.</quote></cit>
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Enseigne</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+          </form>
+          <sense>
+            <def>signifie aussi un Officier d'Infanterie qui porte l'enseigne, le drapeau.</def>
+            <cit type="translation" xml:lang="la"><quote>signifer, vellixifer</quote></cit>
+          </sense>
+          <sense>
+            <def>Enseigne, se dit aussi de la charge, aussi bien que de l'Officier.</def>
+          </sense>
+          <sense>
+            <def>Enseigne, <usg type="style" ana="#figure">s'emploie aussi figurément</usg> pour marquer la profession, ou l'occupation de quelqu'un.</def>
+            <bibl><author>Le Ch. de M.</author></bibl>
+          </sense>
+          <sense>
+            <usg type="style" ana="#proverbe">se dit proverbialement en ces phrases.</usg>
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSEIGNEMENT</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Ce qu'on montre, ce qu'on apprend aux autres, instruction que l'on donne ; précepte.</def>
+          <cit type="translation" xml:lang="la"><quote>Documentum, institutio.</quote></cit>
+          <usg type="time" ana="#vieux">Il est un peu vieux.</usg>
+        </sense>
+        <sense>
+          <def>Enseignemens, se dit aussi des titres, des preuves ; des marques qu'on donne de quelque chose.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSEIGNER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>v.</gram> <gram>act.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Indiquer, apprendre à quelqu'un une chose qu'il ignoroit.</def>
+          <cit type="translation" xml:lang="la"><quote>Docere, commonstrare.</quote></cit>
+        </sense>
+        <sense>
+          <def>Enseigner, signifie aussi, Instruire ; montrer quelque art ou science qu'on sait.</def>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

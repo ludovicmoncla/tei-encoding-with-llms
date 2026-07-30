@@ -1,0 +1,254 @@
+<TEI>
+   <text>
+      <body>
+         <entry type="fragment" subtype="continued">
+            <sense>bois de la tête du cerf joignant la meule, ou chevilles les plus basses de chaque
+               perche, ou du marrain du cerf. Les surandouilliers sont les seconds cors.</sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDOUILLETTE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+               </gramGrp>
+            </form>
+            <sense><def>Petit ragoût que font les Cuisiniers avec de la chair de veau hachée &amp; des
+               oeufs, qu'ils roulent ordinairement en ovale, &amp; dont ils garnissent les potages
+               &amp; les pâtés, &amp; dont ils font des entrées de table.</def> <cit type="translation"><quote>Farcimen ovatum.</quote></cit></sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDRATOMIE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+               </gramGrp>
+            </form>
+            <sense><def>Andratomia. Dissection du corps humain, comme la Zootomie est la dissection du
+               corps des bêtes.</def> <cit><quote>Harris.</quote></cit> <cit><quote>Anatomie est le genre, qui signifie en général toute
+               dissection, d'hommes, de bêtes, de plantes ; Andratomie, &amp; Zootomie sont les
+               espèces.</quote></cit></sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDRÉ</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+               </gramGrp>
+            </form> 
+            <sense><def>Andreas. Nom propre d'homme.</def> <cit><quote>S. André étoit disciple de S. Jean-Baptiste ; il
+            fut le premier appellé par Jesus-Christ à l'Apostolat.</quote></cit> <cit><quote>Il prêcha aux Scythes, aux
+            Sogdiens, aux Thraces, dans l'Epire, dans le Péloponèse, dans l'Achaïe, où il fut
+            crucifié par ordre du Proconsul Egée.</quote></cit> <cit><quote>Les Actes du martyre de S. André, sont une
+            Relation du Martyre de ce S. Apôtre, attribuée faussement aux Prêtres &amp; aux Diacres
+            de l'Achaie, &amp; que quelques Critiques croient supposée par d'anciens hérétiques.</quote></cit> <cit><quote>S.
+            André est le Patron d'Ecosse.</quote></cit> <cit><quote>Le jour de sa fête, la plupart des Gentilshommes, &amp;
+            presque généralement tout le monde, portent une Croix de ruban bleue &amp; blanche au
+            chapeau.</quote></cit> <cit><quote>Ce mot est fait du Grec , qui signifie Courageux.</quote></cit></sense>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">Croix de S. André</form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form>
+            <sense><def>c'est une Croix en sautoir, comme si cell où ce Saint fut attaché, avoit eu cette figure
+            ; ce que néanmoins l'on ignore.</def> <cit><quote>Crux decussata.</quote></cit></sense>
+            </entry> 
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="compound"><orth>S. ANDRÉ DU CHARDON</orth></form>
+               <metamark function="lemmaDelimiter">.</metamark>
+            </form>
+            <sense><def>Ordre militaire en Ecosse, institué, à ce
+            que quelqu'uns croient, par Hungus, ou Hungo Roi des Pictes, après la victoire qu'il
+            remporta sur Athelstadam.</def> <cit><quote>Il lui étoit apparu, dit-on, une Croix de S. André, Patron de
+            l'Ecosse ; il voulut à la gloire de ce S. Protecteur, à qui il devoit cette victoire,
+            que l'on mît dans ses étendarts une Croix de S. André, &amp; il institua l'Ordre dont
+            nous parlons, &amp; dont le collier est d'or, tissu de fleurs de chardons.</quote></cit> <cit><quote>De ce collier
+            pend une médaille qui représente S. André tenant sa Croix de la main droite, avec ce
+            mot, Nemo me impunè lacesset ; c'est-à-dire, On ne m'attaquera point
+               impunément.</quote></cit> <cit><quote>Voilà ce qui se dit de l'origine de cet Ordre.</quote></cit> <cit><quote>D'autres prétendent
+            que cet Ordre fut institué après la conclusion de la paix entre Charles VII. Roi de
+            France &amp; le Roi d'Ecosse.</quote></cit> <cit><quote>Giustiniani dans sa seconde édition remonte plus haut,
+            &amp; veut qu'il ait été institué par Achaïus I. Roi d'Ecosse en 809.</quote></cit> <cit><quote>Ce Prince
+            gouvernoit les Ecossois au même temps que Hugues étoit Roi des Pictes ; c'est-à-dire au
+            commencement du IXe siècle, après qu'ayant fait alliance avec Charlemagne il eut pris
+            pour sa devise, le Chardon de la Rue, avec ces mots, Nemo me impunè lacesset, qui
+            est en effet celle de cet Ordre.</quote></cit> <cit><quote>Jacques IV. le renouvella, ou peut-être l'établit,
+            &amp; prit S. André pour son Protecteur.</quote></cit> <cit><quote>Il n'y a que douze Chevaliers, dont le Roi est
+            le Chef.</quote></cit> <cit><quote>Ils portent un cordon verd, avec une médaille d'or émaillée, sur laquelle est
+            d'un côté l'image de S. André, &amp; de l'autre la devise que j'ai dite.</quote></cit> <cit><quote>Ils portent
+            encore sur le juste-au-corps &amp; sur le manteau, au côté gauche, une Croix de S. André
+            cantonnée de feuilles de Rue, avec le chardon &amp; la devise au milieu.</quote></cit> <cit><quote>Voyez
+               Le Mire
+            Orig. Ord. Equest. Liv. II. ch. 10. &amp;
+               Justiniani.
+            Hist. de gli Ordini Milit. &amp;c. Buchanam
+            Hist. Scot. Liv. V. &amp; Liv. XI. &amp; Boethius Devananus,
+               Liv. X. dans leur Histoire d'Ecosse ne parlent point de cet Ordre.</quote></cit></sense> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>S. André</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense><def>Ordre militaire, établi en 1608. par Vincent de Gonzague Duc de
+            Mantoue.</def> <cit><quote>Les Chevaliers de S. André s'appellent autrement les Chevaliers du Rédempteur.</quote></cit> <cit><quote>Voyez REDEMPTEUR.</quote></cit></sense>
+            </entry> 
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>S. André</orth>
+               </form>
+                  <metamark function="lemmaDelimiter">,</metamark>
+               </form> 
+               <sense><def>Ville d'Ecosse.</def> <cit><quote>Andreapolis.</quote></cit> <cit><quote>Elle est sur la
+            côte orientale de ce Royaume au 17. d. 28. m. de longitude, &amp; au 57. d. 46. m. de
+            latitude, si l'on en croit la dernière édition d'Hofman.</quote></cit> <cit><quote>Les cartes de Sanson la font
+            beaucoup plus méridionale, &amp; plus occidentale.</quote></cit> <cit><quote>Les Ecossois l'appellent S.
+               Androws.</quote></cit> <cit><quote>Elle a une Université &amp; un Archevéché.</quote></cit> <cit><quote>On place sa fondation un
+            peu après le milieu du quatrième siècle, que S. Reule, ou Regulus Albatus, Moine
+            Grec, apporta au Roi des Pictes, des reliques de S. André : ce qui donna le nom à la
+            ville qui fut <pb n="454"/>bâtie près du lieu où il aborda ; &amp; qui devint la capitale du
+            Royaume.</quote></cit> <cit><quote>Larr. L'Evêché de cette ville fut fondé par Kenneth Roi
+            d'Ecosse, après qu'il eut conquis &amp; réuni à sa couronne le Royaume des Pictes au
+            milieu du IXe siècle : &amp; en 1474. il fut érigé en Archevêché ; &amp; Grahan, qui en
+            fut le premier Archevêque, prit le titre de Primat d'Ecosse, qu'il a transmis à ses
+            successeurs.</quote></cit> <cit><quote>Id.</quote></cit></sense>
+            </entry>
+            <entry type="relatedEntry">
+               <form type="lemmaGrp">
+                  <form type="lemma">
+                     <orth>S. André</orth>
+                  </form>
+                  <metamark function="lemmaDelimiter">.</metamark>
+               </form>
+            <sense><usg type="dom" ana="#fleuriste">Terme de Fleuriste.</usg> 
+               <def>C'est le nom d'une anémone.</def> <cit><quote>Anemone, à Sancto Andreâ
+               dicta.</quote></cit></sense>
+            </entry>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDRIAGUE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+            </gramGrp>
+            </form>
+            <sense><def>Animal fabuleux, sur lequel les Auteurs des anciens Romans ont
+            monté leurs Héros, au lieu de chevaux.</def> <cit><quote>C'est des montures fabuleuses des anciens Héros
+            de l'Orient que nos Romans ont pris leurs Hippogrifes, &amp; leurs Andriagues,
+            sur lesquels leurs Chevaliers ont exécuté des entreprises si merveilleuses ; &amp; le
+            mot d'Andriague pourroit bien être dérivé des Egdeha, des Orientaux, qui
+            signifient en leur langue des Dragons, des Chimères &amp; des Pégases.</quote></cit> <cit><quote>D'Herb. Il est plus vraisemblable qu'il vient du Grec,
+            comme Hippogriphe, &amp; qu'il est composé de , homme, &amp;
+               , duco, ago.</quote></cit></sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDRIENNE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="gen" expand="feminin" norm="Fem">f.</gram></gramGrp>
+            </form> 
+            <sense><def>Robe à l'usage des Dames.</def> <cit><quote>A la représentation qui se fit en
+            1704. de l'Andrienne, comédie en vers de Baron, la Démoiselle Dancourt, qui y jouoit le
+            principal rôle, avoit une robe abatue avec des paremens, que toutes les Dames trouvèrent
+            de si bon goût, qu'elles en firent faire de même, &amp; qu'on nomma dès-lors
+               andriennes.</quote></cit> <cit><quote>Merc. Dec. 1729.</quote></cit></sense> 
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDRINOPLE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+               <gram type="pos" expand="substantif" norm="NOUN">s.</gram> 
+               <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+            </gramGrp>
+            </form>
+            <sense><def>Adrianopolis, Hadrianopolis. Nom propre de ville.</def> <cit><quote>Il y en a eu plusieurs de ce
+            nom.</quote></cit> <cit><quote>La plus considérable est une ville de Thrace sur les bords de l'Hèbre, ou de la
+            Marize.</quote></cit> <cit><quote>On dit qu'elle a été fondée par Oreste ; qu'elle en porta le nom d'abord ;
+            qu'elle fut aussi nommée Uscudama ; qu'ayant été ruinée par un tremblement de terre,
+            &amp; Hadrien ayant été frappé de folie, l'Oracle répondit que pour guérir il s'emparât
+            de la demeure de quelque furieux ; qu'Hadrien appliqua cette réponse à la ville d'Oreste
+            ; la fit rétablir après sa guérison, &amp; lui donna son nom.</quote></cit> <cit><quote>Adrianopolis
+            signifie, ville d'Hadrien.</quote></cit> <cit><quote>Elle fut dans la suite Métropole, sous le Patriarchat de
+            Constantinople, &amp; elle eut onze suffragans.</quote></cit> <cit><quote>Aujourd'hui elle est aux Turcs, qui la
+            nomment Ender, ou Andernopoli.</quote></cit> <cit><quote>Sa longitude est de 53d. 30'. sa latitude
+            43d. 20'.</quote></cit>
+            <milestone unit="paragraph" rendition="leftShift"/>
+            <cit><quote>Il y a d'autres Andrinoples ; une en Pisidie, une en Bithynie, une
+            dans l'Etolie, une dans l'Epire, dont il est parlé dans le Concile de Chalcédoine Action
+            I.</quote></cit> <cit><quote>Spartien remarque qu'Hadrien avoit donné son nom à plusieurs villes, &amp; il ajoûte
+            à celles-ci Carthage &amp; une partie d'Athènes.</quote></cit></sense> 
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDROGYNE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="pos" expand="masculin" norm="Masc">m.</gram> &amp; 
+                  <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+               </gramGrp>
+            </form>
+            <sense><def>Hermaphrodite, qui a les deux natures, qui est mâle &amp; femelle tout ensemble.</def> <cit><quote>Androgynus, Hermaphroditus.</quote></cit> <cit><quote>Un grand nombre de Rabbins ont crû qu'Adam avoit été créé
+               androgyne ; c'est-à-dire, mâle d'un côté, &amp; femelle de l'autre, ensorte que
+               c'étoit deux corps, l'un d'homme &amp; l'autre de femme, joints ensemble par un de
+               leurs côtés, &amp; que Dieu ne fit que les diviser en deux pour former Eve.</quote></cit> <cit><quote>Dans les
+               Dialogues de Platon il y a une fable de l'Androgyne.</quote></cit> <cit><quote>Il suppose que certains hommes
+               naissoient doubles, &amp; avec les deux sexes ; &amp; parce que cette duplicité de
+               tous les membres leur donnoit beaucoup de force &amp; de vigueur, ils devinrent
+               insolens jusqu'à déclarer la guerre aux Dieux.</quote></cit> <cit><quote>Jupiter pour réprimer leur audace,
+               partagea ces Androgynes en deux ; en sorte pourtant qu'il est toujours resté à ces
+               deux moitiés divisées une forte passion de se réunir : de là vient l'amour entre les
+               deux sèxes.</quote></cit> <cit><quote>Pline, Liv. VII. ch. 1. dit qu'un certain Calliphanes avoit écrit qu'il y
+               avoit un peuple d'Androgynes en Afrique, &amp; qu'Aristote ajoûte qu'ils avoient la
+               mammelle droite comme un homme &amp; la gauche comme une femme.</quote></cit> <milestone unit="paragraph" rendition="leftShift"/>
+               <cit><quote>C'est une
+               fable.</quote></cit></sense> <sense><usg type="dom"
+                  ana="#astrologues">Les Astrologues</usg> <def>appellent Planètes Androgynes, celles qui
+               sont tantôt chaudes, &amp; tantôt humides ; comme Mercure, qui est sec &amp; chaud
+               étant près du soleil, &amp; humide proche de la lune.</def></sense>
+         </entry>
+         <entry type="mainEntry">
+            <form type="lemmaGrp">
+               <form type="lemma">
+                  <orth>ANDROÏDE</orth>
+               </form>
+               <metamark function="lemmaDelimiter">,</metamark>
+               <gramGrp>
+                  <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+                  <gram type="gen" expand="masculin" norm="Masc">m.</gram>
+               </gramGrp>
+            </form> 
+            <sense><def>Androïdes. Figure d'homme qui par le moyen de ressorts &amp; de machines, marche
+               &amp; parle.</def> <cit><quote>On dit qu'Albert le Grand avoir fait un Androïde.</quote></cit> <cit><quote>Ce mot est</quote></cit></sense>
+         </entry>
+      </body>
+   </text>
+</TEI>
