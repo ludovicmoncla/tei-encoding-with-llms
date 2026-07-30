@@ -1,0 +1,39 @@
+{
+  "tags": {
+    "bibl": {
+      "precision": 1.0,
+      "recall": 0.7272727272727273,
+      "f1": 0.8421052631578948,
+      "pred_count": 8,
+      "gold_count": 11
+    },
+    "auteur": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "pred_count": 8,
+      "gold_count": 12
+    },
+    "oRef": {
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 0
+    },
+    "foreign": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 1
+    },
+    "lang": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "pred_count": 3,
+      "gold_count": 3
+    }
+  }
+}

@@ -1,0 +1,16 @@
+modele,type_prompt,niveau,tag,tp,fp,fn,precision_micro,recall_micro,f1_micro
+gemini-3.1-flash-lite-preview,FS,niveau_parallele_3.1,auteur,128,2,36,0.9846,0.7805,0.8707
+gemini-3.1-flash-lite-preview,FS,niveau_parallele_3.1,bibl,72,0,46,1.0,0.6102,0.7579
+gemini-3.1-flash-lite-preview,FS,niveau_parallele_3.1,foreign,12,14,5,0.4615,0.7059,0.5581
+gemini-3.1-flash-lite-preview,FS,niveau_parallele_3.1,lang,9,0,5,1.0,0.6429,0.7826
+gemini-3.1-flash-lite-preview,FS,niveau_parallele_3.1,oRef,31,14,5,0.6889,0.8611,0.7654
+gemini-3.1-flash-lite-preview,FS-R,niveau_parallele_3.1,auteur,128,2,36,0.9846,0.7805,0.8707
+gemini-3.1-flash-lite-preview,FS-R,niveau_parallele_3.1,bibl,70,0,48,1.0,0.5932,0.7447
+gemini-3.1-flash-lite-preview,FS-R,niveau_parallele_3.1,foreign,13,22,4,0.3714,0.7647,0.5
+gemini-3.1-flash-lite-preview,FS-R,niveau_parallele_3.1,lang,7,1,7,0.875,0.5,0.6364
+gemini-3.1-flash-lite-preview,FS-R,niveau_parallele_3.1,oRef,29,1,7,0.9667,0.8056,0.8788
+gemini-3.1-flash-lite-preview,ZS,niveau_parallele_3.1,auteur,0,0,164,0.0,0.0,0.0
+gemini-3.1-flash-lite-preview,ZS,niveau_parallele_3.1,bibl,46,14,72,0.7667,0.3898,0.5169
+gemini-3.1-flash-lite-preview,ZS,niveau_parallele_3.1,foreign,4,8,13,0.3333,0.2353,0.2759
+gemini-3.1-flash-lite-preview,ZS,niveau_parallele_3.1,lang,0,0,14,0.0,0.0,0.0
+gemini-3.1-flash-lite-preview,ZS,niveau_parallele_3.1,oRef,0,0,36,0.0,0.0,0.0

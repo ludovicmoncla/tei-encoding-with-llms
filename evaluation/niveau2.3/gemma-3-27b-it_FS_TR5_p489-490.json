@@ -1,0 +1,53 @@
+{
+  "tags": {
+    "definition": {
+      "precision": 0.5555555555555556,
+      "recall": 1.0,
+      "f1": 0.7142857142857143,
+      "pred_count": 27,
+      "gold_count": 15
+    },
+    "traduction": {
+      "precision": 1.0,
+      "recall": 0.4583333333333333,
+      "f1": 0.6285714285714286,
+      "pred_count": 11,
+      "gold_count": 24
+    },
+    "exemple": {
+      "precision": 0.8837209302325582,
+      "recall": 1.0,
+      "f1": 0.9382716049382717,
+      "pred_count": 43,
+      "gold_count": 38
+    },
+    "renvoi": {
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 0
+    },
+    "reference": {
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pred_count": 0,
+      "gold_count": 0
+    },
+    "bibliographie": {
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "pred_count": 22,
+      "gold_count": 4
+    },
+    "auteur": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523,
+      "pred_count": 11,
+      "gold_count": 10
+    }
+  }
+}

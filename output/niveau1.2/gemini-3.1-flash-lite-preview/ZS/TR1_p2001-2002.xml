@@ -1,0 +1,49 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="fragment" subtype="continued">
+        <sense>
+          parle aussi dans son Alceste, mais il ne le décrit point. Diodore de Sicile, Liv. I. ch. 92. dit qu'Orphée ayant remarqué qu'en Egypte il y avoit une ville où l'on passoit les corps morts dans une barque sur un grand lac pour les aller enterrer de l'autre côté du lac, il fit de cela la fable de Charon, qu'il débita en Grèce. Peut-être que cette fable ne vient que de Memphis, où l'on passoit les corps morts sur le Nil, pour aller les enterrer du côté où sont encore les Pyramides. Diodore ajoûte que Charon signifioit en Egyptien Nautonnier, ou Batelier. D'autres disent qu'il fut appellé Charon par antiphrase, pour , fàcheux, désagréable, triste. Vigenère traite de cette fable sur Tite-Live, Tom. I. pag. 850. &amp; 851. Dans le 4e, le 10e, le 23e dialogue des Morts de Lucien, &amp; dans celui qui est intitulé Charon, sive Contemplantes, Charon joue de plaisans rôles. La scène de Charon dans le IVe Acte de l'Alceste de Quinault est fort belle.
+          <milestone unit="paragraph"/>
+          La pitié n'est point ici bas,
+          Et Charon ne fait point de grace. Quinault.
+          Il m'importe peu que l'on crie,
+          Helas ! Charon, helas ! helas !
+          Il faut encore payer au dela du trépas. Id.
+          <milestone unit="paragraph"/>
+          Vossius De Idolol. Lib. II. cap. 57. à la fin croit que Charon est le même Dieu que le Mercure infernal ; &amp; que ce nom Charon, vient de l'Hébreu , colère ; qu'il lui fut donné parce qu'il étoit le ministre de la colère divine ; de sorte que Charon signifie proprement un mauvais Ange, dont l'office est de conduire les ames criminelles au lieu du supplice.
+          <milestone unit="paragraph"/>
+          Charon, est aussi un nom d'homme que deux anciens Historiens ont porté, l'un de Lampsaque &amp; l'autre de Carthage.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>CHARPENTE</orth></form>
+          <gramGrp><gram type="pos" expand="substantif" norm="Noun">s.</gram> <gram type="gen" expand="féminin" norm="Fem">f.</gram></gramGrp>
+        </form>
+        <sense>
+          On dit aussi CHARPENTERIE, dans le même sens, mais le premier vaut mieux. Gros bois propre aux grandes constructions de maisons, de bateaux, de navires. Materiaria structura, materiatio. Ce Marchand ne fait trafic que de bois de charpente. On le dit aussi du gros bois taillé &amp; assemblé. La charpente de cette maison a tant coûté. Le bois de charpente se vend au cent de pièces.
+          <milestone unit="paragraph"/>
+          Charpente, se dit aussi de tout le bois assemblé qui soutient la couverture d'un édifice. La charpente de plusieurs Eglises de France est de bois de chataignier. On le dit aussi de l'art d'assembler le bois pour faire un ouvrage de charpente.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>CHARPENTER</orth></form>
+          <gramGrp><gram type="pos" expand="verbe" norm="Verb">v.</gram> <gram type="subc" expand="actif" norm="Act">act.</gram></gramGrp>
+        </form>
+        <sense>
+          Tailler du bois de charpente pour le mettre en état d'être assemblé. Materiarium opus facere.
+          <milestone unit="paragraph"/>
+          On le dit aussi au figuré, de ce qui est mal coupé. Imperitè secare, incidere. Ce Tailleur ne sait pas son métier, il a tout charpenté cette étoffe. Ce Chirurgien est ignorant, il a charpenté le bras de cet homme en le voulant panser.
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>CHARPENTERIE</orth></form>
+          <gramGrp><gram type="pos" expand="substantif" norm="Noun">s.</gram> <gram type="gen" expand="féminin" norm="Fem">f.</gram></gramGrp>
+        </form>
+      </entry>
+    </body>
+  </text>
+</TEI>

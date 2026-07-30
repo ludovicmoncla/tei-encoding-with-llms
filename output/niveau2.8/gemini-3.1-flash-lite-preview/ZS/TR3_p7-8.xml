@@ -1,0 +1,233 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="fragment" subtype="continued">
+        <sense>dans l'Astrologie, d'autres dans la Physique, d'autres dans la Politique, ou la Morale, d'autres dans tout cela. C'est le meilleur parti. Voyez sur ce sujet le Traité de <ref><bibl><author>Grotius</author> de veritate Religionis</bibl></ref>, la Démonstration Evangélique de <ref><bibl><author>M. Huet</author></bibl></ref>, les Notes de <ref><bibl><author>Barlaeus</author> sur la Théogonie d'Hésiode</bibl></ref>, <ref><bibl><author>Seldénus</author> de Diis Syris Proleg. III.</bibl></ref> l'Explication historique des fables par <ref><bibl><author>M. l'Abbé Bannières</author></bibl></ref>, imprimée à Paris en 2. vol. in 12. &amp;c.</sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Fable</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            <def>signifie aussi absolument, Conte, fausseté.</def>
+            <cit type="example"><quote>Tout ce que les Païens ont dit de leurs Dieux sont des fables.</quote></cit>
+            <cit type="example"><quote>Je me repais ici de fables &amp; de chimères.</quote><bibl><author>Port-R.</author></bibl></cit>
+            <cit type="example"><quote>L'histoire du lion baptisé par S. Paul, que quelques-uns attribuoient à S. Luc, est une fable</quote><bibl><author>S. Jérôme</author></bibl></cit>
+            <cit type="example"><quote>Cela sent extrêmement la fable.</quote></cit>
+          </sense>
+          <sense>
+            <def>On dit qu'un homme est la fable du peuple ; pour dire, qu'il est le jouet de toutes les compagnies où on parle de lui, qu'il y est tourné en ridicule, qu'il y est méprise.</def>
+            <cit type="example"><quote>Nous allons servir de fable &amp; de risée à tout le monde.</quote><bibl><author>Mol.</author></bibl></cit>
+            <cit type="example"><quote>Suis-je, sans le savoir, la fable de l'armée.</quote><bibl><author>Rac.</author></bibl></cit>
+            <cit type="translation"><quote>Fabula fies.</quote></cit>
+          </sense>
+          <sense>
+            <def>Ce mot vient du Latin fabula, qui a signifié aussi Entretien.</def>
+            <usg type="style" ana="#proverbe">dans ce Proverbe</usg>
+            <cit type="example"><quote>Lupus in fabula</quote></cit>
+            <cit type="translation"><quote>confabulari &amp; confabulatio</quote></cit>
+            <cit type="translation"><quote>favella</quote></cit>
+            <cit type="translation"><quote>Morir sin fabla, ou fabula</quote></cit>
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABLIAU</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <usg type="time" ana="#vieux">Vieux mot</usg>
+          <def>qui s'est dit autrefois des compositions &amp; contes faits à plaisir, que faisoient les anciens Poëtes Provençaux, appellés Troubadours ou Trouvères ; c'est-à-dire trouveurs, ou inventifs.</def>
+          <cit type="example"><quote>Fabliaux sont or, moult en corse Maint deniers en ont en borse.</quote><bibl><author>Garin</author></bibl></cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABLIER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Mot inventé par Madame de Bouillon.</def>
+          <cit type="example"><quote>Comme l'arbre qui porte des pommes est appelle Pommier, elle disoit de Mr de La Fontaine, c'est un Fablier, pour dire que ses Fables naissoient d'elles-mêmes dans son cerveau, &amp; s'y trouvoient faites sans méditation de sa part, ainsi que les pommes sur le Pommier.</quote><bibl><author>Histoire de l'Académie Françoise</author></bibl></cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRIANO</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Nom propre d'un bourg d'Italie.</def>
+          <cit type="translation"><quote>Fabrianum.</quote></cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICANT</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Qui entretient un ou plusieurs métiers, où l'on travaille à des étoffes de soie, de laine, &amp;c.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICATEUR</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Qui fabrique.</def>
+          <cit type="translation"><quote>Fabricator, opifex, artifex, faber.</quote></cit>
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Fabricateur Souverain</orth></form>
+            <metamark function="lemmaDelimiter">.</metamark>
+          </form>
+          <sense>
+            <def>Terme dont on se sert pour désigner Dieu.</def>
+            <cit type="example"><quote>Le Fabricateur Souverain nous créa tous de même matiére.</quote><bibl><author>La Font.</author></bibl></cit>
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICATION</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>f.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Action de fabriquer.</def>
+          <cit type="translation"><quote>Fabricatio.</quote></cit>
+        </sense>
+        <sense>
+          <def>On le dit aussi en mauvaise part en matiére de faussetés.</def>
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Fabrication</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            <def>se dit encore pour signifier la peine, le tems qu'on a employé à fabriquer.</def>
+            <cit type="example"><quote>Payer les frais de la fabrication de la monnoie.</quote><bibl><author>Bouteroue</author></bibl></cit>
+          </sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICE</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Quelques-uns de nos Auteurs récens appellent Fabrices, les Modernes qui portent le nom de Fabricius.</def>
+          <cit type="translation"><quote>Fabricius.</quote></cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICE</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>f.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Temporel d'une Église.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICIEN</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>On nomme ainsi dans les Chapitres, Églises, Paroisses &amp; Confrairies, ceux qui ont soin des revenus de l'Oeuvre, ceux qui ont l'Intendance des édifices.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICIER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>c'est la même chose que Fabricien.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRICIUS</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>m.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Nom propre d'une famille Romaine.</def>
+          <cit type="translation"><quote>Fabricius, Fabricia Gens.</quote></cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRINIUS</orth></form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <def>Nom propre d'une famille Romaine.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>FABRIQUE</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp><gram>s.</gram> <gram>f.</gram></gramGrp>
+        </form>
+        <sense>
+          <def>Maniére de construire quelque ouvrage.</def>
+          <cit type="translation"><quote>Fabrica, opus.</quote></cit>
+        </sense>
+        <sense>
+          <def>le lieu où l'on fabrique la monnoie.</def>
+          <cit type="translation"><quote>Cudendae monetae officina.</quote></cit>
+        </sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Fabrique</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            <def>se dit aussi pour Construction d'un édifice.</def>
+          </sense>
+          <sense>
+            <usg type="geo" ana="#italie">Ce mot se dit en Italie</usg>
+            <def>de tout bâtiment considérable.</def>
+          </sense>
+        </entry>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Fabrique</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            <usg type="dom" ana="#peinture">en termes de Peinture,</usg>
+            <def>se dit des bâtimens en général.</def>
+          </sense>
+        </entry>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Fabrique</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+          </form>
+          <sense>
+            <def>signifie aussi, le temporel, le revenu affecté à l'entretien d'une Église Paroissiale.</def>
+          </sense>
+        </entry>
+      </entry>
+    </body>
+  </text>
+</TEI>

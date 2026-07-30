@@ -1,0 +1,393 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <text>
+    <body>
+      <entry type="fragment" subtype="continued">
+        <sense>
+          <def>partagée par l'équateur, &amp; terminée par les deux tropiques.</def>
+          <cit type="example">
+            <quote>Les zônes tempérées sont larges de 43 dégrés chacune, &amp; terminées par les cercles polaires, &amp;c.</quote>
+          </cit>
+          <def>Les zônes terrestres sont de même, certains espaces qui répondent à ceux du ciel, &amp; qui sont terminés par les mêmes cercles qu'on suppose sur le globe terrestre.</def>
+          <def>La zône torride, est celle qui est sous l'équateur, renfermée entre les deux tropiques.</def>
+          <def>Les deux zones tempérées sont renfermées entre les tropiques &amp; les cercles polaires.</def>
+          <def>Les deux zônes froides ou glaciales s'étendent depuis les cercles polaires jusqu'aux pôles.</def>
+          <def>Les Anciens ont cru la zône torride inhabitable à cause du chaud, &amp; les deux glaciales à cause du froid.</def>
+          <cit type="example">
+            <quote>Cependant dans les mois de Juin, Juillet &amp; Août, on sent un grand froid en plusieurs endroits qui sont sous la ligne.</quote>
+          </cit>
+          <cit type="example">
+            <quote>Albert &amp; Avicenne s'étoient doutés de cette erreur, parce qu'ils ont dit que l'habitation étoit plus douce sous l'équinoctial, que sous les tropiques.</quote>
+          </cit>
+          <cit type="example">
+            <quote>A l'égard des glaciales, on n'a pu encore naviger que jusqu'au 75 dégré.</quote>
+          </cit>
+          <cit type="example">
+            <quote>Cependant l'Histoire des Lapons de Shoeqser assure que quelquefois la chaleur y est si grande, qu'on ne sauroit être un moment les pieds nuds sur une pierre sans se brûler.</quote>
+          </cit>
+          <cit type="example">
+            <quote>Elle dit aussi que les animaux y deviennent tout blancs, &amp; sur la fin de Mai reprennent leur couleur ordinaire.</quote>
+          </cit>
+          <cit type="example">
+            <quote>Pline avoit déja dit que l'air y étoit fort tempéré ; mais sans fondement, aussi-bien que Guillaume Postel, qui constitue le Paradis terrestre sous le pôle arctique.</quote>
+          </cit>
+          <milestone unit="paragraph" rendition="leftShift"/>
+          <etym>Ce mot vient du Grec , qui signifie bande ou ceinture.</etym>
+        </sense>
+        <milestone unit="paragraph" rendition="leftShift"/>
+        <sense>
+          <usg type="style" ana="#figurement">On appelle figurément</usg> <def>zône torride, un lieu fort chaud en été.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zona torrida.</quote>
+          </cit>
+          <cit type="example">
+            <quote>La Campagne de Rome en Italie est une zône torride, il est dangereux de la passer à midi en été.</quote>
+          </cit>
+          <cit type="example">
+            <quote>Le Pont-neuf de Paris est une zône torride, où il n'y a point d'ombre, ni d'abri.</quote>
+          </cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZONNAR</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <usg type="dom" ana="#relation">Terme de Relation</usg> <def>corrompu du Grec vulgaire, , abrégé de , qui vient de , une ceinture.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Cingulum.</quote>
+          </cit>
+          <def>Le Zonnar est une ceinture de cuir noir, assez large, que les Chrétiens &amp; les Juifs portent dans le Levant, &amp; particulièrement en Asie.</def>
+          <cit type="example">
+            <quote>Motavakkel dixième Kalife de la maison des Abassides est le premier qui ait obligé les Chrétiens &amp; les Juifs à porter cette ceinture pour se distinguer des Mahométans.</quote>
+          </cit>
+          <def>L'Ordonnance qu'il en fit, fut publiée l'an 235. de l'hégire, &amp; depuis ce temps-là les Chrétiens d'Asie, &amp; principalement ceux de Syrie &amp; de Mésopotamie, presque tous ou Nestoriens ou Jacobites, le portent ordinairement. Ce qui a fait donner à ces Schismatiques le nom de Chrétiens de la ceinture.</def>
+          <xr type="cf">
+            <lbl>Voyez</lbl>
+            <ref>
+              <bibl>D'Herbelot, Bibl. Orient.</bibl>
+            </ref>
+          </xr>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZONS</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Nom propre d'une petite ville d'Allemagne</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zontium, Sontina.</quote>
+          </cit>
+          <def>Elle est sur le Rhin, dans l'Archevêché de Cologne, à cinq lieues au-dessous de la ville de Cologne.</def>
+          <bibl>Maty.</bibl>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOOGRAPHIE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Description de la Nature &amp; des propriétés des Animaux.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zoographia.</quote>
+          </cit>
+          <milestone unit="paragraph" rendition="leftShift"/>
+          <etym>Ce mot vient de animal, &amp; je décris.</etym>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOOLÂTRIE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Culte, adoration des animaux.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zoolatria.</quote>
+          </cit>
+          <def>La zoolâtrie étoit fort en usage chez les anciens Égyptiens.</def>
+          <milestone unit="paragraph" rendition="leftShift"/>
+          <etym>Ce mot vient de , animal, &amp; , adoration, culte.</etym>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOOPHÔRE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <usg type="dom" ana="#architecture">Terme d'Architecture.</usg>
+          <def>C'est la même chose que la frise d'un bâtiment, ainsi nommée en Grec, parce qu'on la chargeoit autrefois de figures d'animaux pour lui servir d'ornement.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zophorus.</quote>
+          </cit>
+          <def>Daviler écrit <form type="variant" subtype="orthographic"><orth>Zophôre</orth></form> ; mais ce mot venant de , animal, &amp; , je porte ; il est manifeste qu'il faut écrire zoophôre, &amp; par conséquent zoophorique.</def>
+          <milestone unit="paragraph" rendition="leftShift"/>
+          <def>Les Grecs appelloient le Zodiaque zoophôre à cause des noms des animaux qu'on a donnés aux constellations qui y sont.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOOPHORIQUE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="adjectif" norm="ADJ">adj.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>On appelle colonne zoophorique, une colonne statuaire, qui porte un animal.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zoophorica columna.</quote>
+          </cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOPHÔRE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <xr type="cf">
+            <lbl>Voyez</lbl>
+            <ref type="entry">Zoophôre</ref>
+          </xr>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOPHORIQUE</orth>
+          </form>
+        </form>
+        <metamark function="lemmaDelimiter">.</metamark>
+        <sense>
+          <xr type="cf">
+            <lbl>Voyez</lbl>
+            <ref type="entry">Zoophorique</ref>
+          </xr>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOOPHYTE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Corps naturel qui tient de l'animal &amp; de la plante.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Planta animalis.</quote>
+          </cit>
+          <def>Les éponges sont des zoophytes, de , animal, &amp; de , planta. Oléarius en son troisième Livre met au rang des zoophytes une plante qui croît auprès de Samara sur le Volga. C'est une espèce de melon fait comme un agneau, dont il réprésente tous les membres, qui tient à la terre par la souche qui lui sert de nombril. En croissant il change de place, autant que sa souche le lui permet, &amp; fait sècher l'herbe par-tout où il en trouve. Quand il est mûr sa tige se sèche, &amp; le fruit se revêt d'une peau velue, qu'on peut préparer &amp; employer au lieu de fourrure. Il atteste avoir vû de cette peau, &amp; dit qu'elle est couverte d'une laine douce, &amp; frisée comme celle d'un agneau nouveau-né. Scaliger dit que ce fruit vit &amp; croît toujours, jusqu'à ce que l'herbe lui manque. Quelques Relations appellent cette plante, Agnus schyticus &amp; Borametz.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOPISSA</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>C'est un goudron ou espèce de poix noire qu'on détache des navires, après qu'ils ont été long-temps en voyage sur la mer.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zopissa.</quote>
+          </cit>
+          <def>Cette poix a été peu à peu pénétrée par le sel de la mer qui lui a communiqué sa qualité. Le zopissa est résolutif &amp; dessicatif, appliqué extérieurement.</def>
+          <milestone unit="paragraph" rendition="leftShift"/>
+          <etym>Ce mot est Grec, formé de , bullire, bouillir, &amp; de , p ix, poix, comme qui diroit poix cuite.</etym>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOPLÊME</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <def>Nom que les Turcs donnent à une plante qui est très-commune au pied du mont Olympe.</def>
+          <bibl>Tournefort, II. p. 474.</bibl>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="compound">
+            <orth>Au Diable Zot</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <def>On dit ironiquement à des hâbleurs, pour montrer qu'on ne croit rien de ce qu'ils disent, Au Diable zot.</def>
+          <def>Il y a apparence que cela vient d'une imprécation tronquée, &amp; qu'on a voulu dire, Allez au Diable, au Diable : on a retranché le premier &amp; le dernier mot, &amp; en a mis un Z pour éviter la cacophonie ; car le mot de zot n'est point de la langue, de sorte qu'il faut que ce soit une ortographe corrompue.</def>
+          <xr type="cf">
+            <lbl>Voyez</lbl>
+            <ref>
+              <bibl>Furet. au mot Diable.</bibl>
+            </ref>
+          </xr>
+          <def>Cette étymologie me paroît tirée par les cheveux : je croirois plustôt que zot est une corruption de soit, &amp; qu'Au Diable zot est la même chose qu'Au Diable soit. La manière vicieuse dont en quelques endroits le menu peuple prononce ce dernier mot, en disant sot au lieu de soit, me confirme dans mon sentiment, qui est encore appuyé par le Huitain qu'on va lire : Les souhaits de bonnes années, Dont l'usage est si général, Sont toutes façons condamnées, Sans qu'on remedie à ce mal. Faites donc, puisque bon vous semble, Visites tant qu'il vous plaira ; Faites-les seuls, ou bien en semble : Au Diable zot qui les rendra.</def>
+          <cit type="example">
+            <quote>M. le Sage, p. 289 du 1. tom. de Gil Blas, a mis cette expression en bon François. Il dit en parlant des Alguazils : Dans cet honorable Corps, chacun a intérêt de cacher ses faits &amp; gestes. On n'a, Dieu merci, rien à se reprocher les uns aux autres. Au Diable soit le meilleur.</quote>
+          </cit>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOVAN</orth>
+          </form>
+          <pc>,</pc> ou <form type="variant" subtype="orthographic">
+            <orth>ZOAN</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="pos" expand="masculin" norm="Masc">masc.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Nom propre d'un bourg de l'État de Venise.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zoanum, Zovanum.</quote>
+          </cit>
+          <def>Il est dans le Bressan, près de la source de l'Oglio. Son nom semble une corruption de celui des anciens Suanètes, peuples de la Rhétie.</def>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZOUCET</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <def>Oiseau : sorte de plongeon.</def>
+          <bibl>Ménage, Etym.</bibl>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>SAN-ZUANE</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <def>Nom d'un cap de l'île de Candie.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Caput S. Joannis,</quote>
+          </cit>
+          <usg type="time" ana="#anciennement">anciennement</usg>
+          <form type="variant" subtype="diachronic">
+            <orth>Zephyrium promontorium</orth>
+          </form>.
+          <def>Il est en la côte septentrionale, près de la forteresse de Spinalonga.</def>
+          <bibl>Maty.</bibl>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZUARA</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+        </form>
+        <sense>
+          <xr type="cf">
+            <lbl>Voyez</lbl>
+            <ref type="entry">Zoara</ref>
+          </xr>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZUCALA</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">subst.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Nom d'un isthme qui joint la Tartarie-Crimée avec celle de Nogais, qui sont les deux parties de la petite Tartarie.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zucala,</quote>
+          </cit>
+          <usg type="time" ana="#anciennement">anciennement</usg>
+          <form type="variant" subtype="diachronic">
+            <orth>isthmus Tauricus</orth>
+          </form>.
+          <def>Cet isthme est entre le lac de Sescan, &amp; le golfe de Nigropoli, partie de la mer Noire. Il n'a pas plus de demi-lieue de largeur, &amp; il est défendu par la ville de Pérécop, qui y est située.</def>
+          <bibl>Maty.</bibl>
+        </sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma">
+            <orth>ZUENZIGA</orth>
+          </form>
+          <metamark function="lemmaDelimiter">.</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="pos" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense>
+          <def>Nom propre de Royaume.</def>
+          <cit type="translation" xml:lang="la">
+            <quote>Zuenziga Regnum.</quote>
+          </cit>
+          <def>Contrée du Zaara, en Afrique. Elle s'étend du nord au sud, depuis le Biledulgérid, jusqu'au pays des Nègres, ayant au couchant le Royaume de Zanhaga ; &amp; au levant celui de Targa. On y voit la ville de Zuenziga, &amp; les déserts de Gogden &amp; de Ghir, qui sont des plus dangereux</def>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,166 @@
+<TEI>
+  <text>
+    <body>
+      <entry type="fragment" subtype="continued">
+        <sense>{1785}la marge du contrat. On doit douze deniers pour cet ensaisinement.</sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSAISINER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp>
+            <gram type="pos" expand="verbe" norm="VERB">v.</gram>
+            <gram type="subc" expand="actif" norm="Act">act.</gram>
+          </gramGrp>
+        </form>
+        <sense><def>Recevoir l'exhibition d'un contrat d'acquisition d'un héritage dépendant de sa Seigneurie.</def> <def>Un Seigneur ne peut plus prétendre de droits Seigneuriaux du passé, depuis qu'il a ensaisiné un contrat. Le Seigneur ne peut pas obliger à faire ensaisiner un contrat.</def> <usg type="time" ana="#autrefois">Autrefois</usg> <def>Ensaisiner signifioit seulement Metire en possession.</def></sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Ensaisiné</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+              <gram type="gen" expand="feminin" norm="Fem">ée.</gram>
+              <gram type="pos" expand="participe" norm="Part">part.</gram>
+            </gramGrp>
+          </form>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSANGLANTER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp>
+            <gram type="pos" expand="verbe" norm="VERB">v.</gram>
+            <gram type="subc" expand="actif" norm="Act">act.</gram>
+          </gramGrp>
+        </form>
+        <sense><def>Rendre sanglant ; couvrir de sang.</def>
+               <cit type="translation" xml:lang="la"><quote>Cruentare</quote></cit>
+               <cit type="translation" xml:lang="la"><quote>oblinire sanguine</quote></cit>
+               <cit type="translation" xml:lang="la"><quote>cruore tingere</quote></cit>
+               <cit type="example"><quote>Il lui est venu un saignement de nez qui a ensanglante son linge, ses habits.</quote></cit></sense>
+        <milestone unit="paragraph" rendition="#leftShift"/>
+        <sense><def>Ensanglanter, se dit aussi en parlant des meurtres, des carnages.</def> <cit type="example"><quote>Hérode a ensanglanté ses mains du sang des Innocens.</quote></cit> <cit type="example"><quote>Ce Prince fut débonnaire, il ne voulut point ensanglanter son règne.</quote></cit> <cit type="example"><quote>Oui, sans frémir, j'irai dans son perfide coeur,
+Moi-même ensanglanter l'image de ma soeur.</quote><bibl><author>Corn.</author></bibl></cit></sense>
+        <milestone unit="paragraph" rendition="#leftShift"/>
+        <sense><def>Ensanglanté. Ce mot, <usg type="dom" ana="#tragédie">quand il est question de Tragédie</usg>, veut dire, Faire mourir sur le théatre le Héros de la pièce. C'est une règle du Poëme Dramatique, qu'il ne faut point ensanglanter la scène.</def>
+             <cit type="translation" xml:lang="la"><quote>Nec pueros coram populo Medaea trucidet.</quote><bibl><author>Hor.</author></bibl></cit></sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Ensanglanté</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+              <gram type="gen" expand="feminin" norm="Fem">ée.</gram>
+              <gram type="pos" expand="participe" norm="Part">part.</gram>
+              <gram type="subc" expand="passif" norm="Pass">pass.</gram>
+              <gram type="pos" expand="adjectif" norm="ADJ">adj.</gram>
+            </gramGrp>
+          </form>
+          <sense><def>Cruore tinctus.</def></sense>
+          <milestone unit="paragraph" rendition="#leftShift"/>
+          <sense><cit type="example"><quote>Essuyons ce fer ensanglanté,
+De crainte qu'il ne soit gâté.</quote><bibl><author>Opéra de Cad.</author></bibl></cit></sense>
+          <milestone unit="paragraph" rendition="#leftShift"/>
+          <sense><def>Ensanglanté, <usg type="dom" ana="#blason">en termes de Blason</usg>, se dit du pélican, &amp; autres animaux sanglans.</def></sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSEIGNE</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="gen" expand="feminin" norm="Fem">f.</gram>
+          </gramGrp>
+        </form>
+        <sense><def>Signe, marque publique &amp; évidente qu'on met en quelque endroit pour trouver quelque personne, ou quelque chose. Signum, insigne.</def>
+               <cit type="translation" xml:lang="la"><quote>Signum</quote></cit>
+               <cit type="translation" xml:lang="la"><quote>insigne</quote></cit>
+               <cit type="example"><quote>Les Marchands mettent une enseigne à leurs boutiques, afin qu'on les reconnoisse.</quote></cit>
+               <cit type="example"><quote>Ils enveloppent leurs marchandises dans une image de leur enseigne.</quote></cit>
+               <cit type="example"><quote>Ils payent un droit au Voyer pour poser leur enseigne, pour changer d'enseigne.</quote></cit>
+               <cit type="example"><quote>Les armoiries des nouvelles maisons sont la plus grande partie, les enseignes de leurs anciennes boutiques.</quote><bibl><author>Mén.</author></bibl></cit>
+               <cit type="example"><quote>Quand on vend un logis, pour le désigner on dit, où pend pour enseigne, &amp;c.</quote></cit>
+               <cit type="example"><quote>Il est défendu aux Marchands &amp; aux Artisans de changer ou d'usurper les enseignes, ou les marques des uns des autres.</quote></cit></sense>
+        <milestone unit="paragraph" rendition="#leftShift"/> 
+        <sense><def>Ce mot vient de insigne.</def><cit><bibl><author>Nicot.</author></bibl></cit></sense>
+        <sense><def>Enseigne, est aussi un signe militaire sous lequel se rangent les soldats, selon les différens corps dont ils sont, ou les différens partis qu'ils suivent. (On ne le dit plus guère en ce sens : Drapeau est plus usité.) Militare signum, vexillum.</def>
+              <cit type="translation" xml:lang="la"><quote>Militare signum</quote></cit>
+              <cit type="translation" xml:lang="la"><quote>vexillum</quote></cit>
+              <cit type="example"><quote>Les enseignes des Chinois sont des queues de cheval.</quote></cit>
+              <cit type="example"><quote>Celles des Européans sont des drapeaux de taffetas de diverses figures, couleurs, armes &amp; devises.</quote></cit>
+              <cit type="example"><quote>Xénophon dit que les Perses portoient pour enseigne une aigle d'or dans un drapeau blanc.</quote></cit>
+              <cit type="example"><quote>Les Corinthiens portoient le cheval ailé, ou Pégase, dans les leurs ; les Athéniens, une chouette, les Messéniens, la lettre Grecque M ; les Lacédémoniens le .</quote></cit>
+              <cit type="example"><quote>Les Romains ont eu diverses enseignes, de la louve, du minotaure, d'un cheval, d'un sanglier, jusqu'à ce qu'ils s'arrêterent à l'aigle, la seconde année du Consulat de Marius.</quote></cit>
+              <cit type="example"><quote>En ce sens on dit, qu'un homme combat sous les enseignes d'un autre, pour dire, qu'il est de son parti, qu'il marche sous ses enseignes.</quote></cit>
+              <cit type="example"><quote>Cette garnison est sortie tambour battant, &amp; enseignes déployées.</quote></cit>
+              <cit type="example"><quote>Quand on remarque des enseignes militaires sur les médailles des Colonies Romaines, cela marque une Colonie peuplée de vieux soldats.</quote></cit>
+              <cit type="example"><quote>Enseigne a signifié autrefois un cri de guerre qui servoit à rassembler les troupes dans la mêlée, &amp; à leur enseigner le drapeau sous lequel elles devoient se ranger.</quote></cit>
+              <cit type="example"><quote>On disoit Crier son enseigne, pour dire, Faire son cri.</quote></cit></sense>
+        <sense><usg type="dom" ana="#marine">En termes de Marine</usg>, <def>se dit du pavillon que l'on arbore sur la pouppe. L'enseigne de pouppe est un drapeau qu'on met à l'arrière du vaisseau, pour marquer qu'il est d'une telle nation. En France l'enseigne de pouppe des vaisseaux de guerre est blanche, &amp; celle des vaisseaux marchands est bleue. Le bâton d'enseigne.</def></sense>
+        <sense><def>Enseigne de pierreries, se dit d'un ornement où plusieurs pierreries sont enchâssées. Monile structile ex adamantibus, ex gemmis adamantes umbilicati compactiles. C'étoit autrefois {1786}une espèce d'aigrette qu'on portoit au chapeau.</def></sense>
+        <sense><def>Enseignes, au pluriel, se dit des preuves, des titres de quelque chose, du mérite d'une affaire. Argumentum, documentum.</def> <cit type="translation" xml:lang="la"><quote>Argumentum</quote></cit> <cit type="translation" xml:lang="la"><quote>documentum</quote></cit> <cit type="example"><quote>Cet homme est noble à bonnes enseignes, il a bien des titres pour cela. Si on l'a fait Marechal de France, c'est à bonnes enseignes, il l'a bien mérité, il a bien servi.</quote></cit> <cit type="translation" xml:lang="la"><quote>Non injuriâ ; jure ac merito.</quote></cit></sense>
+        <sense><def>Enseignes, se dit aussi des marques qu'on se donne réciproquement pour connoître la vérité d'une chose, pour n'être point trompé.</def> <cit type="example"><quote>Je vous ai vû en telle occasion, aux enseignes que vous y fûtes blessé ; &amp; quidem, &amp; eo quidem argumento, &amp;c.</quote></cit> <cit type="example"><quote>Ne donnez point ce dépôt qu'à ceux qui le viendront demander à telles &amp; telles enseignes.</quote></cit> <cit type="example"><quote>Je crains qu'on ne le vienne prendre à fausses enseignes.</quote></cit> <cit type="translation" xml:lang="la"><quote>Falso nomine.</quote></cit> <cit type="example"><quote>Vous ne m'avez pas donné de bonnes enseignes. Un homme inconnu me vient demander à fausses enseignes.</quote></cit> <cit type="example"><quote>Bussi. J'ai vû M. qui se portoit fort bien, aux enseignes qu'il me demanda un jugement pour un cavalier qu'il répétoit.</quote></cit> <cit type="example"><quote>Id. Avec ces enseignes je donnerai assez à entendre qui elle est. Voit.</quote></cit></sense>
+        <sense><def>Enseignes. Ce mot au pluriel se dit encore pour les armes d'un peuple, d'une nation.</def> <cit type="translation" xml:lang="la"><quote>Signa, arma.</quote></cit> <cit type="translation" xml:lang="la"><quote>Abl.</quote></cit> <cit type="example"><quote>Il porta nos enseignes au delà de l'Elbe.</quote></cit></sense>
+        <entry type="relatedEntry">
+          <form type="lemmaGrp">
+            <form type="lemma"><orth>Enseigne</orth></form>
+            <metamark function="lemmaDelimiter">,</metamark>
+            <gramGrp>
+              <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+              <gram type="gen" expand="masculin" norm="Masc">m.</gram>
+            </gramGrp>
+          </form>
+          <sense><def>signifie aussi un Officier d'Infanterie qui porte l'enseigne, le drapeau ; signifer, vellixifer ; il doit le garder dans les combats ; &amp; s'il est tué, le Capitaine porte le drapeau à sa place.</def>
+               <cit type="translation" xml:lang="la"><quote>signifer</quote></cit>
+               <cit type="translation" xml:lang="la"><quote>vellixifer</quote></cit>
+               <cit type="example"><quote>Dans les Compagnies Suisses il y a un Enseigne, &amp; un Porte-enseigne qui est sous lui. Dans les autres Corps il n'y a que deux enseignes par Régiment. Un Enseigne Colonel. Dans le Régiment des Gardes il y a un Enseigne par Compagnie. Il y a aussi des Enseignes dans la Cavalerie. Dans les Gardes du Corps il y en trois par Compagnie ; dans les Gendarmes, un Enseigne &amp; un Guidon ; dans les Mousquetaires, un Enseigne &amp; un Cornette. Il y a aussi des Enseignes sur les vaisseaux, en général, &amp; tant sur mer que sur terre.</quote></cit>
+               <cit type="example"><quote>L'Enseigne est un Officier major qui obéir au Lieutenant, &amp; qui a par subordination, &amp; en son absence, les mêmes fonctions que lui.</quote></cit></sense>
+          <milestone unit="paragraph" rendition="#leftShift"/>
+          <sense><def>Enseigne, se dit aussi de la charge, aussi bien que de l'Officier. Il a vendu son enseigne.</def></sense>
+          <milestone unit="paragraph" rendition="#leftShift"/>
+          <sense><def>Enseigne, <usg type="style" ana="#figure">s'emploie aussi figurément</usg> pour marquer la profession, ou l'occupation de quelqu'un.</def> <cit type="example"><quote>On ne passe point dans le monde pour se connoître en vers, si l'on n'a mis l'enseigne de Poëte ; ni pour habile en Mathématique, si l'on n'a mis l'enseigne de Mathématicien.</quote></cit> <cit type="example"><quote>Mais les honnêtes gens n'ont point d'enseigne : ils sont de tout. Le Ch. de M.</quote></cit></sense>
+          <milestone unit="paragraph" rendition="#leftShift"/>
+          <sense><usg type="style" ana="#proverbe">se dit proverbialement en ces phrases.</usg> <def>On dit qu'un homme est logé à l'enseigne de la lune, qu'il a couché à l'enseigne de la belle étoile, pour dire, qu'il n'avoit point de logis ; qu'il a couché dehors. Sub dio. On dit aussi d'un méchant portrait, d'un méchant tableau, qu'il est bon à faire une enseigne à bière, parce que ces sortes d'enseigne sont toujours très-mal faites.</def></sense>
+        </entry>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSEIGNEMENT</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp>
+            <gram type="pos" expand="substantif" norm="NOUN">s.</gram>
+            <gram type="gen" expand="masculin" norm="Masc">m.</gram>
+          </gramGrp>
+        </form>
+        <sense><def>Ce qu'on montre, ce qu'on apprend aux autres, instruction que l'on donne ; précepte. Documentum, institutio.</def>
+               <cit type="translation" xml:lang="la"><quote>Documentum</quote></cit>
+               <cit type="translation" xml:lang="la"><quote>institutio</quote></cit>
+               <cit type="example"><quote>Cet enfant a bien profité des enseignemens de son Maître, il a bien retenu ses enseignemens.</quote></cit>
+               <usg type="time" ana="#vieux">Il est un peu vieux.</usg></sense>
+        <milestone unit="paragraph" rendition="#leftShift"/>
+        <sense><def>Enseignemens, se dit aussi des titres, des preuves ; des marques qu'on donne de quelque chose. Cette partie a justifié son droit par de bons titres &amp; enseignemens. On a fait un vol signalé, &amp; on a publié monitoire pour en avoir quelques preuves ou enseignemens.</def></sense>
+      </entry>
+      <entry type="mainEntry">
+        <form type="lemmaGrp">
+          <form type="lemma"><orth>ENSEIGNER</orth></form>
+          <metamark function="lemmaDelimiter">,</metamark>
+          <gramGrp>
+            <gram type="pos" expand="verbe" norm="VERB">v.</gram>
+            <gram type="subc" expand="actif" norm="Act">act.</gram>
+          </gramGrp>
+        </form>
+        <sense><def>Indiquer, apprendre à quelqu'un une chose qu'il ignoroit. Docere, commonstrare.</def>
+               <cit type="translation" xml:lang="la"><quote>Docere</quote></cit>
+               <cit type="translation" xml:lang="la"><quote>commonstrare</quote></cit>
+               <cit type="example"><quote>Saül alla chercher Samuel, afin qu'il lui enseignât où il pourroit trouver les ânesses de son père.</quote></cit>
+               <cit type="example"><quote>L'étoile enseigna aux Mages le chemin de Bethléem.</quote></cit>
+               <cit type="example"><quote>Quand elle eut disparu à leur vûe, ils s'adresserent à Hérode, afin qu'il leur enseignât où étoit le Roi des Juifs.</quote></cit>
+               <cit type="example"><quote>Les Anciens nous ont enseigné le chemin pour pénétrer dans les sciences.</quote></cit></sense>
+        <milestone unit="paragraph" rendition="#leftShift"/>
+        <sense><def>Ce mot vient, selon Saumaise, de insinuare, dont les Latins se sont servis en cette signification. Ménage croit qu'il vient de insignare, qu'on a fait de signum.</def></sense>
+        <sense><def>Enseigner, signifie aussi, Instruire ; montrer quelque art ou science qu'on sait. Les Maîtres d'Ecole enseignent à lire &amp; à écrire aux enfans. Les Prêtres leur enseignent le Catéchisme. Les Régens, les Professeurs, leur enseignent les Humanités ;</def></sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
